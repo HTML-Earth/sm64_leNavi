@@ -335,6 +335,10 @@
 'the' = CN_ZERO 0xD1
 'you' = CN_ZERO 0xD2
 
+// Na'vi letters
+'ì' = CN_ZERO 0xA1
+'Ì' = CN_ZERO 0xA2
+
 // EU ROM symbols
 'à' = CN_ZERO 0x60
 'â' = CN_ZERO 0x61

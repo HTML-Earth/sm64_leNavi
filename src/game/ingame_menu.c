@@ -697,6 +697,33 @@ void print_hud_lut_string(s8 hudLUT, s16 x, s16 y, const u8 *str) {
                 curX += xStride;
                 break;
 #else
+            case 0x66: // ä
+                gDPPipeSync(gDisplayListHead++);
+                gDPSetTextureImage(gDisplayListHead++, G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, hudLUT2[0x1A]);
+                gSPDisplayList(gDisplayListHead++, dl_rgba16_load_tex_block);
+                gSPTextureRectangle(gDisplayListHead++, curX << 2, curY << 2, (curX + 16) << 2,
+                                    (curY + 16) << 2, G_TX_RENDERTILE, 0, 0, 1 << 10, 1 << 10);
+                curX += xStride;
+                break;
+
+            case 0xA2: // ì
+                gDPPipeSync(gDisplayListHead++);
+                gDPSetTextureImage(gDisplayListHead++, G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, hudLUT2[0x13]);
+                gSPDisplayList(gDisplayListHead++, dl_rgba16_load_tex_block);
+                gSPTextureRectangle(gDisplayListHead++, curX << 2, curY << 2, (curX + 16) << 2,
+                                    (curY + 16) << 2, G_TX_RENDERTILE, 0, 0, 1 << 10, 1 << 10);
+                curX += xStride;
+                break;
+
+            case 0x3E: // tìftang
+                gDPPipeSync(gDisplayListHead++);
+                gDPSetTextureImage(gDisplayListHead++, G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, hudLUT2['\'']);
+                gSPDisplayList(gDisplayListHead++, dl_rgba16_load_tex_block);
+                gSPTextureRectangle(gDisplayListHead++, curX << 2, curY << 2, (curX + 16) << 2,
+                                    (curY + 16) << 2, G_TX_RENDERTILE, 0, 0, 1 << 10, 1 << 10);
+                curX += xStride;
+                break;
+
             case GLOBAL_CHAR_SPACE:
                 curX += 8;
                 break;

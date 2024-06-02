@@ -525,21 +525,21 @@ void print_generic_string(s16 x, s16 y, const u8 *str) {
             case SPECIAL_CHAR(DIALOG_CHAR_PERIOD_OR_HANDAKUTEN):
                 mark = DIALOG_MARK_HANDAKUTEN;
                 break;
-            case SPECIAL_CHAR(DIALOG_CHAR_NAVI_LOWER_I):
-                    render_generic_char(0x2C);
-                    create_dl_translation_matrix(MENU_MTX_NOPUSH, 4, 0.0f, 0.0f);
-                break;
-            case SPECIAL_CHAR(DIALOG_CHAR_NAVI_UPPER_I):
-                    render_generic_char(0x12);
-                    create_dl_translation_matrix(MENU_MTX_NOPUSH, 5, 0.0f, 0.0f);
-                break;
             case SPECIAL_CHAR(DIALOG_CHAR_NAVI_LOWER_A):
-                    render_generic_char(0x24);
+                    render_generic_char(64);
                     create_dl_translation_matrix(MENU_MTX_NOPUSH, 6, 0.0f, 0.0f);
                 break;
             case SPECIAL_CHAR(DIALOG_CHAR_NAVI_UPPER_A):
-                    render_generic_char(0x0A);
+                    render_generic_char(65);
                     create_dl_translation_matrix(MENU_MTX_NOPUSH, 6, 0.0f, 0.0f);
+                break;
+            case SPECIAL_CHAR(DIALOG_CHAR_NAVI_LOWER_I):
+                    render_generic_char(66);
+                    create_dl_translation_matrix(MENU_MTX_NOPUSH, 4, 0.0f, 0.0f);
+                break;
+            case SPECIAL_CHAR(DIALOG_CHAR_NAVI_UPPER_I):
+                    render_generic_char(67);
+                    create_dl_translation_matrix(MENU_MTX_NOPUSH, 5, 0.0f, 0.0f);
                 break;
 #ifndef VERSION_CN
             case SPECIAL_CHAR(DIALOG_CHAR_NEWLINE):

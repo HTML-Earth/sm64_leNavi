@@ -2209,6 +2209,22 @@ ALIGNED8 static const Texture texture_font_char_us_period[] = {
 #include "textures/segment2/font_graphics.06A80.ia4.inc.c"
 };
 
+ALIGNED8 static const Texture texture_font_char_nv_a[] = {
+#include "textures/segment2/font_graphics.06201.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_nv_A[] = {
+#include "textures/segment2/font_graphics.05B81.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_nv_i[] = {
+#include "textures/segment2/font_graphics.06401.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_nv_I[] = {
+#include "textures/segment2/font_graphics.05D81.ia4.inc.c"
+};
+
 ALIGNED8 static const Texture texture_font_char_us_percent[] = {
 #include "textures/segment2/font_graphics.06AC0.ia4.inc.c"
 };
@@ -11091,7 +11107,7 @@ const Texture *const main_font_lut[] = {
 #if defined(VERSION_CN)
     texture_font_char_cn_16800, texture_font_char_cn_16840, 0x0,           0x0,
 #else
-                  0x0,               0x0,               0x0,               0x0,
+    texture_font_char_nv_a, texture_font_char_nv_A, texture_font_char_nv_i, texture_font_char_nv_I,
 #endif
                   0x0,               0x0,               0x0,               0x0,
                   0x0,               0x0,               0x0,               0x0,

@@ -10934,8 +10934,8 @@ const Texture *const main_hud_lut[] = {
     texture_hud_char_G, texture_hud_char_H, texture_hud_char_I,                0x0,
     texture_hud_char_K, texture_hud_char_L, texture_hud_char_M, texture_hud_char_N,
     texture_hud_char_O, texture_hud_char_P,                0x0, texture_hud_char_R,
-    texture_hud_char_S, texture_hud_char_T, texture_hud_char_U,                0x0,
-    texture_hud_char_W,                0x0, texture_hud_char_Y,                0x0,
+    texture_hud_char_S, texture_hud_char_T, texture_hud_char_U,                0x0, //TODO: add V
+    texture_hud_char_W, texture_hud_char_multiply, texture_hud_char_Y,         0x0, //TODO: add Z
                   0x0,                 0x0,                0x0,                0x0,
                   0x0,                 0x0,                0x0,                0x0,
                   0x0,                 0x0,                0x0,                0x0,

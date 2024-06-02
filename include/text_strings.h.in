@@ -39,7 +39,7 @@
 #define TEXT_HUD_CONGRATULATIONS 0x3A, 0x3B, 0x3E, 0x3F, 0x42, 0x43, 0xFE, 0x3C, 0x3D, 0x40, 0x41, 0x44, 0x45, 0xFF
 #else
 #define TEXT_PAUSE _("FPERAK") // Pause text, Castle Courses
-#define TEXT_HUD_CONGRATULATIONS _("SEYSONÌLTSAN") // Course Complete Text, Bowser Courses //TODO: Ì
+#define TEXT_HUD_CONGRATULATIONS _("SEYSONÌLTSAN") // Course Complete Text, Bowser Courses
 #endif
 
 #if defined(VERSION_JP) || defined(VERSION_SH)

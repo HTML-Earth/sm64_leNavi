@@ -117,7 +117,7 @@ void print_intro_text(void) {
 #ifdef VERSION_EU
             print_text_centered(SCREEN_WIDTH / 2, 20, gNoControllerMsg[language]);
 #else
-            print_text_centered(SCREEN_WIDTH / 2, 20, "NO CONTROLLER");
+            print_text_centered(SCREEN_WIDTH / 2, 20, "Sa'O A HIPX LU LOM"); //print_text_centered uses lowercase a for Ä
 #endif
         } else {
 #ifdef VERSION_EU
@@ -126,9 +126,9 @@ void print_intro_text(void) {
 #ifdef VERSION_CN
             print_text_centered(60, 38, (char *) sp18);
 #else
-            print_text_centered(60, 38, "PRESS");
+            print_text_centered(60, 38, "TSYUL");
 #endif
-            print_text_centered(60, 20, "START");
+            print_text_centered(60, 20, "UVANIT");
 #endif
         }
     }

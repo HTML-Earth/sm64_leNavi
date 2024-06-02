@@ -268,8 +268,18 @@ void print_text_centered(s32 x, s32 y, const char *str) {
 
     c = str[srcIndex];
 
+    do {
+        switch (c) {
+            case 'a':
+                c = 0x1A; // Ä
+                break;
+            case 'i':
+                c = 0x13; // Ì
+                break;
+        }
+        if (c == '\0')
+            continue;
     // Set the array with the text to print while finding length.
-    while (c != '\0') {
 #ifdef VERSION_CN
         if ((u8) c == 0xB0 || (u8) c == 0xC0) {
             width = 16;
@@ -281,7 +291,7 @@ void print_text_centered(s32 x, s32 y, const char *str) {
         length++;
         srcIndex++;
         c = str[srcIndex];
-    }
+    } while (c != '\0');
 
     sTextLabels[sTextLabelsCount]->length = length;
 #ifdef VERSION_CN
@@ -297,6 +307,11 @@ void print_text_centered(s32 x, s32 y, const char *str) {
  * Converts a char into the proper colorful glyph for the char.
  */
 s8 char_to_glyph_index(char c) {
+
+    if (c == 0x1A || c == 0x13 || c == '\'') { // ä, ì, tìftang
+        return c;
+    }
+    
     if (c >= 'A' && c <= 'Z') {
         return c - 55;
     }

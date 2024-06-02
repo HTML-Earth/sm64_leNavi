@@ -86,6 +86,10 @@ ALIGNED8 static const Texture texture_hud_char_I[] = {
 #include "textures/segment2/segment2.02400.rgba16.inc.c"
 };
 
+ALIGNED8 static const Texture texture_hud_char_II[] = {
+#include "textures/segment2/segment2.02600.rgba16.inc.c"
+};
+
 #if defined(VERSION_JP) || defined(VERSION_SH)
 ALIGNED8 static const Texture texture_hud_char_J[] = {
 #include "textures/segment2/segment2.02600.rgba16.inc.c"
@@ -116,6 +120,10 @@ ALIGNED8 static const Texture texture_hud_char_P[] = {
 #include "textures/segment2/segment2.03200.rgba16.inc.c"
 };
 
+ALIGNED8 static const Texture texture_hud_char_AA[] = {
+#include "textures/segment2/segment2.03400.rgba16.inc.c"
+};
+
 #if defined(VERSION_JP) || defined(VERSION_SH)
 ALIGNED8 static const Texture texture_hud_char_Q[] = {
 #include "textures/segment2/segment2.03400.rgba16.inc.c"
@@ -138,11 +146,11 @@ ALIGNED8 static const Texture texture_hud_char_U[] = {
 #include "textures/segment2/segment2.03C00.rgba16.inc.c"
 };
 
-#if defined(VERSION_EU) || defined(VERSION_JP) || defined(VERSION_SH)
+//#if defined(VERSION_EU) || defined(VERSION_JP) || defined(VERSION_SH)
 ALIGNED8 static const Texture texture_hud_char_V[] = {
 #include "textures/segment2/segment2.03E00.rgba16.inc.c"
 };
-#endif
+//#endif
 
 ALIGNED8 static const Texture texture_hud_char_W[] = {
 #include "textures/segment2/segment2.04000.rgba16.inc.c"
@@ -158,14 +166,18 @@ ALIGNED8 static const Texture texture_hud_char_Y[] = {
 #include "textures/segment2/segment2.04400.rgba16.inc.c"
 };
 
-#if defined(VERSION_EU) || defined(VERSION_JP) || defined(VERSION_SH)
+//#if defined(VERSION_EU) || defined(VERSION_JP) || defined(VERSION_SH)
 ALIGNED8 static const Texture texture_hud_char_Z[] = {
 #include "textures/segment2/segment2.04600.rgba16.inc.c"
 };
-#endif
+//#endif
 
 ALIGNED8 static const Texture texture_hud_char_apostrophe[] = {
 #include "textures/segment2/segment2.04800.rgba16.inc.c"
+};
+
+ALIGNED8 static const Texture texture_hud_char_tiftang[] = {
+#include "textures/segment2/segment2.05400.rgba16.inc.c"
 };
 
 ALIGNED8 static const Texture texture_hud_char_double_quote[] = {
@@ -2195,6 +2207,22 @@ ALIGNED8 static const Texture texture_font_char_us_tilde[] = {
 
 ALIGNED8 static const Texture texture_font_char_us_period[] = {
 #include "textures/segment2/font_graphics.06A80.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_nv_a[] = {
+#include "textures/segment2/font_graphics.06201.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_nv_A[] = {
+#include "textures/segment2/font_graphics.05B81.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_nv_i[] = {
+#include "textures/segment2/font_graphics.06401.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_nv_I[] = {
+#include "textures/segment2/font_graphics.05D81.ia4.inc.c"
 };
 
 ALIGNED8 static const Texture texture_font_char_us_percent[] = {
@@ -10931,12 +10959,12 @@ const Texture *const main_hud_lut[] = {
     texture_hud_char_mario_head, texture_hud_char_star,    0x0,                0x0,
     texture_hud_char_apostrophe, texture_hud_char_double_quote, texture_hud_char_umlaut,
 #elif defined(VERSION_CN) || defined(VERSION_US)
-    texture_hud_char_G, texture_hud_char_H, texture_hud_char_I,                0x0,
+    texture_hud_char_G, texture_hud_char_H, texture_hud_char_I, texture_hud_char_II,
     texture_hud_char_K, texture_hud_char_L, texture_hud_char_M, texture_hud_char_N,
-    texture_hud_char_O, texture_hud_char_P,                0x0, texture_hud_char_R,
-    texture_hud_char_S, texture_hud_char_T, texture_hud_char_U,                0x0,
-    texture_hud_char_W,                0x0, texture_hud_char_Y,                0x0,
-                  0x0,                 0x0,                0x0,                0x0,
+    texture_hud_char_O, texture_hud_char_P, texture_hud_char_AA, texture_hud_char_R,
+    texture_hud_char_S, texture_hud_char_T, texture_hud_char_U, texture_hud_char_V,
+    texture_hud_char_W, texture_hud_char_multiply, texture_hud_char_Y, texture_hud_char_Z,
+    texture_hud_char_apostrophe,       0x0,                0x0, texture_hud_char_tiftang,
                   0x0,                 0x0,                0x0,                0x0,
                   0x0,                 0x0,                0x0,                0x0,
                   0x0,                 0x0, texture_hud_char_multiply, texture_hud_char_coin,
@@ -11079,7 +11107,7 @@ const Texture *const main_font_lut[] = {
 #if defined(VERSION_CN)
     texture_font_char_cn_16800, texture_font_char_cn_16840, 0x0,           0x0,
 #else
-                  0x0,               0x0,               0x0,               0x0,
+    texture_font_char_nv_a, texture_font_char_nv_A, texture_font_char_nv_i, texture_font_char_nv_I,
 #endif
                   0x0,               0x0,               0x0,               0x0,
                   0x0,               0x0,               0x0,               0x0,

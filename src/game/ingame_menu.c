@@ -525,21 +525,21 @@ void print_generic_string(s16 x, s16 y, const u8 *str) {
             case SPECIAL_CHAR(DIALOG_CHAR_PERIOD_OR_HANDAKUTEN):
                 mark = DIALOG_MARK_HANDAKUTEN;
                 break;
-            case SPECIAL_CHAR(DIALOG_CHAR_NAVI_LOWER_I):
-                    render_generic_char(0x2C);
-                    create_dl_translation_matrix(MENU_MTX_NOPUSH, 4, 0.0f, 0.0f);
-                break;
-            case SPECIAL_CHAR(DIALOG_CHAR_NAVI_UPPER_I):
-                    render_generic_char(0x12);
-                    create_dl_translation_matrix(MENU_MTX_NOPUSH, 5, 0.0f, 0.0f);
-                break;
             case SPECIAL_CHAR(DIALOG_CHAR_NAVI_LOWER_A):
-                    render_generic_char(0x24);
+                    render_generic_char(64);
                     create_dl_translation_matrix(MENU_MTX_NOPUSH, 6, 0.0f, 0.0f);
                 break;
             case SPECIAL_CHAR(DIALOG_CHAR_NAVI_UPPER_A):
-                    render_generic_char(0x0A);
+                    render_generic_char(65);
                     create_dl_translation_matrix(MENU_MTX_NOPUSH, 6, 0.0f, 0.0f);
+                break;
+            case SPECIAL_CHAR(DIALOG_CHAR_NAVI_LOWER_I):
+                    render_generic_char(66);
+                    create_dl_translation_matrix(MENU_MTX_NOPUSH, 4, 0.0f, 0.0f);
+                break;
+            case SPECIAL_CHAR(DIALOG_CHAR_NAVI_UPPER_I):
+                    render_generic_char(67);
+                    create_dl_translation_matrix(MENU_MTX_NOPUSH, 5, 0.0f, 0.0f);
                 break;
 #ifndef VERSION_CN
             case SPECIAL_CHAR(DIALOG_CHAR_NEWLINE):
@@ -697,6 +697,33 @@ void print_hud_lut_string(s8 hudLUT, s16 x, s16 y, const u8 *str) {
                 curX += xStride;
                 break;
 #else
+            case 0x66: // ä
+                gDPPipeSync(gDisplayListHead++);
+                gDPSetTextureImage(gDisplayListHead++, G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, hudLUT2[0x1A]);
+                gSPDisplayList(gDisplayListHead++, dl_rgba16_load_tex_block);
+                gSPTextureRectangle(gDisplayListHead++, curX << 2, curY << 2, (curX + 16) << 2,
+                                    (curY + 16) << 2, G_TX_RENDERTILE, 0, 0, 1 << 10, 1 << 10);
+                curX += xStride;
+                break;
+
+            case 0xA2: // ì
+                gDPPipeSync(gDisplayListHead++);
+                gDPSetTextureImage(gDisplayListHead++, G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, hudLUT2[0x13]);
+                gSPDisplayList(gDisplayListHead++, dl_rgba16_load_tex_block);
+                gSPTextureRectangle(gDisplayListHead++, curX << 2, curY << 2, (curX + 16) << 2,
+                                    (curY + 16) << 2, G_TX_RENDERTILE, 0, 0, 1 << 10, 1 << 10);
+                curX += xStride;
+                break;
+
+            case 0x3E: // tìftang
+                gDPPipeSync(gDisplayListHead++);
+                gDPSetTextureImage(gDisplayListHead++, G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, hudLUT2['\'']);
+                gSPDisplayList(gDisplayListHead++, dl_rgba16_load_tex_block);
+                gSPTextureRectangle(gDisplayListHead++, curX << 2, curY << 2, (curX + 16) << 2,
+                                    (curY + 16) << 2, G_TX_RENDERTILE, 0, 0, 1 << 10, 1 << 10);
+                curX += xStride;
+                break;
+
             case GLOBAL_CHAR_SPACE:
                 curX += 8;
                 break;

@@ -1322,6 +1322,11 @@ ALIGNED8 static const Texture texture_menu_font_char_A[] = {
 #include "levels/menu/main_menu_seg7_us.0AEC0.ia8.inc.c"
 };
 
+// Ä
+ALIGNED8 static const Texture texture_menu_font_char_AA[] = {
+#include "levels/menu/main_menu_seg7_us.0AEC1.ia8.inc.c"
+};
+
 // 0x0700AF00
 ALIGNED8 static const Texture texture_menu_font_char_B[] = {
 #include "levels/menu/main_menu_seg7_us.0AF00.ia8.inc.c"
@@ -1369,6 +1374,11 @@ ALIGNED8 static const Texture texture_menu_font_char_H[] = {
 // 0x0700B0C0
 ALIGNED8 static const Texture texture_menu_font_char_I[] = {
 #include "levels/menu/main_menu_seg7_us.0B0C0.ia8.inc.c"
+};
+
+// Ì
+ALIGNED8 static const Texture texture_menu_font_char_II[] = {
+#include "levels/menu/main_menu_seg7_us.0B0C1.ia8.inc.c"
 };
 
 // 0x0700B100
@@ -1632,7 +1642,7 @@ const Texture *const menu_font_lut[] = {
           0x0,       0x0,       0x0,       0x0,
           0x0,       0x0,       0x0,       0x0,
           0x0,       0x0,       0x0,       0x0,
-          0x0,       0x0, texture_menu_font_char_apostrophe, texture_menu_font_char_period,
+    texture_menu_font_char_AA, texture_menu_font_char_II, texture_menu_font_char_apostrophe, texture_menu_font_char_period,
     texture_menu_font_char_mface1, texture_menu_font_char_mface2,       0x0,       0x0,
           0x0,       0x0,       0x0,       0x0,
           0x0,       0x0,       0x0,       0x0,

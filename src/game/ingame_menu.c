@@ -816,7 +816,17 @@ void print_menu_generic_string(s16 x, s16 y, const u8 *str) {
                 curX += 4;
                 break;
             default:
-                gDPSetTextureImage(gDisplayListHead++, G_IM_FMT_IA, G_IM_SIZ_8b, 1, fontLUT[str[strPos]]);
+                switch (str[strPos]) {
+                    case DIALOG_CHAR_NAVI_LOWER_A: case DIALOG_CHAR_NAVI_UPPER_A: // Ä
+                        gDPSetTextureImage(gDisplayListHead++, G_IM_FMT_IA, G_IM_SIZ_8b, 1, fontLUT[60]);
+                        break;
+                    case DIALOG_CHAR_NAVI_LOWER_I: case DIALOG_CHAR_NAVI_UPPER_I: // Ì
+                        gDPSetTextureImage(gDisplayListHead++, G_IM_FMT_IA, G_IM_SIZ_8b, 1, fontLUT[61]);
+                        break;
+                    default:
+                        gDPSetTextureImage(gDisplayListHead++, G_IM_FMT_IA, G_IM_SIZ_8b, 1, fontLUT[str[strPos]]);
+                        break;
+                }
                 gDPLoadSync(gDisplayListHead++);
                 gDPLoadBlock(gDisplayListHead++, G_TX_LOADTILE, 0, 0, 8 * 8 - 1, CALC_DXT(8, G_IM_SIZ_8b_BYTES));
                 gSPTextureRectangle(gDisplayListHead++, curX << 2, curY << 2, (curX + 8) << 2,
@@ -836,7 +846,17 @@ void print_menu_generic_string(s16 x, s16 y, const u8 *str) {
 #if defined(VERSION_JP) || defined(VERSION_SH) || defined(VERSION_CN)
                 curX += 9;
 #else
-                curX += gDialogCharWidths[str[strPos]];
+                switch (str[strPos]) {
+                    case DIALOG_CHAR_NAVI_LOWER_A: case DIALOG_CHAR_NAVI_UPPER_A: // Ä
+                        curX += gDialogCharWidths[10]; // A
+                        break;
+                    case DIALOG_CHAR_NAVI_LOWER_I: case DIALOG_CHAR_NAVI_UPPER_I: // Ì
+                        curX += gDialogCharWidths[18]; // I
+                        break;
+                    default:
+                        curX += gDialogCharWidths[str[strPos]];
+                        break;
+                }
 #endif
         }
         strPos++;
@@ -1710,19 +1730,19 @@ void handle_dialog_text_and_pages(s8 colorMode, struct DialogEntry *dialog, s8 l
                     switch (strChar)
                     {
                         case SPECIAL_CHAR(DIALOG_CHAR_NAVI_LOWER_A):
-                                render_generic_char(64);
+                                render_generic_char(NAVI_LOWER_A);
                                 create_dl_translation_matrix(MENU_MTX_NOPUSH, 6, 0, 0);
                             break;
                         case SPECIAL_CHAR(DIALOG_CHAR_NAVI_UPPER_A):
-                                render_generic_char(65);
+                                render_generic_char(NAVI_UPPER_A);
                                 create_dl_translation_matrix(MENU_MTX_NOPUSH, 6, 0, 0);
                             break;
                         case SPECIAL_CHAR(DIALOG_CHAR_NAVI_LOWER_I):
-                                render_generic_char(66);
+                                render_generic_char(NAVI_LOWER_I);
                                 create_dl_translation_matrix(MENU_MTX_NOPUSH, 4, 0, 0);
                             break;
                         case SPECIAL_CHAR(DIALOG_CHAR_NAVI_UPPER_I):
-                                render_generic_char(67);
+                                render_generic_char(NAVI_UPPER_I);
                                 create_dl_translation_matrix(MENU_MTX_NOPUSH, 5, 0, 0);
                             break;
                         default:        

@@ -129,6 +129,11 @@ enum DialogSpecialChars {
     DIALOG_CHAR_NAVI_UPPER_A = 0x66
 };
 
+#define NAVI_LOWER_I 66
+#define NAVI_UPPER_I 67
+#define NAVI_LOWER_A 64
+#define NAVI_UPPER_A 65
+
 #ifdef VERSION_CN
 #define DIALOG_CHAR_SPECIAL_MODIFIER 0xFF
 #define SPECIAL_CHAR(x) (DIALOG_CHAR_SPECIAL_MODIFIER << 8 | (x))

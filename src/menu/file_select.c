@@ -2724,7 +2724,7 @@ void print_score_file_castle_secret_stars(s8 fileIndex, s16 x, s16 y) {
     FILE_SELECT_PRINT_STRING(x, y, textStarX);
 
     // Print number of castle secret stars
-    INT_TO_STR_DIFF(save_file_get_total_star_count(fileIndex, COURSE_BONUS_STAGES - 1, COURSE_MAX - 1),
+    INT_TO_STR_DIFF(convert_dec_to_oct(save_file_get_total_star_count(fileIndex, COURSE_BONUS_STAGES - 1, COURSE_MAX - 1)),
                secretStarsText);
 
 #ifdef VERSION_EU
@@ -2777,7 +2777,7 @@ void print_score_file_course_coin_score(s8 fileIndex, s16 courseIndex, s16 x, s1
         FILE_SELECT_PRINT_STRING(x + 25, y, textCoinX);
 
         // Print coin score
-        INT_TO_STR_DIFF(save_file_get_course_coin_score(fileIndex, courseIndex), coinScoreText);
+        INT_TO_STR_DIFF(convert_dec_to_oct(save_file_get_course_coin_score(fileIndex, courseIndex)), coinScoreText);
         FILE_SELECT_PRINT_STRING(x + 41, y, coinScoreText);
 
         // If collected, print 100 coin star
@@ -2791,7 +2791,7 @@ void print_score_file_course_coin_score(s8 fileIndex, s16 courseIndex, s16 x, s1
         FILE_SELECT_PRINT_STRING(x + HISCORE_COIN_ICON_X, y, textCoinX);
 
         // Print coin highscore
-        INT_TO_STR_DIFF((u16) save_file_get_max_coin_score(courseIndex) & 0xFFFF, coinScoreText);
+        INT_TO_STR_DIFF(convert_dec_to_oct((u16) save_file_get_max_coin_score(courseIndex) & 0xFFFF), coinScoreText);
         FILE_SELECT_PRINT_STRING(x + HISCORE_COIN_TEXT_X, y, coinScoreText);
 
         // Print coin highscore file

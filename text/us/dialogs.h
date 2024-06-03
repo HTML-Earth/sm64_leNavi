@@ -285,9 +285,9 @@ Ta olo'eykte alu"))
 DEFINE_DIALOG(DIALOG_021, 1, 5, 95, 200, _("\
 Zola'u nìprrte'.\n\
 Kelkut ke tok kawtul!\n\
-Ha 'äpivaku\n\
-ulte rä'ä tätxaw!\n\
-~hangham nìkawng~"))
+Ha 'äpivaku ulte rä'ä\n\
+tätxaw!\n\
+~ hangham nìkawng ~"))
 
 DEFINE_DIALOG(DIALOG_022, 1, 2, 95, 200, _("\
 You need a key to open\n\
@@ -402,39 +402,39 @@ Tam, txintsengti ngal\n\
 livok ko."))
 
 DEFINE_DIALOG(DIALOG_034, 1, 6, 30, 200, _("\
-Good afternoon. The\n\
-Lakitu Bros., here,\n\
-reporting live from just\n\
-outside the Princess's\n\
-castle.\n\
+Trr lefpom. Lu Lakitu\n\
+Mesmuk a pereng nìfkrr\n\
+ftu pxawngip txintsengä\n\
+olo'eykteyä.\n\
 \n\
-Mario has just arrived\n\
-on the scene, and we'll\n\
-be filming the action live\n\
-as he enters the castle\n\
-and pursues the missing\n\
-Power Stars.\n\
-As seasoned cameramen,\n\
-we'll be shooting from the\n\
-recommended angle, but\n\
-you can change the\n\
-camera angle by pressing\n\
-the [C] Buttons.\n\
-If we can't adjust the\n\
-view any further, we'll\n\
-buzz. To take a look at\n\
-the surroundings, stop\n\
-and press [C]▲.\n\
 \n\
-Press [A] to resume play.\n\
-Switch camera modes with\n\
-the [R] Button. Signs along\n\
-the way will review these\n\
-instructions.\n\
+Mario pìmate fìtseng,\n\
+ulte wìsyìntxu moel\n\
+ayhemti tengkrr po\n\
+fperäkìm nemfa txintseng\n\
+ulte fwerew loma aysanhì\n\
+atswalnga'.\n\
+Sko nawria mesyepyu relä,\n\
+wìyìntxu ftu nulnawnewa\n\
+klltseng, slä nga tsun\n\
+tsat leykivatem fa fwa\n\
+'ampi ayyotsyìpit alu [C].\n\
 \n\
-For now, reporting live,\n\
-this has been the\n\
-Lakitu Bros."))
+Txo ke tsivun moel\n\
+rivikx nì'ul, pam sayi.\n\
+Fte nìn pxawngipit,\n\
+ftang ulte 'ampi [C]▲ti.\n\
+\n\
+\n\
+'Ampi [A]ti fte vivar\n\
+uvan sivi. Leykatem fya'ot\n\
+syeprelä fa [R]. Aysävllìl\n\
+a tok fya'ot ngeyä layeyn\n\
+faysänumeti.\n\
+\n\
+Hayalovay, Lakitu Mesmuk\n\
+a nìfkrrpìrmeng lìmu.\n\
+"))
 
 DEFINE_DIALOG(DIALOG_035, 1, 5, 30, 200, _("\
 There are four camera, or\n\
@@ -2074,16 +2074,16 @@ so come back later.\n\
 //--Koopa the Quick"))
 
 DEFINE_DIALOG(DIALOG_167, 1, 4, 30, 200, _("\
-Princess Toadstool's\n\
-castle is just ahead.\n\
+Pitsyä txintsengro\n\
+pähem txo kivä nìyeyfya.\n\
 \n\
 \n\
-Press [A] to jump, [Z] to\n\
-crouch, and [B] to punch,\n\
-read a sign, or grab\n\
-something.\n\
-Press [B] again to throw\n\
-something you're holding."))
+'Ampi [A]ti fte spivä, [Z]ti\n\
+fte zivung, ulte [B]ti fte\n\
+pxivek, ivinan sävllti,\n\
+fu 'uot niviä.\n\
+'Ampi [B]ti nìmun fte 'uot a\n\
+ngal fyerep tsrive'i."))
 
 DEFINE_DIALOG(DIALOG_168, 1, 5, 30, 200, _("\
 Hey! Knock it off! That's\n\

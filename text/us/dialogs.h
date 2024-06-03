@@ -283,11 +283,11 @@ oel kalina tsyosyuti.\n\
 Ta olo'eykte alu"))
 
 DEFINE_DIALOG(DIALOG_021, 1, 5, 95, 200, _("\
-Welcome.\n\
-No one's home!\n\
-Now " SCRAM "\n\
-and don't come back!\n\
-Gwa ha ha!"))
+Zola'u nìprrte'.\n\
+Kelkut ke tok kawtul!\n\
+Ha 'äpivaku\n\
+ulte rä'ä tätxaw!\n\
+~hangham nìkawng~"))
 
 DEFINE_DIALOG(DIALOG_022, 1, 2, 95, 200, _("\
 You need a key to open\n\
@@ -388,18 +388,18 @@ around while flying, and\n\
 press [Z] to land."))
 
 DEFINE_DIALOG(DIALOG_033, 1, 6, 30, 200, _("\
-Ciao! You've reached\n\
-Princess Toadstool's\n\
-castle via a warp pipe.\n\
-Using the controller is a\n\
-piece of cake. Press [A] to\n\
-jump and [B] to attack.\n\
-Press [B] to read signs,\n\
-too. Use the Control Stick\n\
-in the center of the\n\
-controller to move Mario\n\
-around. Now, head for\n\
-the castle."))
+Kaltxì! Polähem nga\n\
+ro tintseng olo'eykteyä\n\
+fa sreyker a rong.\n\
+Fwa sar sä'ot a hipx lu\n\
+fyin fìtxan. 'Ampi [A]ti fte\n\
+spivä ulte [B]ti fte 'iveko.\n\
+Kop 'ampi [B]ti fte ivinan\n\
+sävllit. Sar vultsyìpit a\n\
+tok kxamtsengti sä'oä\n\
+fte Marioti reykivikx.\n\
+Tam, txintsengti ngal\n\
+livok ko."))
 
 DEFINE_DIALOG(DIALOG_034, 1, 6, 30, 200, _("\
 Good afternoon. The\n\

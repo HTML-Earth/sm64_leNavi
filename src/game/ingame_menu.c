@@ -1707,8 +1707,30 @@ void handle_dialog_text_and_pages(s8 colorMode, struct DialogEntry *dialog, s8 l
                             MENU_MTX_NOPUSH, (f32)(gDialogCharWidths[DIALOG_CHAR_SPACE] * (xMatrix - 1)), 0, 0);
                     }
 
-                    render_generic_char(strChar);
-                    create_dl_translation_matrix(MENU_MTX_NOPUSH, (f32)(gDialogCharWidths[strChar]), 0, 0);
+                    switch (strChar)
+                    {
+                        case SPECIAL_CHAR(DIALOG_CHAR_NAVI_LOWER_A):
+                                render_generic_char(64);
+                                create_dl_translation_matrix(MENU_MTX_NOPUSH, 6, 0, 0);
+                            break;
+                        case SPECIAL_CHAR(DIALOG_CHAR_NAVI_UPPER_A):
+                                render_generic_char(65);
+                                create_dl_translation_matrix(MENU_MTX_NOPUSH, 6, 0, 0);
+                            break;
+                        case SPECIAL_CHAR(DIALOG_CHAR_NAVI_LOWER_I):
+                                render_generic_char(66);
+                                create_dl_translation_matrix(MENU_MTX_NOPUSH, 4, 0, 0);
+                            break;
+                        case SPECIAL_CHAR(DIALOG_CHAR_NAVI_UPPER_I):
+                                render_generic_char(67);
+                                create_dl_translation_matrix(MENU_MTX_NOPUSH, 5, 0, 0);
+                            break;
+                        default:        
+                            render_generic_char(strChar);
+                            create_dl_translation_matrix(MENU_MTX_NOPUSH, (f32)(gDialogCharWidths[strChar]), 0, 0);
+                            break;
+                    }
+                    
                     xMatrix = 1;
                     linePos++;
                 }

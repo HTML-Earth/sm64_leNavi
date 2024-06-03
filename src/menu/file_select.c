@@ -1786,7 +1786,7 @@ void print_save_file_star_count(s8 fileIndex, s16 x, s16 y) {
     s16 starCount;
 
     if (save_file_exists(fileIndex) == TRUE) {
-        starCount = save_file_get_total_star_count(fileIndex, COURSE_MIN - 1, COURSE_MAX - 1);
+        starCount = convert_dec_to_oct(save_file_get_total_star_count(fileIndex, COURSE_MIN - 1, COURSE_MAX - 1));
         // Print star icon
         print_hud_lut_string(HUD_LUT_GLOBAL, x, y, starIcon);
         // If star count is less than 100, print x icon and move

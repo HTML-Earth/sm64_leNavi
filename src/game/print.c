@@ -159,6 +159,19 @@ void parse_width_field(const char *str, s32 *srcIndex, u8 *width, s8 *zeroPad) {
     *width = *width + digits[digitsLen - 1];
 }
 
+int convert_dec_to_oct(int dec) {
+    int oct = 0, digit = 1;
+ 
+    while (dec != 0) {
+        int remainder = dec % 8;
+        oct += remainder * digit;
+        digit = digit * 10;
+        dec /= 8;
+    }
+
+    return oct;
+}
+
 /**
  * Takes a number, finds the intended base, formats the number, and prints it
  * at the given X & Y coordinates.
@@ -195,7 +208,7 @@ void print_text_fmt_int(s32 x, s32 y, const char *str, s32 n) {
                 break;
             }
             if (str[srcIndex] == 'd') {
-                base = 10;
+                base = 8;
             }
             if (str[srcIndex] == 'x') {
                 base = 16;

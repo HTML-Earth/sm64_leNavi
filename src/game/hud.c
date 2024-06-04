@@ -321,7 +321,7 @@ void render_hud_timer(void) {
     u16 timerValFrames = gHudDisplay.timer;
     u16 timerMins = timerValFrames / (30 * 60);
     u16 timerSecs = (timerValFrames - (timerMins * 1800)) / 30;
-    u16 timerFracSecs = ((u16) (timerValFrames - (timerMins * 1800) - (timerSecs * 30))) / 3;
+    u16 timerFracSecs = ((u16) (timerValFrames - (timerMins * 1800) - (timerSecs * 30))) / 3.75f;
 #ifdef VERSION_CN
     u8 timeString[2];
 #endif

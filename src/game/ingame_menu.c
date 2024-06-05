@@ -1040,7 +1040,7 @@ void print_hud_my_score_coins(s32 useCourseCoinScore, s8 fileIndex, s8 courseInd
     if (numCoins != 0) {
         print_hud_lut_string(HUD_LUT_GLOBAL, x, y, gHudSymCoin);
         print_hud_lut_string(HUD_LUT_GLOBAL, x + 16, y, gHudSymX);
-        int_to_str(numCoins, strNumCoins);
+        int_to_str(convert_dec_to_oct(numCoins), strNumCoins);
         print_hud_lut_string(HUD_LUT_GLOBAL, x + 32, y, strNumCoins);
     }
 }
@@ -2605,7 +2605,7 @@ u8 gTextCourse[][7] = {
     #define CRS_NAME_START    3
     #define CRS_NAME_X        117
     #define SECRET_CRS_NAME_X 94
-    #define MYSCORE_X         62
+    #define MYSCORE_X         50
 #endif
 
 void render_pause_my_score_coins(void) {
@@ -3024,7 +3024,7 @@ void render_pause_castle_main_strings(s16 x, s16 y) {
 #ifdef VERSION_EU
         print_generic_string(x + 44, y - 5, textX);
 #endif
-        INT_TO_STR_DIFF(save_file_get_course_coin_score(gCurrSaveFileNum - 1, gMenuLineNum), strVal);
+        INT_TO_STR_DIFF(convert_dec_to_oct(save_file_get_course_coin_score(gCurrSaveFileNum - 1, gMenuLineNum)), strVal);
         print_generic_string(x + 54, y - 5, strVal);
 #ifdef VERSION_EU
         print_generic_string(x - 17, y + 30, courseName);

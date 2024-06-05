@@ -1826,11 +1826,11 @@ void print_save_file_star_count(s8 fileIndex, s16 x, s16 y) {
     #define MARIOTEXT_Y1 65
     #define MARIOTEXT_Y2 105
 #elif defined(VERSION_US)
-    #define SELECT_FILE_X 93
+    #define SELECT_FILE_X 83
     #define SELECT_FILE_Y 35
-    #define SCORE_X 52
+    #define SCORE_X 40
     #define COPY_X 117
-    #define ERASE_X 177
+    #define ERASE_X 180
     #define SOUNDMODE_X1 sSoundTextX
     #define SAVEFILE_X1 92
     #define SAVEFILE_X2 209
@@ -1946,9 +1946,9 @@ void print_main_lang_strings(void) {
     #define CHECK_FILE_Y 35
     #define NOSAVE_DATA_X1 90
 #elif defined(VERSION_US)
-    #define CHECK_FILE_X 95
+    #define CHECK_FILE_X 74
     #define CHECK_FILE_Y 35
-    #define NOSAVE_DATA_X1 99
+    #define NOSAVE_DATA_X1 120
 #elif defined(VERSION_EU)
     #define CHECK_FILE_X checkFileX
     #define CHECK_FILE_Y 35
@@ -1991,8 +1991,8 @@ void score_menu_display_message(s8 messageID) {
     #define SCORE_FILE_Y2 105
 #elif defined(VERSION_US)
     #define RETURN_X     44
-    #define COPYFILE_X1  135
-    #define ERASEFILE_X1 231
+    #define COPYFILE_X1  128
+    #define ERASEFILE_X1 220
     #define SCORE_FILE_Y1 62
     #define SCORE_FILE_Y2 105
 #elif defined(VERSION_EU)
@@ -2092,12 +2092,12 @@ void print_score_menu_strings(void) {
     #define SAVE_EXISTS_X1 90
     #define COPY_FILE_Y    35
 #elif defined(VERSION_US)
-    #define NOFILE_COPY_X  119
-    #define COPY_FILE_X    104
-    #define COPYIT_WHERE_X 109
-    #define NOSAVE_DATA_X2 101
-    #define COPYCOMPLETE_X 110
-    #define SAVE_EXISTS_X1 110
+    #define NOFILE_COPY_X  116
+    #define COPY_FILE_X    88
+    #define COPYIT_WHERE_X 126
+    #define NOSAVE_DATA_X2 115
+    #define COPYCOMPLETE_X 128
+    #define SAVE_EXISTS_X1 115
     #define COPY_FILE_Y    35
 #elif defined(VERSION_EU)
     #define NOFILE_COPY_X  centeredX
@@ -2219,8 +2219,8 @@ void copy_menu_update_message(void) {
     #define COPY_FILE_Y1 62
     #define COPY_FILE_Y2 105
 #elif defined(VERSION_US)
-    #define VIEWSCORE_X1 128
-    #define ERASEFILE_X2 230
+    #define VIEWSCORE_X1 136
+    #define ERASEFILE_X2 222
     #define COPY_FILE_Y1 62
     #define COPY_FILE_Y2 105
 #elif defined(VERSION_EU)
@@ -2424,11 +2424,11 @@ void print_erase_menu_prompt(s16 x, s16 y) {
     #define MARIO_ERASED_X   90
     #define SAVE_EXISTS_X2   90
 #elif defined(VERSION_US)
-    #define ERASE_FILE_X     98
+    #define ERASE_FILE_X     90
     #define ERASE_FILE_Y     35
-    #define NOSAVE_DATA_X3   100
+    #define NOSAVE_DATA_X3   118
     #define MARIO_ERASED_VAR 14
-    #define MARIO_ERASED_X   100
+    #define MARIO_ERASED_X   116
     #define SAVE_EXISTS_X2   100
 #elif defined(VERSION_EU)
     #define ERASE_FILE_X     centeredX
@@ -2548,8 +2548,8 @@ void erase_menu_update_message(void) {
     #define ERASE_FILE_Y1 164
     #define ERASE_FILE_Y2 121
 #else
-    #define VIEWSCORE_X2 127
-    #define COPYFILE_X2 233
+    #define VIEWSCORE_X2 135
+    #define COPYFILE_X2 224
     #define ERASE_FILE_Y1 62
     #define ERASE_FILE_Y2 105
 #endif
@@ -2615,7 +2615,7 @@ void print_erase_menu_strings(void) {
     #define SOUND_HUD_X 96
     #define SOUND_HUD_Y 35
 #elif defined(VERSION_US)
-    #define SOUND_HUD_X 88
+    #define SOUND_HUD_X 102
     #define SOUND_HUD_Y 35
 #elif defined(VERSION_CN)
     #define SOUND_HUD_X 106
@@ -2922,7 +2922,7 @@ void print_save_file_scores(s8 fileIndex) {
     u8 textRArrow[] = { TEXT_R_ARROW };
 #endif
 #ifndef VERSION_JP
-    u8 textFileLetter[] = { TEXT_ZERO };
+    //u8 textFileLetter[] = { TEXT_ZERO };
     void **levelNameTable = segmented_to_virtual(seg2_course_name_table);
 #endif
 
@@ -2943,16 +2943,17 @@ void print_save_file_scores(s8 fileIndex) {
     }
 #endif
 
-    textFileLetter[0] = fileIndex + ASCII_TO_DIALOG('A'); // get letter of file selected
+    textMario[7] = fileIndex + 1;
+    //textFileLetter[0] = fileIndex + ASCII_TO_DIALOG('A'); // get letter of file selected
 
     // Print file name at top
     gSPDisplayList(gDisplayListHead++, dl_rgba16_text_begin);
     gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, sTextBaseAlpha);
     print_hud_lut_string(HUD_LUT_DIFF, MARIO_X, MARIO_Y, textMario);
-    print_hud_lut_string(HUD_LUT_GLOBAL, FILE_LETTER_X, 15, textFileLetter);
+    //print_hud_lut_string(HUD_LUT_GLOBAL, FILE_LETTER_X, 15, textFileLetter);
 
     // Print save file star count at top
-    print_save_file_star_count(fileIndex, 124, 15);
+    print_save_file_star_count(fileIndex, 154, 15);
     gSPDisplayList(gDisplayListHead++, dl_rgba16_text_end);
 
     // Print course scores

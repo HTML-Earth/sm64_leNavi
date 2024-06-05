@@ -149,17 +149,17 @@
  */
 
 // Main Screens
-#define TEXT_MARIO _("MARIO") // View Score Menu
+#define TEXT_MARIO _("MARIO A1VE") //_("MARIO") // View Score Menu
 #define TEXT_SELECT_FILE _("FTXEY SÄHENAT")
 #define TEXT_CHECK_FILE _("STEFTXAW SÄHENAT")
 #define TEXT_COPY_FILE _("RÌ'ÌRIT NGOP")
 #define TEXT_ERASE_FILE _("'AKU SÄHENAT")
 #define TEXT_SOUND_SELECT _("FYA'O PAMÄ")
 
-#define TEXT_FILE_MARIO_A _("MARIO 1") // A
-#define TEXT_FILE_MARIO_B _("MARIO 2") // B
-#define TEXT_FILE_MARIO_C _("MARIO 3") // C
-#define TEXT_FILE_MARIO_D _("MARIO 4") // D
+#define TEXT_FILE_MARIO_A _("1VEA MARIO") // A
+#define TEXT_FILE_MARIO_B _("2VEA MARIO") // B
+#define TEXT_FILE_MARIO_C _("3VEA MARIO") // C
+#define TEXT_FILE_MARIO_D _("4VEA MARIO") // D
 
 // Menu Options
 #define TEXT_SCORE _("AYHOLPXAY")

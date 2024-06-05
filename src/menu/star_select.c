@@ -306,7 +306,7 @@ void print_act_selector_strings(void) {
     // Print the coin highscore.
     gSPDisplayList(gDisplayListHead++, dl_rgba16_text_begin);
     gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, 255);
-    print_hud_my_score_coins(1, gCurrSaveFileNum - 1, COURSE_NUM_TO_INDEX(gCurrCourseNum), 155, 106);
+    print_hud_my_score_coins(1, gCurrSaveFileNum - 1, COURSE_NUM_TO_INDEX(gCurrCourseNum), 165, 106);
     gSPDisplayList(gDisplayListHead++, dl_rgba16_text_end);
 
     gSPDisplayList(gDisplayListHead++, dl_ia_text_begin);
@@ -319,7 +319,7 @@ void print_act_selector_strings(void) {
 #elif defined(VERSION_CN)
         print_generic_string(89, 118, myScore);
 #else
-        print_generic_string(102, 118, myScore);
+        print_generic_string(90, 118, myScore);
 #endif
     }
 

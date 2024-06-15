@@ -10,13 +10,13 @@ extern const GeoLayout intro_geo_mario_head_dizzy[];
 extern const GeoLayout intro_geo_000414[];
 
 // leveldata
-// CUSTOM LOGO STARTS HERE (header.c)
+// CUSTOM LOGO STARTS HERE (header.h)
 extern u8 uvan__0_rgba16_ci8[];
 extern u8 uvan__0_rgba16_pal_rgba16[];
 extern u8 uvan__1_rgba16_i8[];
-extern Vtx uvan_tstxo_mesh_vtx_0[861];
+extern Vtx uvan_tstxo_mesh_vtx_0[949];
 extern Gfx uvan_tstxo_mesh_tri_0[];
-extern Vtx uvan_tstxo_mesh_vtx_1[671];
+extern Vtx uvan_tstxo_mesh_vtx_1[791];
 extern Gfx uvan_tstxo_mesh_tri_1[];
 extern Gfx mat_uvan_intro_seg7_texture_0[];
 extern Gfx mat_revert_uvan_intro_seg7_texture_0[];

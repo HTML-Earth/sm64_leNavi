@@ -50,7 +50,7 @@ lehrrap takrra Apxa\n\
 Kxang-angìl kolanom\n\
 Tanhìti Atswalnga'.\n\
 Nga tsun kivanom Tanhìti\n\
-ayoelfpi srak? Semkäti\n\
+ayoefpi srak? Semkäti\n\
 emkä, kä nìftär fya'oìlä,\n\
 run Apxa Kxang-angit.\n\
 Rutxe tätxaw ne oe\n\
@@ -299,33 +299,33 @@ Maybe it's for the\n\
 basement..."))
 
 DEFINE_DIALOG(DIALOG_024, 1, 5, 95, 200, _("\
-Fte fìrawngur piak\n\
-sivi kin tswalit tanhìyä.\n\
-Kanom Tswalnga'a Tanhìti ta\n\
-kxutu a tok 'awa relit\n\
+Fte fìrawngur piak sivi\n\
+kin tswalit tanhìyä.\n\
+Kanom Tswalnga'a Tanhìti\n\
+ta kxutu mì relo\n\
 txintsengä."))
 
 DEFINE_DIALOG(DIALOG_025, 1, 4, 95, 200, _("\
-Fìrawngur tsun piak\n\
-sivi 3a tanhì.\n\
+Fìrawngur tsun piak sivi\n\
+3a tanhì.\n\
 Kin ngal pumit a[%] nì'ul.\n\
 "))
 
 DEFINE_DIALOG(DIALOG_026, 1, 4, 95, 200, _("\
-Fìrawngur tsun piak\n\
-sivi 10a tanhì.\n\
+Fìrawngur tsun piak sivi\n\
+10a tanhì.\n\
 Kin ngal pumit a[%] nì'ul.\n\
 "))
 
 DEFINE_DIALOG(DIALOG_027, 1, 4, 95, 200, _("\
-Fìrawngur tsun piak\n\
-sivi 36a tanhì.\n\
+Fìrawngur tsun piak sivi\n\
+36a tanhì.\n\
 Kin ngal pumit a[%] nì'ul.\n\
 "))
 
 DEFINE_DIALOG(DIALOG_028, 1, 4, 95, 200, _("\
-Fìrawngur tsun piak\n\
-sivi 62a tanhì.\n\
+Fìrawngur tsun piak sivi\n\
+62a tanhì.\n\
 Kin ngal pumit a[%] nì'ul.\n\
 "))
 
@@ -1595,9 +1595,9 @@ ayrawngur a fyolel\n\
 Pawserìl.\n\
 'Awvea yìti tok tsìnga\n\
 mol. Sngä'i fa pum a tok\n\
-relìl a Kxang-angit\n\
-nga'. Lu le'awa\n\
-mo a ke fyolel Pawserìl.\n\
+relìl a Kxang-angit nga'.\n\
+Lu le'awa mo a ke fyolel\n\
+Pawserìl.\n\
 \n\
 Stolarsìm vola Tanhìti\n\
 Atswalnga' a krr, tsun\n\

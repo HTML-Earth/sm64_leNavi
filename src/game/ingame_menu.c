@@ -3208,7 +3208,7 @@ void print_hud_course_complete_coins(s16 x, s16 y) {
     print_hud_lut_string(HUD_LUT_GLOBAL, x, y, hudTextSymCoin);
     print_hud_lut_string(HUD_LUT_GLOBAL, x + 16, y, hudTextSymX);
 
-    int_to_str(gCourseCompleteCoins, courseCompleteCoinsStr);
+    int_to_str(convert_dec_to_oct(gCourseCompleteCoins), courseCompleteCoinsStr);
     print_hud_lut_string(HUD_LUT_GLOBAL, x + 32, y, courseCompleteCoinsStr);
 
     gSPDisplayList(gDisplayListHead++, dl_rgba16_text_end);

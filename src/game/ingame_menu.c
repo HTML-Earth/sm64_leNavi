@@ -2577,7 +2577,7 @@ u8 gTextCourse[][7] = {
 #if defined(VERSION_JP) || defined(VERSION_SH)
     #define CRS_NUM_X1 93
 #elif defined(VERSION_US) || defined(VERSION_CN)
-    #define CRS_NUM_X1 100
+    #define CRS_NUM_X1 93
 #elif defined(VERSION_EU)
     #define CRS_NUM_X1 get_string_width(LANGUAGE_ARRAY(textCourse)) + 51
 #endif
@@ -2599,7 +2599,7 @@ u8 gTextCourse[][7] = {
     #define SECRET_CRS_NAME_X 94
     #define MYSCORE_X         42
 #else
-    #define TXT_COURSE_X      63
+    #define TXT_COURSE_X      58
     #define TXT_STAR_X        98
     #define ACT_NAME_X        116
     #define CRS_NAME_START    3
@@ -2677,7 +2677,7 @@ void render_pause_my_score_coins(void) {
 
     if (courseIndex <= COURSE_NUM_TO_INDEX(COURSE_STAGES_MAX)) {
         print_generic_string(TXT_COURSE_X, 157, LANGUAGE_ARRAY(textCourse));
-        INT_TO_STR_DIFF(gCurrCourseNum, strCourseNum);
+        INT_TO_STR_DIFF(convert_dec_to_oct(gCurrCourseNum), strCourseNum);
         print_generic_string(CRS_NUM_X1, 157, strCourseNum);
 
         actName = segmented_to_virtual(actNameTbl[COURSE_NUM_TO_INDEX(gCurrCourseNum) * 6 + gDialogCourseActNum - 1]);
@@ -3320,7 +3320,7 @@ void render_course_complete_lvl_info_and_hud_str(void) {
         // Print course number
         gSPDisplayList(gDisplayListHead++, dl_ia_text_begin);
 
-        INT_TO_STR_DIFF(gLastCompletedCourseNum, strCourseNum);
+        INT_TO_STR_DIFF(convert_dec_to_oct(gLastCompletedCourseNum), strCourseNum);
 
         gDPSetEnvColor(gDisplayListHead++, 0, 0, 0, gMenuTextAlpha);
         print_generic_string(65, 165, LANGUAGE_ARRAY(textCourse));

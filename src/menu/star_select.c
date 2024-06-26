@@ -201,6 +201,19 @@ void bhv_act_selector_loop(void) {
     }
 }
 
+int dec_to_oct_3(int dec) {
+    int oct = 0, digit = 1;
+ 
+    while (dec != 0) {
+        int remainder = dec % 8;
+        oct += remainder * digit;
+        digit = digit * 10;
+        dec /= 8;
+    }
+
+    return oct;
+}
+
 /**
  * Print the course number selected with the wood rgba16 course texture.
  */
@@ -237,9 +250,9 @@ void print_course_number(void) {
     gSPDisplayList(gDisplayListHead++, dl_rgba16_text_begin);
     gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, 255);
 
-    int_to_str(gCurrCourseNum, courseNum);
+    int_to_str(dec_to_oct_3(gCurrCourseNum), courseNum);
 
-    if (gCurrCourseNum < 10) { // 1 digit number
+    if (gCurrCourseNum < 8) { // 1 digit number
         print_hud_lut_string(HUD_LUT_GLOBAL, 152, 158, courseNum);
     } else { // 2 digit number
         print_hud_lut_string(HUD_LUT_GLOBAL, 143, 158, courseNum);

@@ -19,61 +19,61 @@
 DEFINE_DIALOG(DIALOG_000, 1, 6, 30, 200, _("\
 Wou! Tok Kxang-angä\n\
 Kxutsengä kxamtsengit.\n\
-You'll find the Power\n\
-Stars that Bowser stole\n\
-inside the painting\n\
-worlds.\n\
-First, talk to the\n\
-Bob-omb Buddy. (Press [B]\n\
-to talk.) He'll certainly\n\
-help you out, and so will\n\
-his " COMRADES " in other\n\
-areas.\n\
-To read signs, stop, face\n\
-them and press [B]. Press [A]\n\
-or [B] to scroll ahead. You\n\
-can talk to some other\n\
-characters by facing them\n\
-and pressing [B]."))
+Sanhì a Pawserìl fmolong\n\
+nga tsun rivun mì\n\
+ayhifkey ayrelä.\n\
+\n\
+Nì'awve, pängkxo hu\n\
+Kxang-ang 'Eylan. ('Ampi\n\
+[B]ti fte pivängkxo.)\n\
+Am'aluke po ngaru srung\n\
+sayi, nìteng peyä ayeylan\n\
+a tok lahea sengit.\n\
+Fte ivinan sävllit, ftang,\n\
+nìn tsat ulte 'ampi [B]ti.\n\
+'Ampi [A]ti fu [B]ti fte nì'ul\n\
+ivinan. Lahea sutehu nga\n\
+tsun pivängkxo fa fwa nìn\n\
+poti ulte [B]ti 'ampi."))
 
 DEFINE_DIALOG(DIALOG_001, 1, 4, 95, 200, _("\
-Watch out! If you wander\n\
-around here, you're liable\n\
-to be " PLASTERED " by a\n\
-water bomb!\n\
-Those enemy Bob-ombs love\n\
-to fight, and they're\n\
-always finding ways to\n\
-attack.\n\
-This meadow has become\n\
-a battlefield ever since\n\
-the Big Bob-omb got his\n\
-paws on the Power Star.\n\
-Can you recover the Star\n\
-for us? Cross the bridge\n\
-and go left up the path\n\
-to find the Big Bob-omb.\n\
-Please come back to see\n\
-me after you've retrieved\n\
-the Power Star!"))
+Nari si! Txo nga livante\n\
+fìtseng, kxawm takuk\n\
+ngat pxor a rumìl lepay!\n\
+\n\
+Tsaykang-angur akawng\n\
+txasunu fwa wem, ulte\n\
+frakrr run fya'ot a 'eko.\n\
+\n\
+Fìtxayo lezeswa slolu\n\
+lehrrap takrra Apxa\n\
+Kxang-angìl kolanom\n\
+Tanhìti Atswalnga'.\n\
+Nga tsun kivanom Tanhìti\n\
+ayoelfpi srak? Semkäti\n\
+emkä, kä nìftär fya'oìlä,\n\
+run Apxa Kxang-angit.\n\
+Rutxe tätxaw ne oe\n\
+mawfwa kolanom ngal\n\
+Tswalnga'a Tanhìti!"))
 
 DEFINE_DIALOG(DIALOG_002, 1, 4, 95, 200, _("\
-Hey, you! It's dangerous\n\
-ahead, so listen up! Take\n\
-my advice.\n\
+Manga! Lehrrap fìtseng\n\
+lu, ha tìng mikyun! Oeyä\n\
+sämokit lek.\n\
 \n\
-Cross the two\n\
-bridges ahead, then\n\
-watch for falling\n\
-water bombs.\n\
-The Big Bob-omb at the\n\
-top of the mountain is\n\
-very powerful--don't let\n\
-him grab you!\n\
-We're Bob-omb Buddies,\n\
-and we're on your side.\n\
-You can talk to us\n\
-whenever you'd like to!"))
+Emkä haya mesemkäti,\n\
+tsakrr zusupa ayrumìri\n\
+lepay nari si.\n\
+\n\
+Apxa Kxang-ang a tok\n\
+fäpati ramä lu txur\n\
+nìtxan--rä'ä tung\n\
+futa pol ngati niä!\n\
+Moe lu Kxang-ang 'Eylan,\n\
+ulte ngaru srung si.\n\
+Ayoehu nga tsun pivängkxo\n\
+frakrr txo nivew nga!"))
 
 DEFINE_DIALOG(DIALOG_003, 1, 5, 95, 200, _("\
 Thank you, Mario! The Big\n\
@@ -224,14 +224,14 @@ Do you want to Save?\n\
 //You Bet//Not Now"))
 
 DEFINE_DIALOG(DIALOG_015, 1, 4, 30, 200, _("\
-You can punch enemies to\n\
-knock them down. Press [A]\n\
-to jump, [B] to punch.\n\
-Press [A] then [B] to Kick.\n\
-To pick something up,\n\
-press [B], too. To throw\n\
-something you're holding,\n\
-press [B] again."))
+Pxunfa pxivek kutut fte\n\
+foti heykivahaw.\n\
+[A]ti ampi fte spivä,\n\
+[B]ti fte pxivek pxunfa.\n\
+'Ampi [A]ti tsakrr [B]ti fte\n\
+pxivek kinamfa. Fa [B] kop\n\
+kxeltek 'uot. Fte 'uot\n\
+tsrive'i 'ampi [B]ti nìmun."))
 
 DEFINE_DIALOG(DIALOG_016, 1, 3, 30, 200, _("\
 Hop on the shiny shell and\n\
@@ -299,42 +299,42 @@ Maybe it's for the\n\
 basement..."))
 
 DEFINE_DIALOG(DIALOG_024, 1, 5, 95, 200, _("\
-You need Star power to\n\
-open this door. Recover a\n\
-Power Star from an enemy\n\
-inside one of the castle's\n\
-paintings."))
+Fte fìrawngur piak\n\
+sivi kin tswalit tanhìyä.\n\
+Kanom Tswalnga'a Tanhìti ta\n\
+kxutu a tok 'awa relit\n\
+txintsengä."))
 
 DEFINE_DIALOG(DIALOG_025, 1, 4, 95, 200, _("\
-It takes the power of\n\
-3 Stars to open this\n\
-door. You need [%] more\n\
-Stars."))
+Fìrawngur tsun piak\n\
+sivi 3a tanhì.\n\
+Kin ngal pumit a[%] nì'ul.\n\
+"))
 
 DEFINE_DIALOG(DIALOG_026, 1, 4, 95, 200, _("\
-It takes the power of\n\
-8 Stars to open this\n\
-door. You need [%] more\n\
-Stars."))
+Fìrawngur tsun piak\n\
+sivi 10a tanhì.\n\
+Kin ngal pumit a[%] nì'ul.\n\
+"))
 
 DEFINE_DIALOG(DIALOG_027, 1, 4, 95, 200, _("\
-It takes the power of\n\
-30 Stars to open this\n\
-door. You need [%] more\n\
-Stars."))
+Fìrawngur tsun piak\n\
+sivi 36a tanhì.\n\
+Kin ngal pumit a[%] nì'ul.\n\
+"))
 
 DEFINE_DIALOG(DIALOG_028, 1, 4, 95, 200, _("\
-It takes the power of\n\
-50 Stars to open this\n\
-door. You need [%] more\n\
-Stars."))
+Fìrawngur tsun piak\n\
+sivi 62a tanhì.\n\
+Kin ngal pumit a[%] nì'ul.\n\
+"))
 
 DEFINE_DIALOG(DIALOG_029, 1, 5, 95, 200, _("\
-To open the door that\n\
-leads to the 『endless』\n\
-stairs, you need 70\n\
-Stars.\n\
-Bwa ha ha!"))
+Fte piak sivi rawngur\n\
+snayìyä『atì'iluke』,\n\
+ngal kin 106a\n\
+tanhìti.\n\
+~ hangham nìkawng ~"))
 
 DEFINE_DIALOG(DIALOG_030, 1, 6, 30, 200, _("\
 Hello! The Lakitu Bros.,\n\
@@ -403,17 +403,17 @@ livok ko."))
 
 DEFINE_DIALOG(DIALOG_034, 1, 6, 30, 200, _("\
 Trr lefpom. Lu Lakitu\n\
-Mesmuk a pereng nìfkrr\n\
-ftu pxawngip txintsengä\n\
-olo'eykteyä.\n\
+Mesmuk a nìfkrr pereng\n\
+fmawnit ftu pxawngip\n\
+txintsengä olo'eykteyä.\n\
 \n\
 \n\
 Mario pìmate fìtseng,\n\
 ulte wìsyìntxu moel\n\
 ayhemti tengkrr po\n\
 fperäkìm nemfa txintseng\n\
-ulte fwerew loma aysanhì\n\
-atswalnga'.\n\
+ulte fwerew loma Aysanhìti\n\
+Atswalnga'.\n\
 Sko nawria mesyepyu relä,\n\
 wìyìntxu ftu nulnawnewa\n\
 klltseng, slä nga tsun\n\
@@ -422,7 +422,7 @@ tsat leykivatem fa fwa\n\
 \n\
 Txo ke tsivun moel\n\
 rivikx nì'ul, pam sayi.\n\
-Fte nìn pxawngipit,\n\
+Fte nivìn pxawngipit,\n\
 ftang ulte 'ampi [C]▲ti.\n\
 \n\
 \n\
@@ -433,7 +433,7 @@ a tok fya'ot ngeyä layeyn\n\
 faysänumeti.\n\
 \n\
 Hayalovay, Lakitu Mesmuk\n\
-a nìfkrrpìrmeng lìmu.\n\
+a nìfkrr pìrmeng lìmu.\n\
 "))
 
 DEFINE_DIALOG(DIALOG_035, 1, 5, 30, 200, _("\
@@ -482,9 +482,9 @@ a better sledder!\n\
 Better luck next time!"))
 
 DEFINE_DIALOG(DIALOG_038, 1, 3, 95, 200, _("\
-Reacting to the Star\n\
-power, the door slowly\n\
-opens."))
+Tswaltalun tanhìyä, piak\n\
+säperi rawng nìk'ong.\n\
+"))
 
 DEFINE_DIALOG(DIALOG_039, 1, 4, 30, 200, _("\
 No visitors allowed,\n\
@@ -1575,35 +1575,36 @@ disqualified! Next time,\n\
 play fair!"))
 
 DEFINE_DIALOG(DIALOG_133, 1, 6, 30, 200, _("\
-Am I glad to see you! The\n\
-Princess...and I...and,\n\
-well, everybody...we're all\n\
-trapped inside the castle\n\
-walls.\n\
+Zawprrte' fwa tse'a ngat!\n\
+Olo'eykte...sì oe...sì,\n\
+tse, frapo...ayoe nìwotx\n\
+lu spe'etu mì tintseng.\n\
 \n\
-Bowser has stolen the\n\
-castle's Stars, and he's\n\
-using their power to\n\
-create his own world in\n\
-the paintings and walls.\n\
 \n\
-Please recover the Power\n\
-Stars! As you find them,\n\
-you can use their power\n\
-to open the doors that\n\
-Bowser has sealed.\n\
+Pawserìl txintsengä\n\
+Sanhìti fmolong, ulte\n\
+sar tseyä tswalit fte\n\
+ngivop sneyä kifkeyti\n\
+mì ayrel sì aykemyo.\n\
 \n\
-There are four rooms on\n\
-the first floor. Start in\n\
-the one with the painting\n\
-of Bob-omb inside. It's\n\
-the only room that Bowser\n\
-hasn't sealed.\n\
-When you collect eight\n\
-Power Stars, you'll be\n\
-able to open the door\n\
-with the big star. The\n\
-Princess must be inside!"))
+Rutxe kanom Aysanhìti\n\
+Atswalnga'! Sat run a\n\
+krr, tsun seyä tswalit\n\
+sivar fte piak sivi\n\
+ayrawngur a fyolel\n\
+Pawserìl.\n\
+'Awvea yìti tok tsìnga\n\
+mol. Sngä'i fa pum a tok\n\
+relìl a Kxang-angit\n\
+nga'. Lu le'awa\n\
+mo a ke fyolel Pawserìl.\n\
+\n\
+Stolarsìm vola Tanhìti\n\
+Atswalnga' a krr, tsun\n\
+nga piak sivi rawngur a\n\
+tsar lu rel tanhìyä apxa.\n\
+Olo'eyktel tsatsengti\n\
+tatsok!"))
 
 DEFINE_DIALOG(DIALOG_134, 1, 5, 30, 200, _("\
 The names of the Stars\n\
@@ -2080,8 +2081,8 @@ pähem txo kivä nìyeyfya.\n\
 \n\
 'Ampi [A]ti fte spivä, [Z]ti\n\
 fte zivung, ulte [B]ti fte\n\
-pxivek, ivinan sävllti,\n\
-fu 'uot niviä.\n\
+pxivek pxunfa, ivinan\n\
+sävllti, fu 'uot niviä.\n\
 'Ampi [B]ti nìmun fte 'uot a\n\
 ngal fyerep tsrive'i."))
 

@@ -121,4 +121,6 @@ u32 get_door_save_file_flag(struct Object *door);
 void mario_process_interactions(struct MarioState *m);
 void mario_handle_special_floors(struct MarioState *m);
 
+int dec_to_oct(int dec);
+
 #endif // INTERACTION_H

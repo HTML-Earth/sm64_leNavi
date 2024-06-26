@@ -1049,7 +1049,7 @@ u32 interact_door(struct MarioState *m, UNUSED u32 interactType, struct Object *
                     break;
             }
 
-            text += requiredNumStars - numStars;
+            text += dec_to_oct(requiredNumStars - numStars);
 
             sDisplayingDoorText = TRUE;
             return set_mario_action(m, ACT_READING_AUTOMATIC_DIALOG, text);
@@ -1061,6 +1061,19 @@ u32 interact_door(struct MarioState *m, UNUSED u32 interactType, struct Object *
     }
 
     return FALSE;
+}
+
+int dec_to_oct(int dec) {
+    int oct = 0, digit = 1;
+ 
+    while (dec != 0) {
+        int remainder = dec % 8;
+        oct += remainder * digit;
+        digit = digit * 10;
+        dec /= 8;
+    }
+
+    return oct;
 }
 
 u32 interact_cannon_base(struct MarioState *m, UNUSED u32 interactType, struct Object *o) {

@@ -623,35 +623,35 @@ bounce to gain momentum.\n\
 Practice makes perfect!"))
 
 DEFINE_DIALOG(DIALOG_050, 1, 4, 30, 200, _("\
-Hold [Z] to crouch and\n\
-slide down a slope.\n\
-Or press [Z] while in the\n\
-air to Pound the Ground!\n\
-If you stop, crouch, then\n\
-jump, you'll do a\n\
-Backward Somersault!\n\
-Got that?\n\
-There's more. Crouch and\n\
-then jump to do a\n\
-Long Jump! Or crouch and\n\
-walk to...never mind."))
+Var 'ivampi [Z]ti fte zivung\n\
+sì fwivi ka fyenga yo.\n\
+Fu 'ampi [Z]ti tengkrr terok\n\
+yati fte klltet fpivap!\n\
+Txo ftivang sì zivung sì\n\
+spivä tsakrr nga mìn\n\
+tengkrr sperä ne'ìm!\n\
+Tolel srak?\n\
+Lu säomum nì'ul.\n\
+Zung spä fte spivä\n\
+nìngim! Fu zung sì tìran\n\
+fte... ke tare."))
 
 DEFINE_DIALOG(DIALOG_051, 1, 6, 30, 200, _("\
-Climbing's easy! When you\n\
-jump at trees, poles or\n\
-pillars, you'll grab them\n\
-automatically. Press [A] to\n\
-jump off backward.\n\
+Lu ftue fwa tsyìl! Krra\n\
+spä ne utral fu swek,\n\
+uvanìl neykiä tsat ngafa.\n\
+'Ampi [A]ti fte spivä ne'ìm.\n\
 \n\
-To rotate around the\n\
-object, press Right or\n\
-Left on the Control Stick.\n\
-When you reach the top,\n\
-press Up to do a\n\
-handstand!\n\
-Jump off from the\n\
-handstand for a high,\n\
-stylin' dismount."))
+\n\
+Fte mivìn pxaw zum, 'ärìp\n\
+vultsyìpit nìskien fu\n\
+nìftär.\n\
+Krra tok fäpat, 'ärìp nefä\n\
+fte kllkxivem fa mesyokx!\n\
+\n\
+Tsakrr spä fte kllkivä\n\
+zumftu nìfyolup.\n\
+"))
 
 DEFINE_DIALOG(DIALOG_052, 1, 5, 30, 200, _("\
 Stop and press [Z] to\n\
@@ -810,33 +810,33 @@ to nose down, and press [Z]\n\
 to land."))
 
 DEFINE_DIALOG(DIALOG_065, 1, 6, 30, 200, _("\
-Swimming Lessons!\n\
-Tap [A] to do the breast\n\
-stroke. If you time the\n\
-taps right, you'll swim\n\
-fast.\n\
+Sänumvi a Slele!\n\
 \n\
-Press and hold [A] to do a\n\
-slow, steady flutter kick.\n\
-Press Up on the Control\n\
-Stick to dive, and pull\n\
-back on the stick to head\n\
-for the surface.\n\
-To jump out of the water,\n\
-hold Down on the Control\n\
-Stick, then press [A].\n\
-Easy as pie, right?\n\
+'Ampi [A]ti fte slivele.\n\
+Txo tsakem sivi fa hrrlik\n\
+aeyawr, slele nìwin nga.\n\
+\n\
+Var 'ivampi [A]ti fte rivikx\n\
+mehinam nìk'ong sì nìler.\n\
+Kärìp vultsyìpit nefä\n\
+fte tivawng, ulte tsat\n\
+zärìp fte livok fäpat.\n\
+\n\
+Fte spivä ftumfa pay,\n\
+zärìp vultsyìpit nekll,\n\
+tsakrr [A]ti 'ampi.\n\
+Leiu ftue, kefyak?\n\
 \n\
 \n\
-But remember:\n\
-Mario can't breathe under\n\
-the water! Return to the\n\
-surface for air when the\n\
-Power Meter runs low.\n\
+Slä lare:\n\
+Mario ke tsun syeha sivi\n\
+mì fay! Yari tivätxaw\n\
+ne fäpa krra Sävll Tìreyä\n\
+slu tìm.\n\
 \n\
-And one last thing: You\n\
-can't open doors that\n\
-are underwater."))
+Kop syena tìsung:\n\
+Ke tsunslu mì fay fwa\n\
+piak si rawngur."))
 
 DEFINE_DIALOG(DIALOG_066, 1, 5, 30, 200, _("\
 Mario, it's Peach!\n\
@@ -1970,41 +1970,34 @@ fast to do a Body Slide\n\
 attack. To stand while\n\
 sliding, press [A] or [B]."))
 
-#ifdef VERSION_EU
-#define KEEP_ON_PLAYING ".."
-#else
-#define KEEP_ON_PLAYING "\n\
-We want you to keep on\n\
-playing, so we have a\n\
-little something for you.\n\
-We hope that you like it!\n\
-Enjoy!!!"
-#endif
-
 DEFINE_DIALOG(DIALOG_161, 1, 4, 30, 200, _("\
-Mario!!!\n\
-It that really you???\n\
-It has been so long since\n\
-our last adventure!\n\
-They told me that I might\n\
-see you if I waited here,\n\
-but I'd just about given\n\
-up hope!\n\
-Is it true? Have you\n\
-really beaten Bowser? And\n\
-restored the Stars to the\n\
-castle?\n\
-And saved the Princess?\n\
-I knew you could do it!\n\
-Now I have a very special\n\
-message for you.\n\
-『Thanks for playing Super\n\
-Mario 64! This is the\n\
-end of the game, but not\n\
-the end of the fun." \
-KEEP_ON_PLAYING "』\n\
-\n\
-The Super Mario 64 Team"))
+Ma Mario!!!\n\
+Lu nga nìngay srak???\n\
+Txankrr ke lolang oeng\n\
+'awsiteng!\n\
+Poltxe fo san txo fìtseng\n\
+pivey, tsakrr kxawm\n\
+ultxarun poti sìk slä stum\n\
+oe velek!\n\
+Srake ngay lu? Nìngay\n\
+ngal Pawserti lolätxayn?\n\
+Teykolätxaw Sanhìti ne\n\
+txintseng?\n\
+Ulte tolarep Olo'eykteti?\n\
+Nga kezemplltxe soleia!\n\
+Set lu oeru zeya 'upxare\n\
+azey ngaru. San\n\
+『Furia uvan alu Fyolea\n\
+Mario Zam si irayo!\n\
+Fì'u lu tì'i'a uvanä, slä\n\
+ke lu tì'i'a tì'o'ä. \n\
+Futa nga var uvan sivi\n\
+new ayoel, ha lu ayoer\n\
+'uotsyìp ngaru.\n\
+Sìlpey tsnì ngaru sivunu!\n\
+Zivawprrte'!!! 』 sìk\n\
+Ta pongu uvanä alu\n\
+Fyolea Mario Zam"))
 
 DEFINE_DIALOG(DIALOG_162, 1, 4, 30, 200, _("\
 No, no, no! Not you\n\

@@ -138,18 +138,18 @@ Here you go--you've won\n\
 it, fair and square!"))
 
 DEFINE_DIALOG(DIALOG_008, 1, 4, 30, 200, _("\
-BEWARE OF CHAIN CHOMP\n\
-Extreme Danger!\n\
-Get close and press [C]▲\n\
-for a better look.\n\
-Scary, huh?\n\
-See the Red Coin on top\n\
-of the stake?\n\
+ZA'ÄFRÌPÌRI LARE\n\
+Apxa Hrrap!\n\
+Lok ulte 'ampi [C]▲ti\n\
+fte nivìn nìno.\n\
+Txewm, kefyak?\n\
+Tsun tsive'a Tuna\n\
+Fngapit sweksìn srak?\n\
 \n\
-When you collect eight of\n\
-them, a Power Star will\n\
-appear in the meadow\n\
-across the bridge."))
+Txo stivarsìm ngal\n\
+pumit avol, srer\n\
+Tanhì Atswalnga' ro\n\
+zeswa a semkäfew."))
 
 DEFINE_DIALOG(DIALOG_009, 1, 5, 30, 200, _("\
 Long time, no see! Wow,\n\
@@ -239,30 +239,30 @@ ride wherever you want to\n\
 go! Shred those enemies!"))
 
 DEFINE_DIALOG(DIALOG_017, 1, 4, 30, 200, _("\
-I'm the Big Bob-omb, lord\n\
-of all blasting matter,\n\
-king of ka-booms the\n\
-world over!\n\
-How dare you scale my\n\
-mountain? By what right\n\
-do you set foot on my\n\
-imperial mountaintop?\n\
-You may have eluded my\n\
-guards, but you'll never\n\
-escape my grasp...\n\
+Lu oe Apxa Kxang-ang, alu\n\
+eyktan aysäpxorä,\n\
+oel futa kxangangang\n\
+kxìm ka kifkey nìwotx!\n\
+Nga kom tsyivìl ramit\n\
+oeyä srak? Ngaru\n\
+tung pesul futa\n\
+keynven fìtseng?\n\
+Oeyä aysamsiyuti ngal\n\
+'awnatsìm, slä kawkrr\n\
+ke hivifwo nga oeftu...\n\
 \n\
-...and you'll never take\n\
-away my Power Star. I\n\
-hereby challenge you,\n\
-Mario!\n\
-If you want the Star I\n\
-hold, you must prove\n\
-yourself in battle.\n\
+...ulte kawkrr oeyä Tanhìti\n\
+Atswalnga' ngal ke kämunge.\n\
+Wäsuyul ko,\n\
+ma Mario!\n\
+Txo nivew Tanhìti a\n\
+lu oer, zivene siva\n\
+tìwusemfa.\n\
 \n\
-Can you pick me up from\n\
-the back and hurl me to\n\
-this royal turf? I think\n\
-that you cannot!"))
+Srake tsun oeti ftuopa\n\
+kxiveltek sì tsre'i sìn\n\
+fìkllte anawm? Fpìl oel\n\
+futa ke tsun!"))
 
 DEFINE_DIALOG(DIALOG_018, 1, 4, 30, 200, _("\
 I'm sleeping because...\n\
@@ -487,26 +487,26 @@ säperi rawng nìk'ong.\n\
 "))
 
 DEFINE_DIALOG(DIALOG_039, 1, 4, 30, 200, _("\
-No visitors allowed,\n\
-by decree of\n\
-the Big Bob-omb\n\
+Zenke fivrrfen\n\
+kawtu a fì'ut fngo'\n\
+Apxa Kxang-angìl\n\
 \n\
-I shall never surrender my\n\
-Stars, for they hold the\n\
-power of the castle in\n\
-their glow.\n\
-They were a gift from\n\
-Bowser, the Koopa King\n\
-himself, and they lie well\n\
-hidden within my realm.\n\
-Not a whisper of their\n\
-whereabouts shall leave\n\
-my lips. Oh, all right,\n\
-perhaps one hint:\n\
-Heed the Star names at\n\
-the beginning of the\n\
-course.\n\
-//--The Big Bob-omb"))
+Kawkrr ke rasya'uyun oeyä\n\
+Sanhìti, taluna seyä\n\
+sänrrur lu tswal\n\
+txintsengä.\n\
+Lamu stxeli a ta Pawser\n\
+alu Eyktan Aylantelakä,\n\
+ulte wolan sat nìltsan\n\
+my hifkey oeyä.\n\
+Seyä klltsengìri kea\n\
+sätsìsyì zenke hivum\n\
+kxaftu oeyä. Tse, tängam,\n\
+kxawm 'awa srungtsyìp:\n\
+Lek aystxoti Sanhìyä\n\
+krra sngä'fi fya'o.\n\
+\n\
+//--Apxa Kxang-ang"))
 
 DEFINE_DIALOG(DIALOG_040, 1, 3, 30, 200, _("\
 Warning!\n\
@@ -1386,25 +1386,25 @@ er, grovel. Here, you win.\n\
 Take this with you!"))
 
 DEFINE_DIALOG(DIALOG_116, 1, 5, 95, 200, _("\
-Whaaa....Whaaat?\n\
-Can it be that a\n\
-pipsqueak like you has\n\
-defused the Bob-omb\n\
-king????\n\
-You might be fast enough\n\
-to ground me, but you'll\n\
-have to pick up the pace\n\
-if you want to take King\n\
-Bowser by the tail.\n\
-Methinks my troops could\n\
-learn a lesson from you!\n\
-Here is your Star, as I\n\
-promised, Mario.\n\
+Peuuu....Peuuu?\n\
+Srake tsunslu fwa\n\
+meyptul alu nga\n\
+tolong Aykang-angä\n\
+eyktanit????\n\
+Latsu nga win nìtam\n\
+fte oeti klltxeykivay, slä\n\
+zene win säpivi fte\n\
+tsrive'i Pawserit\n\
+peyä kxetsefa.\n\
+Fpìl oel futa tsun oeyä\n\
+samsiyu nivume ngeyä hemfa!\n\
+Ngaru Fìtanhì, oeyä\n\
+pänuìlä, ma Mario.\n\
 \n\
-If you want to see me\n\
-again, select this Star\n\
-from the menu. For now,\n\
-farewell."))
+Fte oeti tsive'a nìmun,\n\
+ftxey Fìtanhì krra\n\
+fpxäkìm ìlä rel.\n\
+Makto zong."))
 
 DEFINE_DIALOG(DIALOG_117, 1, 1, 95, 200, _("\
 Who...walk...here?\n\
@@ -1514,10 +1514,10 @@ make him lower his head.\n\
 Don't become his lunch."))
 
 DEFINE_DIALOG(DIALOG_128, 1, 4, 95, 200, _("\
-You must fight with\n\
-honor! It is against the\n\
-royal rules to throw the\n\
-king out of the ring!"))
+Nga zene wivem\n\
+fa meuia! Nawma horenìri\n\
+lu kxanì fwa tsre'i\n\
+eyktanti ftumfa ko'on!"))
 
 DEFINE_DIALOG(DIALOG_129, 1, 5, 30, 200, _("\
 Welcome to the Vanish\n\

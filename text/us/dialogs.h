@@ -76,59 +76,59 @@ Ayoehu nga tsun pivängkxo\n\
 frakrr txo nivew nga!"))
 
 DEFINE_DIALOG(DIALOG_003, 1, 5, 95, 200, _("\
-Thank you, Mario! The Big\n\
-Bob-omb is nothing but a\n\
-big dud now! But the\n\
-battle for the castle has\n\
-just begun.\n\
-Other enemies are holding\n\
-the other Power Stars. If\n\
-you recover more Stars,\n\
-you can open new doors\n\
-that lead to new worlds!\n\
-My Bob-omb Buddies are\n\
-waiting for you. Be sure\n\
-to talk to them--they'll\n\
-set up cannons for you."))
+Irayo, ma Mario! Apxa\n\
+Kxang-ang set lu txepìva\n\
+nì'aw! Slä sngìmä'i\n\
+nì'aw txintsengä\n\
+tsam.\n\
+Lahea kutur lu\n\
+Tswalnga'a Sanhì alahe.\n\
+Txo teykivätxaw ngal\n\
+Sanhìt nì'ul, tsun piak\n\
+sivi mipa ayrawngur!\n\
+Ngari perey Kxang-ang\n\
+Ayeylan oeyä. Sweylu txo\n\
+fohu pivlltxe--ngafpi\n\
+hayawl fol samsä'ot."))
 
 DEFINE_DIALOG(DIALOG_004, 1, 3, 95, 200, _("\
-We're peace-loving\n\
-Bob-ombs, so we don't use\n\
-cannons.\n\
-But if you'd like\n\
-to blast off, we don't\n\
-mind. Help yourself.\n\
-We'll prepare all of the\n\
-cannons in this course for\n\
-you to use. Bon Voyage!"))
+Ayoe lu Aykang-ang a\n\
+sunu for fpom, ha ke\n\
+sar samsä'ot.\n\
+Slä txo nivew nga\n\
+tswivayon, ayoeru\n\
+tam. Kxìmyu nga.\n\
+Hìyawl ayoel fìfya'omì\n\
+a fratsamsä'ot fte\n\
+siyevar nga. Makto zong!"))
 
 DEFINE_DIALOG(DIALOG_005, 1, 3, 30, 200, _("\
-Hey, Mario! Is it true\n\
-that you beat the Big\n\
-Bob-omb? Cool!\n\
-You must be strong. And\n\
-pretty fast. So, how fast\n\
-are you, anyway?\n\
-Fast enough to beat me...\n\
-Koopa the Quick? I don't\n\
-think so. Just try me.\n\
-How about a race to the\n\
-mountaintop, where the\n\
-Big Bob-omb was?\n\
-Whaddya say? When I say\n\
-『Go,』 let the race begin!\n\
+Kxì, ma Mario! Apxa\n\
+Kxang-angit lolätxayn\n\
+srak? Kosman!\n\
+Latsu txur nga. Kop\n\
+win. Ha, pìmxtan win\n\
+nga lu, mìftxele?\n\
+Srake lu win to oe alu\n\
+Lantelak Awin? Ke fpìl\n\
+oe tsafya kaw'it.\n\
+New wäsivul ne fäpa\n\
+rama a tolok Apxa\n\
+Kxang-angìl srak?\n\
+Krra pllxte oe san\n\
+kä sìk, oeng tul ko!\n\
 \n\
-Ready....\n\
+Alaksi....\n\
 \n\
-//Go!////Don't Go"))
+//Kä!////Rä'ä Kä"))
 
 DEFINE_DIALOG(DIALOG_006, 1, 3, 30, 200, _("\
-Hey!!! Don't try to " SCAM_ME
-"You've gotta run\n\
-the whole course.\n\
-Later. Look me up when\n\
-you want to race for\n\
-real."))
+Oìsss!!! Rä'ä fmi flivel\n\
+OETI. Zene tivul nga\n\
+ka fya'o nìwotx.\n\
+Hayalovay. Pängeng oer\n\
+krra new nga wäsivul\n\
+nìngay."))
 
 DEFINE_DIALOG(DIALOG_007, 1, 5, 30, 200, _("\
 Hufff...fff...pufff...\n\
@@ -152,21 +152,21 @@ Tanhì Atswalnga' ro\n\
 zeswa a semkäfew."))
 
 DEFINE_DIALOG(DIALOG_009, 1, 5, 30, 200, _("\
-Long time, no see! Wow,\n\
-have you gotten fast!\n\
-Have you been training\n\
-on the sly, or is it the\n\
-power of the Stars?\n\
-I've been feeling down\n\
-about losing the last\n\
-race. This is my home\n\
-course--how about a\n\
-rematch?\n\
-The goal is in\n\
-Windswept Valley.\n\
-Ready?\n\
+Txankrr ke tsole'a ngat!\n\
+Wou, sloleiu win nga!\n\
+Fu tskxekeng soli nga\n\
+nìwan fu lu tswal\n\
+Sanhìyä?\n\
+Furia hamalo snolaytx\n\
+oe 'efu oe keftxo.\n\
+Fìfya'ol tok kelkut\n\
+oeyä--new liveyn\n\
+säwasulti srak?\n\
+Kantsengìl tok\n\
+Hufweyä Tsongit.\n\
+Alaksi srak?\n\
 \n\
-//Go//// Don't Go"))
+//Kä//// Rä'ä Kä"))
 
 DEFINE_DIALOG(DIALOG_010, 1, 4, 30, 200, _("\
 You've stepped on the\n\
@@ -514,13 +514,13 @@ Cold, Cold Crevasse\n\
 Below!"))
 
 DEFINE_DIALOG(DIALOG_041, 1, 3, 30, 200, _("\
-I win! You lose!\n\
-Ha ha ha!\n\
+Yora' oe! Snaytx nga!\n\
+Herangam!\n\
 \n\
-That's what you get for\n\
-messin' with Koopa the\n\
-Quick.\n\
-Better luck next time!"))
+Fìkem len txo fko fmi\n\
+siva wä Lantelak Awin.\n\
+\n\
+Etrìpa syayvi hayalo!"))
 
 DEFINE_DIALOG(DIALOG_042, 1, 4, 30, 200, _("\
 Caution! Narrow Bridge!\n\
@@ -600,8 +600,8 @@ practice. You don't stand\n\
 a chance without them."))
 
 DEFINE_DIALOG(DIALOG_047, 1, 2, 95, 200, _("\
-Hi! I'll prepare the\n\
-cannon for you!"))
+Kxì! Hìsyawl fpi\n\
+nga tsamsä'ot!"))
 
 DEFINE_DIALOG(DIALOG_048, 1, 4, 30, 200, _("\
 Snow Mountain Summit\n\
@@ -1197,17 +1197,17 @@ the Long Jump? Run, press\n\
 [Z], then jump!"))
 
 DEFINE_DIALOG(DIALOG_095, 1, 4, 30, 200, _("\
-To read a sign, stand in\n\
-front of it and press [B],\n\
-like you did just now.\n\
+Fte ivinan sävllit,\n\
+kllkxem tsaeo ulte 'ampi\n\
+[B]ti, tsakem sìmi nga.\n\
 \n\
-When you want to talk to\n\
-a Koopa Troopa or other\n\
-animal, stand right in\n\
-front of it.\n\
-Please recover the Stars\n\
-that were stolen by\n\
-Bowser in this course."))
+Krra new pivlltxe hu\n\
+Lantelak fu lahea\n\
+ioang, kllkxem eo\n\
+tsapo.\n\
+Rutxe teykivätxaw\n\
+Sanhìt a fmolong\n\
+Pawser mì fìfya'o."))
 
 DEFINE_DIALOG(DIALOG_096, 1, 4, 30, 200, _("\
 The path is narrow here.\n\
@@ -1281,22 +1281,22 @@ all 8 Red Coins, the Star\n\
 will appear here."))
 
 DEFINE_DIALOG(DIALOG_105, 1, 3, 95, 200, _("\
-Ready for blastoff! Come\n\
-on, hop into the cannon!\n\
+Furia tswayon alaksi!\n\
+Fäkä sìn tsamsä'o ko!\n\
 \n\
-You can reach the Star on\n\
-the floating island by\n\
-using the four cannons.\n\
-Use the Control Stick to\n\
-aim, then press [A] to fire.\n\
+Nga tsun livok Tanhìt\n\
+a tok lusìnga sponot fa\n\
+fwa sivar 4a tsamsä'ot.\n\
+Sar vultsyìpit fte kivan,\n\
+tsakrr 'ampi [A]ti fte tivem.\n\
 \n\
-If you're handy, you can\n\
-grab on to trees or poles\n\
-to land."))
+Sìlronsema fya'o a kllwo\n\
+lu fwa niä utralit fu\n\
+swekit."))
 
 DEFINE_DIALOG(DIALOG_106, 1, 2, 95, 200, _("\
-Ready for blastoff! Come\n\
-on, hop into the cannon!"))
+Furia tswayon alaksi!\n\
+Fäkä sìn tsamsä'o ko!"))
 
 DEFINE_DIALOG(DIALOG_107, 1, 3, 95, 200, _("\
 Ghosts...\n\

@@ -41,10 +41,10 @@
 #define WARP_TYPE_SAME_AREA 3
 
 // TODO: Make these ifdefs better
-const char *credits01[] = { "1GAME DIRECTOR", "SHIGERU MIYAMOTO" };
-const char *credits02[] = { "2ASSISTANT DIRECTORS", "YOSHIAKI KOIZUMI", "TAKASHI TEZUKA" };
-const char *credits03[] = { "2SYSTEM PROGRAMMERS", "YASUNARI NISHIDA", "YOSHINORI TANIMOTO" };
-const char *credits04[] = { "3PROGRAMMERS", "HAJIME YAJIMA", "DAIKI IWAMOTO", "TOSHIO IWAWAKI" };
+const char *credits01[] = { "1UVANa EYKTAN", "SHIGERU MIYAMOTO" };
+const char *credits02[] = { "2MEYKTANAY", "YOSHIAKI KOIZUMI", "TAKASHI TEZUKA" };
+const char *credits03[] = { "2VEFYAYa MEKiMYU", "YASUNARI NISHIDA", "YOSHINORI TANIMOTO" };
+const char *credits04[] = { "3PXEKiMYU", "HAJIME YAJIMA", "DAIKI IWAMOTO", "TOSHIO IWAWAKI" };
 
 #if defined(VERSION_JP) || defined(VERSION_SH) || defined(VERSION_CN)
 
@@ -76,21 +76,21 @@ const char *credits16[] = { "2PROGRESS MANAGEMENT", "KIMIYOSHI FUKUI", "KEIZO KA
 #else // VERSION_US || VERSION_EU
 
 // US and EU combine camera programmer and Mario face programmer...
-const char *credits05[] = { "4CAMERA PROGRAMMER", "MARIO FACE PROGRAMMER", "TAKUMI KAWAGOE", "GILES GODDARD" };
-const char *credits06[] = { "2COURSE DIRECTORS", "YOICHI YAMADA", "YASUHISA YAMAMURA" };
-const char *credits07[] = { "2COURSE DESIGNERS", "KENTA USUI", "NAOKI MORI" };
-const char *credits08[] = { "3COURSE DESIGNERS", "YOSHIKI HARUHANA", "MAKOTO MIYANAGA", "KATSUHIKO KANNO" };
+const char *credits05[] = { "4SYEPRELa KXiMYU", "MARIOa KEYa KXiMYU", "TAKUMI KAWAGOE", "GILES GODDARD" };
+const char *credits06[] = { "2FYA'Oa MEYKTAN", "YOICHI YAMADA", "YASUHISA YAMAMURA" };
+const char *credits07[] = { "2FYA'Oa MEONGOPYU", "KENTA USUI", "NAOKI MORI" };
+const char *credits08[] = { "3FYA'Oa PXEONGOPYU", "YOSHIKI HARUHANA", "MAKOTO MIYANAGA", "KATSUHIKO KANNO" };
 
 #ifdef VERSION_US
-const char *credits09[] = { "1SOUND COMPOSER", "KOJI KONDO" };
+const char *credits09[] = { "1PAMTSEONGOPYU", "KOJI KONDO" };
 // ...as well as sound effects and sound programmer in order to make room for screen text writer, Mario voice, and Peach voice
-const char *credits10[] = { "4SOUND EFFECTS", "SOUND PROGRAMMER", "YOJI INAGAKI", "HIDEAKI SHIMIZU" };
-const char *credits11[] = { "23-D ANIMATORS", "YOSHIAKI KOIZUMI", "SATORU TAKIZAWA" };
-const char *credits12[] = { "1ADDITIONAL GRAPHICS", "MASANAO ARIMOTO" };
-const char *credits13[] = { "3TECHNICAL SUPPORT", "TAKAO SAWANO", "HIROHITO YOSHIMOTO", "HIROTO YADA" };
-const char *credits14[] = { "1TECHNICAL SUPPORT", "SGI N64 PROJECT STAFF" };
-const char *credits15[] = { "2PROGRESS MANAGEMENT", "KIMIYOSHI FUKUI", "KEIZO KATO" };
-const char *credits16[] = { "5SCREEN TEXT WRITER", "TRANSLATION", "LESLIE SWAN", "MINA AKINO", "HIRO YAMADA" };
+const char *credits10[] = { "4AYFAM", "PAMa KXiMYU", "YOJI INAGAKI", "HIDEAKI SHIMIZU" };
+const char *credits11[] = { "23D MEREYKIKXYU", "YOSHIAKI KOIZUMI", "SATORU TAKIZAWA" };
+const char *credits12[] = { "1AYREL ASAWNUNG", "MASANAO ARIMOTO" };
+const char *credits13[] = { "3VEFYAYa SRUNG", "TAKAO SAWANO", "HIROHITO YOSHIMOTO", "HIROTO YADA" };
+const char *credits14[] = { "2VEFYAYa SRUNG", "", "AYLERTU TiKANGKEMVIa ALU SGI N64" };
+const char *credits15[] = { "2TiSUSALEWa TiVUSEWNG", "KIMIYOSHI FUKUI", "KEIZO KATO" };
+const char *credits16[] = { "5PAMRELSIYU LE'iNGLiSi", "TiRALPENG LE'iNGLiSi", "LESLIE SWAN", "MINA AKINO", "HIRO YAMADA" };
 #else // VERSION_EU
 // ...as well as sound composer, sound effects, and sound programmer, and...
 const char *credits09[] = { "7SOUND COMPOSER", "SOUND EFFECTS", "SOUND PROGRAMMER", "KOJI KONDO", "YOJI INAGAKI", "HIDEAKI SHIMIZU" };
@@ -107,14 +107,14 @@ const char *credits16[] = { "4SCREEN TEXT WRITER", "GERMAN TRANSLATION", "THOMAS
 #endif
 
 #ifndef VERSION_JP
-const char *credits17[] = { "4MARIO VOICE", "PEACH VOICE", "CHARLES MARTINET", "LESLIE SWAN" };
+const char *credits17[] = { "4MARIOa MOKRI AYRR", "PITSYa MOKRI AYRR", "CHARLES MARTINET", "LESLIE SWAN" };
 #endif
 
 #if defined(VERSION_JP) || defined(VERSION_SH) || defined(VERSION_CN)
 // iQue uses this despite Jyoho Kaihatubu being Japanese
 const char *credits18[] = { "3SPECIAL THANKS TO", "JYOHO KAIHATUBU", "ALL NINTENDO", "MARIO CLUB STAFF" };
 #elif defined(VERSION_US)
-const char *credits18[] = { "3SPECIAL THANKS TO", "EAD STAFF", "ALL NINTENDO PERSONNEL", "MARIO CLUB STAFF" };
+const char *credits18[] = { "3ZEYA IRAYO", "AYLERTUR A TA NINTENDO EAD", "FRALERTUR A TA NINTENDO", "AYLERTUR A TA MARIO CLUB" };
 #else // VERSION_EU
 const char *credits18[] = { "3SPECIAL THANKS TO", "EAD STAFF", "ALL NINTENDO PERSONNEL", "SUPER MARIO CLUB STAFF" };
 #endif
@@ -124,8 +124,8 @@ const char *credits18[] = { "3SPECIAL THANKS TO", "EAD STAFF", "ALL NINTENDO PER
 const char *credits19[] = { "4PRODUCER", "EXECUTIVE PRODUCER", "SHIGERU MIYAMOTO", "HIROSHI YAMAUCHI" };
 const char *credits20[] = { "1CHINA PRODUCTION", "IQUE ENGINEERING" };
 #else
-const char *credits19[] = { "1PRODUCER", "SHIGERU MIYAMOTO" };
-const char *credits20[] = { "1EXECUTIVE PRODUCER", "HIROSHI YAMAUCHI" };
+const char *credits19[] = { "4UVANa VEWNGYU", "TSYEYMa VEWNGYU", "SHIGERU MIYAMOTO", "HIROSHI YAMAUCHI" };
+const char *credits20[] = { "1SREY LENA'VI", "HTML_'RRTA" };
 #endif
 
 struct CreditsEntry sCreditsSequence[] = {

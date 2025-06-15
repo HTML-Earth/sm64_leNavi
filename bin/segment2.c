@@ -858,6 +858,22 @@ ALIGNED8 static const Texture texture_credits_char_period[] = {
 #include "textures/segment2/segment2.07080.rgba16.inc.c"
 };
 
+ALIGNED8 static const Texture texture_credits_char_underscore[] = {
+#include "textures/segment2/segment2.06000.rgba16.inc.c"
+};
+
+ALIGNED8 static const Texture texture_credits_char_AA[] = {
+#include "textures/segment2/segment2.06080.rgba16.inc.c"
+};
+
+ALIGNED8 static const Texture texture_credits_char_II[] = {
+#include "textures/segment2/segment2.06100.rgba16.inc.c"
+};
+
+ALIGNED8 static const Texture texture_credits_char_tiftang[] = {
+#include "textures/segment2/segment2.06180.rgba16.inc.c"
+};
+
 // JP Small Font
 #if defined(VERSION_JP) || defined(VERSION_SH)
 ALIGNED8 static const Texture texture_font_char_jp_0[] = {
@@ -11764,15 +11780,15 @@ const Texture *const main_font_lut[] = {
 
 // credits font LUT 0x02008738-0x020087CB
 const Texture *const main_credits_font_lut[] = {
-                       0x0,                    0x0,                    0x0, texture_credits_char_3,
-    texture_credits_char_4,                    0x0, texture_credits_char_6,                    0x0,
-                       0x0,                    0x0, texture_credits_char_A, texture_credits_char_B,
-    texture_credits_char_C, texture_credits_char_D, texture_credits_char_E, texture_credits_char_F,
-    texture_credits_char_G, texture_credits_char_H, texture_credits_char_I, texture_credits_char_J,
-    texture_credits_char_K, texture_credits_char_L, texture_credits_char_M, texture_credits_char_N,
-    texture_credits_char_O, texture_credits_char_P, texture_credits_char_Q, texture_credits_char_R,
-    texture_credits_char_S, texture_credits_char_T, texture_credits_char_U, texture_credits_char_V,
-    texture_credits_char_W, texture_credits_char_X, texture_credits_char_Y, texture_credits_char_Z,
+    texture_credits_char_AA, texture_credits_char_II, texture_credits_char_tiftang, texture_credits_char_3,
+    texture_credits_char_4,  0x0,                     texture_credits_char_6,       texture_credits_char_underscore,
+                       0x0,  0x0,                     texture_credits_char_A,       texture_credits_char_B,
+    texture_credits_char_C,  texture_credits_char_D,  texture_credits_char_E,       texture_credits_char_F,
+    texture_credits_char_G,  texture_credits_char_H,  texture_credits_char_I,       texture_credits_char_J,
+    texture_credits_char_K,  texture_credits_char_L,  texture_credits_char_M,       texture_credits_char_N,
+    texture_credits_char_O,  texture_credits_char_P,  texture_credits_char_Q,       texture_credits_char_R,
+    texture_credits_char_S,  texture_credits_char_T,  texture_credits_char_U,       texture_credits_char_V,
+    texture_credits_char_W,  texture_credits_char_X,  texture_credits_char_Y,       texture_credits_char_Z,
     texture_credits_char_period,
 };
 

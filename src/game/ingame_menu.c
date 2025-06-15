@@ -2264,6 +2264,22 @@ void dl_rgba16_stop_cutscene_msg_fade(void) {
 }
 
 u8 ascii_to_credits_char(u8 c) {
+    if (c == 'a') {
+        return 0; // Ä
+    }
+
+    if (c == 'i') {
+        return 1; // Ì
+    }
+
+    if (c == '\'') {
+        return 2; // '
+    }
+
+    if (c == '_') {
+        return 7; // _
+    }
+
     if (c >= 'A' && c <= 'Z') {
         return (c - ('A' - 0xA));
     }
@@ -2292,7 +2308,7 @@ u8 ascii_to_credits_char(u8 c) {
         return ASCII_TO_DIALOG('6');
     }
 
-    return GLOBAL_CHAR_SPACE;
+    return 2;//GLOBAL_CHAR_SPACE;
 }
 
 void print_credits_str_ascii(s16 x, s16 y, const char *str) {

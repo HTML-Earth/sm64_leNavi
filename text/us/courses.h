@@ -7,11 +7,11 @@ COURSE_ACTS(COURSE_WF, _(" 2 WOMPÄ TXURTSENG"),
        _("TUNA FNGAP LUSÌNGA SPONOSÌN")   , _("ZUP SÌN SPONO A NGA' PXAWPAT")  , _("TEM FTE KXEMYOÄ HAPXÌT 'IVAKU"))
 
 COURSE_ACTS(COURSE_JRB, _(" 3 WIPA WION A WAPX"),
-       _("TSYEYM MÌ URAN A WOLAPX")       , _("CAN THE EEL COME OUT TO PLAY?") , _("TSYEYM SLÄRÄ TXAMPAYÄ"),
+       _("TSYEYM MÌ URAN A WOLAPX")       , _("WRRKIVÄ MA VAKX APXA")          , _("TSYEYM SLÄRÄ TXAMPAYÄ"),
        _("TUNA FNGAP SÌN URAN A FWUM")    , _("TEM NE SWEK LETSKXE")           , _("WÄ FAYFYA"))
 
 COURSE_ACTS(COURSE_CCM, _(" 4 WURA RAM AWUR"),
-       _("TSKXEPAYSÌN FWI")               , _("LI'L PENGUIN LOST")             , _("BIG PENGUIN RACE"),
+       _("TSKXEPAYSÌN FWI")               , _("YAYOTSYÌP LU LOM")              , _("FWI WÄ YAYO APXA"),
        _("FWI NÌWEW FPI VOLA FNGAP ATUN") , _("HERWÌTUL RE'OT HOLAN")          , _("KINAMFA PXEK KXEMYOT"))
 
 COURSE_ACTS(COURSE_BBH, _(" 5 APXA 'ASAPÄ KELKU"),
@@ -32,7 +32,7 @@ COURSE_ACTS(COURSE_SSL, _("10 UKXOA ATXKXE NENIYÄ"),
 
 COURSE_ACTS(COURSE_DDD, _("11 URANÄ UTURU"),
        _("FÄKÄ SÌN URAN PAWSERÄ")         , _("TSYEYMÄ AYSÄHENA MÌ SWESYA")    , _("SPÄ SWEKFTU FPI FNGAP ATUN"),
-       _("WÄ FAYFYA")                     , _("THE MANTA RAY'S REWARD")        , _("STARSÌM MEHAWRE'TI..."))
+       _("WÄ FAYFYA")                     , _("SLOAPEKÄ STXELI")               , _("STARSÌM MEHAWRE'TI..."))
 
 COURSE_ACTS(COURSE_SL, _("12 HERWÌTUÄ TXANLOKXE"),
        _("APXA RE'O HERWÌTUÄ")            , _("WRRKÄ WURA ÄZANTUHU")           , _("NEMFA ZUM A TA TSKXEPAY"),
@@ -43,11 +43,11 @@ COURSE_ACTS(COURSE_WDW, _("13 UKXOA KIFKEY AMEI"),
        _("YO A KLLKÄ FÄKÄ--WIN SÄPI KO!") , _("TUNA FNGAP MÌ SRAY")            , _("TUL NÌWIN KXAMLÄ TSRAY!"))
 
 COURSE_ACTS(COURSE_TTM, _("14 TSAWLA RAM ATSAWL"),
-       _("TSYÌL RAMIT")                   , _("SYAKSYUKÄ MOÄ INGYENTSIM")      , _("KXAYLA AYSPXAM SÌ TUNA FNGAP"),
+       _("TSYÌL TSAWLA RAMIT")            , _("SYAKSYUKÄ MOÄ INGYENTSIM")      , _("KXAYLA AYSPXAM SÌ TUNA FNGAP"),
        _("INGYENGA'A PA'O RAMÄ")          , _("TÌNG NARI FTU SEMKÄ")           , _("TSWAYON NE SPXAM LE'AWTU"))
 
 COURSE_ACTS(COURSE_THI, _("15 APXA SPONO AHÌ'I"),
-       _("PLUCK THE PIRANHA FLOWER")      , _("RO FÄPA SPONOÄ APXA")           , _("TUL NÌMUN WÄ LANTELAK AWIN"),
+       _("TSAWN YOMVEY'EWLLTI")           , _("RO FÄPA SPONOÄ APXA")           , _("TUL NÌMUN WÄ LANTELAK AWIN"),
        _("WAWNANA 'UTSYÌP AMRR")          , _("WIGGLER'S RED COINS")           , _("MAKE WIGGLER SQUIRM"))
 
 COURSE_ACTS(COURSE_TTC, _("16 TÌK TXEW LOK"),

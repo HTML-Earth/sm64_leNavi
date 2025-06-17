@@ -2308,7 +2308,7 @@ u8 ascii_to_credits_char(u8 c) {
         return ASCII_TO_DIALOG('6');
     }
 
-    return 2;//GLOBAL_CHAR_SPACE;
+    return GLOBAL_CHAR_SPACE;
 }
 
 void print_credits_str_ascii(s16 x, s16 y, const char *str) {

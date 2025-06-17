@@ -208,20 +208,20 @@ Would you like to Save?\n\
 //Yes////No"))
 
 DEFINE_DIALOG(DIALOG_013, 1, 5, 30, 200, _("\
-You've collected 100\n\
-coins! Mario gains more\n\
-power from the castle.\n\
-Do you want to Save?\n\
-//Yes////No"))
+Stolarseiìm ngal 144a\n\
+fngapit! Mariol tswalit\n\
+tel nì'ul txintsengftu.\n\
+New swiveyn tìfkeytokit srak?\n\
+//Srane////Kehe"))
 
 DEFINE_DIALOG(DIALOG_014, 1, 4, 30, 200, _("\
-Wow! Another Power Star!\n\
-Mario gains more courage\n\
-from the power of the\n\
-castle.\n\
-Do you want to Save?\n\
+Wou! Tanhì Atswalnga'!\n\
+Mariol tel tìtstewti\n\
+nì'ul ftu tswal\n\
+txintsengä.\n\
+New swiveyn tìfkeytokit srak?\n\
 \n\
-//You Bet//Not Now"))
+//Sran!////Ke Li"))
 
 DEFINE_DIALOG(DIALOG_015, 1, 4, 30, 200, _("\
 Pxunfa pxivek kutut fte\n\
@@ -290,13 +290,13 @@ tätxaw!\n\
 ~ hangham nìkawng ~"))
 
 DEFINE_DIALOG(DIALOG_022, 1, 2, 95, 200, _("\
-You need a key to open\n\
-this door."))
+Kin ngal sä'ot fte\n\
+piak sivi fìrawngur."))
 
 DEFINE_DIALOG(DIALOG_023, 1, 3, 95, 200, _("\
-This key doesn't fit!\n\
-Maybe it's for the\n\
-basement..."))
+Fìsä'o ke ha'!\n\
+Tìmyìri kxawm zene\n\
+sivar tsat..."))
 
 DEFINE_DIALOG(DIALOG_024, 1, 5, 95, 200, _("\
 Fte fìrawngur piak sivi\n\
@@ -475,11 +475,11 @@ the camera in place while\n\
 holding [R]. Give it a try!"))
 
 DEFINE_DIALOG(DIALOG_037, 1, 2, 30, 200, _("\
-I win! You lose!\n\
-Ha ha ha ha!\n\
-You're no slouch, but I'm\n\
-a better sledder!\n\
-Better luck next time!"))
+Yora' oe! Snaytx nga!\n\
+~ herangam ~\n\
+Ke lu nga ngong, slä\n\
+fwi oe nìltsan to nga!\n\
+Etrìpa syayvi hayalo!"))
 
 DEFINE_DIALOG(DIALOG_038, 1, 3, 95, 200, _("\
 Tswaltalun tanhìyä, piak\n\
@@ -515,7 +515,7 @@ Below!"))
 
 DEFINE_DIALOG(DIALOG_041, 1, 3, 30, 200, _("\
 Yora' oe! Snaytx nga!\n\
-Herangam!\n\
+~ herangam ~\n\
 \n\
 Fìkem len txo fko fmi\n\
 siva wä Lantelak Awin.\n\
@@ -548,29 +548,29 @@ It's the same as grabbing\n\
 a flying bird!"))
 
 DEFINE_DIALOG(DIALOG_044, 1, 5, 95, 200, _("\
-Whooo's there? Whooo\n\
-woke me up? It's still\n\
-daylight--I should be\n\
-sleeping!\n\
+Pesuuu luuu? Tuuupe\n\
+tìtxen soli oer? Tsawke\n\
+lrrtok si mi--sweylu txo\n\
+hivahängaw oe!\n\
 \n\
-Hey, as long as I'm\n\
-awake, why not take a\n\
-short flight with me?\n\
-Press and hold [A] to grab\n\
-on. Release [A] to let go.\n\
-I'll take you wherever\n\
-you want to go, as long\n\
-as my wings hold out.\n\
-Watch my shadow, and\n\
-grab on."))
+Tse, txo lu oe txen,\n\
+tsun tswivayon nìyol\n\
+oehu ko.\n\
+Var 'ivampi [A]ti fte\n\
+fyivep oet. Ftang fte\n\
+livonu. Ketsran tsengne\n\
+nga new kivä, munge ngat,\n\
+txo oey mesyal livewn.\n\
+Oeri ukur tìng nari\n\
+ulte fyep."))
 
 DEFINE_DIALOG(DIALOG_045, 1, 6, 95, 200, _("\
-Whew! I'm just about\n\
-flapped out. You should\n\
-lay off the pasta, Mario!\n\
-That's it for now. Press\n\
-[A] to let go. Okay,\n\
-bye byyyyyyeeee!"))
+Sau! 'Efu oe ngeyn\n\
+fìtxan. Sweylu txo\n\
+yivom nga nìnän, ma Mario!\n\
+Fìalori tsaw tam. 'Ampi\n\
+[A]ti fte livonu. Tam,\n\
+hayaaaaalovay!"))
 
 DEFINE_DIALOG(DIALOG_046, 1, 5, 30, 200, _("\
 You have to master three\n\
@@ -604,10 +604,10 @@ Kxì! Hìsyawl fpi\n\
 nga tsamsä'ot!"))
 
 DEFINE_DIALOG(DIALOG_048, 1, 4, 30, 200, _("\
-Snow Mountain Summit\n\
-Watch for slippery\n\
-conditions! Please enter\n\
-the cottage first."))
+Herwìyä Ramä Fäpa\n\
+Tsukfwia yori lare!\n\
+Rutxe fpxäkìm nemfa\n\
+kelku nì'awve."))
 
 DEFINE_DIALOG(DIALOG_049, 1, 5, 30, 200, _("\
 Remember that tricky Wall\n\

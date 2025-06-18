@@ -337,40 +337,40 @@ tanhìti.\n\
 ~ hangham nìkawng ~"))
 
 DEFINE_DIALOG(DIALOG_030, 1, 6, 30, 200, _("\
-Hello! The Lakitu Bros.,\n\
-cutting in with a live\n\
-update on Mario's\n\
-progress. He's about to\n\
-learn a technique for\n\
-sneaking up on enemies.\n\
-The trick is this: He has\n\
-to walk very slowly in\n\
-order to walk quietly.\n\
+Kaltxì! Lakitu Mesmuk,\n\
+meräkxu fte piveng\n\
+Mariofkeykit\n\
+lefkrr. Fya'ori a lok\n\
+kxutut nìfnu po nìyume.\n\
+Lu ingyentsyìp alu fko\n\
+zene tivìran nìk'ong\n\
+nìtxan fte tivìran\n\
+nìfnu.\n\
 \n\
 \n\
 \n\
-And wrapping up filming\n\
-techniques reported on\n\
-earlier, you can take a\n\
-look around using [C]▶ and\n\
-[C]◀. Press [C]▼ to view the\n\
-action from a distance.\n\
-When you can't move the\n\
-camera any farther, the\n\
-buzzer will sound. This is\n\
-the Lakitu Bros.,\n\
-signing off."))
+Fya'ori a hipx syeprelti,\n\
+lìyawk syena säomumit.\n\
+Nga tsun syeprelit\n\
+meykivìn fa [C]▶ sì\n\
+[C]◀. 'Ampi [C]▼ti fte\n\
+tivìng nari alìm.\n\
+Txo ke tsivun rivikx\n\
+nì'ul syeprel, tsakrr\n\
+pam si.\n\
+Lakitu Mesmuk plltxe\n\
+san hayalovay."))
 
 DEFINE_DIALOG(DIALOG_031, 1, 5, 30, 200, _("\
-No way! You beat me...\n\
-again!! And I just spent\n\
-my entire savings on\n\
-these new Koopa\n\
-Mach 1 Sprint shoes!\n\
-Here, I guess I have to\n\
-hand over this Star to\n\
-the winner of the race.\n\
-Congrats, Mario!"))
+Keltsun! Lolätxayn oet...\n\
+nìmun!! Kìmanängom oel\n\
+fìmehavnventi afyole\n\
+yoa oeyä fratxolar\n\
+aswawneyn!\n\
+Tse, oel zenatse tivìng\n\
+Tanhìti yora'turu.\n\
+Ngaru fì'u. Seykxel sì\n\
+nitram, ma Mario!"))
 
 DEFINE_DIALOG(DIALOG_032, 1, 5, 30, 200, _("\
 If you get the Wing Cap,\n\
@@ -709,34 +709,34 @@ Star instead. You've\n\
 earned it!"))
 
 DEFINE_DIALOG(DIALOG_057, 1, 4, 30, 200, _("\
-Egad! My baby!! Have you\n\
-seen my baby??? She's\n\
-the most precious baby in\n\
-the whole wide world.\n\
-(They say she has my\n\
-beak...) I just can't\n\
-remember where I left\n\
-her.\n\
-Let's see...I stopped\n\
-for herring and ice cubes,\n\
-then I...oohh! I just\n\
-don't know!"))
+Au! Oeyä 'ite!! Ngal\n\
+poti tsìme'a srak???\n\
+Lu paskalin ahona frato\n\
+mì sìrey.\n\
+(Plltxe fko san poru\n\
+lu sney sa'nokä 'eng...)\n\
+Ke zerängok teyngta\n\
+yolem pot peseng.\n\
+Fpivìl...Namew oe\n\
+kivanom payoangit\n\
+sì tskxepayti, ulte...\n\
+Komum!"))
 
 DEFINE_DIALOG(DIALOG_058, 1, 4, 30, 200, _("\
-You found my precious,\n\
-precious baby! Where\n\
-have you been? How can\n\
-I ever thank you, Mario?\n\
-Oh, I do have this...\n\
-...Star. Here, take it\n\
-with my eternal\n\
-gratitude."))
+Roleiun ngal oeyä\n\
+paskalintsyìpit! Ngal\n\
+tamok pesengti? Tsun\n\
+ngaru irayo sivi pefya,\n\
+ma Mario? E, lu oer\n\
+fì...tanhì. Ngaru fì'u\n\
+fa oeyä tì'ilukea\n\
+irayo."))
 
 DEFINE_DIALOG(DIALOG_059, 1, 4, 30, 200, _("\
-That's not my baby! She\n\
-looks nothing like me!\n\
-Her parents must be\n\
-worried sick!"))
+Ke längu tsapo 'ite oey!\n\
+Pori 'ur ke fkan na oe\n\
+kaw'it! Sngum seratsi\n\
+peyä sa'sem!"))
 
 DEFINE_DIALOG(DIALOG_060, 1, 4, 30, 200, _("\
 ATTENTION!\n\

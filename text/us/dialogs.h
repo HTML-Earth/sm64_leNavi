@@ -1996,7 +1996,7 @@ new ayoel, ha lu ayoer\n\
 'uotsyìp ngaru.\n\
 Sìlpey tsnì ngaru sivunu!\n\
 Zivawprrte'!!! 』 sìk\n\
-Ta pongu uvanä alu\n\
+Ta ayngopyu uvanä alu\n\
 Fyolea Mario Zam"))
 
 DEFINE_DIALOG(DIALOG_162, 1, 4, 30, 200, _("\

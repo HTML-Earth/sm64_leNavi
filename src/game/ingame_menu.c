@@ -967,7 +967,17 @@ s16 get_str_x_pos_from_center(s16 centerPos, u8 *str, UNUSED f32 scale) {
     }
 #else
     while (str[strPos] != DIALOG_CHAR_TERMINATOR) {
-        spacesWidth += gDialogCharWidths[str[strPos]];
+        switch (str[strPos]) {
+            case DIALOG_CHAR_NAVI_LOWER_A: case DIALOG_CHAR_NAVI_UPPER_A: // Ä
+                spacesWidth += gDialogCharWidths[10]; // A
+                break;
+            case DIALOG_CHAR_NAVI_LOWER_I: case DIALOG_CHAR_NAVI_UPPER_I: // Ì
+                spacesWidth += gDialogCharWidths[18]; // I
+                break;
+            default:
+                spacesWidth += gDialogCharWidths[str[strPos]];
+                break;
+        }
         strPos++;
     }
 #endif

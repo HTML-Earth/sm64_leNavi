@@ -234,9 +234,9 @@ kxeltek 'uot. Fte 'uot\n\
 tsrive'i 'ampi [B]ti nìmun."))
 
 DEFINE_DIALOG(DIALOG_016, 1, 3, 30, 200, _("\
-Hop on the shiny shell and\n\
-ride wherever you want to\n\
-go! Shred those enemies!"))
+Nga tsun mivakto lakit!\n\
+Makto ketsrana tsengne\n\
+ulte kutut takuk!"))
 
 DEFINE_DIALOG(DIALOG_017, 1, 4, 30, 200, _("\
 Lu oe Apxa Kxang-ang, alu\n\
@@ -265,14 +265,14 @@ fìkllte anawm? Fpìl oel\n\
 futa ke tsun!"))
 
 DEFINE_DIALOG(DIALOG_018, 1, 4, 30, 200, _("\
-I'm sleeping because...\n\
-...I'm sleepy. I don't\n\
-like being disturbed.\n\
-Please walk quietly."))
+Herahaw oe taluna...\n\
+...'efu ngeyn. Ke sunu\n\
+fwa oeti txung fkol.\n\
+Tìran nìfnu rutxe."))
 
 DEFINE_DIALOG(DIALOG_019, 1, 2, 30, 200, _("\
-Shhh! Please walk\n\
-quietly in the hallway!"))
+Fnu! Rutxe tìran\n\
+nì'ango fìmomì!"))
 
 DEFINE_DIALOG(DIALOG_020, 1, 6, 95, 150, _("\
 Ma Mario ayawne:\n\
@@ -373,19 +373,19 @@ Ngaru fì'u. Seykxel sì\n\
 nitram, ma Mario!"))
 
 DEFINE_DIALOG(DIALOG_032, 1, 5, 30, 200, _("\
-If you get the Wing Cap,\n\
-you can fly! Put the cap\n\
-on, then do a Triple\n\
-Jump--jump three times\n\
-in a row--to take off.\n\
-You can fly even higher\n\
-if you blast out of a\n\
-cannon wearing the\n\
-Wing Cap!\n\
+Txo livu ngar Hawre'\n\
+a Tswayon, tsun nga\n\
+tswivayon! Yemstokx\n\
+tsat ulte spä pxelo\n\
+fte yawivo.\n\
+Txo yawivo tsamsä'oftu\n\
+tengkrr yemstokx tsat\n\
+tsun tswivayon nì'ul\n\
+nìkxayl!\n\
 \n\
-Use the [C] Buttons to look\n\
-around while flying, and\n\
-press [Z] to land."))
+'Ampi ayyotsyìpit alu\n\
+[C] fte kivìm syeprelit\n\
+ulte [Z]ti fte kllwivo."))
 
 DEFINE_DIALOG(DIALOG_033, 1, 6, 30, 200, _("\
 Kaltxì! Polähem nga\n\
@@ -683,18 +683,18 @@ Control Stick. To slow\n\
 down, pull back."))
 
 DEFINE_DIALOG(DIALOG_055, 1, 4, 30, 200, _("\
-Hey-ey, Mario, buddy,\n\
-howzit goin'? Step right\n\
-up. You look like a fast\n\
-sleddin' kind of guy.\n\
-I know speed when I see\n\
-it, yes siree--I'm the\n\
-world champion sledder,\n\
-you know. Whaddya say?\n\
-How about a race?\n\
-Ready...\n\
+Kxì, ma 'eylan Mario,\n\
+makto fyape? Livok.\n\
+Ngari fkan na tute\n\
+a tsun fwivi nìwin.\n\
+Fnan oel frato futa\n\
+fwi, ha tsun ngati\n\
+inan kezemplltxe ko.\n\
+Tse, srake nga new\n\
+wäsivul?\n\
+Alaksi...\n\
 \n\
-//Go//// Don't Go"))
+//Kä//// Rä'ä Kä"))
 
 DEFINE_DIALOG(DIALOG_056, 1, 6, 30, 200, _("\
 You brrrr-oke my record!\n\
@@ -865,15 +865,15 @@ Good luck, Mario! Our\n\
 fate is in your hands."))
 
 DEFINE_DIALOG(DIALOG_067, 1, 5, 30, 200, _("\
-Tough luck, Mario!\n\
-Princess Toadstool isn't\n\
-here...Gwa ha ha!! Go\n\
-ahead--just try to grab\n\
-me by the tail!\n\
-You'll never be able to\n\
-swing ME around! A wimp\n\
-like you won't throw me\n\
-out of here! Never! Ha!"))
+Yewla, ma Mario!\n\
+Olo'eykte Pitsyìl ke\n\
+tok fìtseng... HRH!\n\
+Kxìmyu nga--tsun oey\n\
+kxetset fmivi niviä!\n\
+Kawkrr tsivun nga\n\
+tsrive'i OETI! Ngal\n\
+sko meyptu kawkrr\n\
+oeti heykum! Kawkrr!"))
 
 DEFINE_DIALOG(DIALOG_068, 1, 5, 30, 200, _("\
 It's Lethal Lava Land!\n\
@@ -1152,12 +1152,12 @@ Red Circle: Elevator 2\n\
 Arrow: You are here"))
 
 DEFINE_DIALOG(DIALOG_090, 1, 6, 30, 200, _("\
-Bwa ha ha ha!\n\
-You've stepped right into\n\
-my trap, just as I knew\n\
-you would! I warn you,\n\
-『Friend,』 watch your\n\
-step!"))
+~ hangham nìkawng ~\n\
+Zìmup nga nìyey nemfa\n\
+oey säsyep, nìfya'o\n\
+a oel kolan! pllhrr,\n\
+ngar ma『'eylan』,\n\
+nari si!"))
 
 DEFINE_DIALOG(DIALOG_091, 2, 2, 30, 200, _("\
 Danger!\n\
@@ -1222,11 +1222,11 @@ Move slowly,\n\
 tread lightly."))
 
 DEFINE_DIALOG(DIALOG_097, 1, 5, 30, 200, _("\
-Don't be a pushover!\n\
-If anyone tries to shove\n\
-you around, push back!\n\
-It's one-on-one, with a\n\
-fiery finish for the loser!"))
+Rä'ä livu velekyu!\n\
+Txo fko fmi ngati\n\
+zivärìp, nì'eyng\n\
+zärìp! Lu säwem a\n\
+snaytu palon!"))
 
 DEFINE_DIALOG(DIALOG_098, 1, 2, 95, 200, _("\
 Come on in here...\n\

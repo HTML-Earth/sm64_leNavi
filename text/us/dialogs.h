@@ -389,7 +389,7 @@ ulte [Z]ti fte kllwivo."))
 
 DEFINE_DIALOG(DIALOG_033, 1, 6, 30, 200, _("\
 Kaltxì! Polähem nga\n\
-ro tintseng olo'eykteyä\n\
+ro tintseng Olo'eykteyä\n\
 fa sreyker a rong.\n\
 Fwa sar sä'ot a hipx lu\n\
 fyin fìtxan. 'Ampi [A]ti fte\n\
@@ -405,7 +405,7 @@ DEFINE_DIALOG(DIALOG_034, 1, 6, 30, 200, _("\
 Trr lefpom. Lu Lakitu\n\
 Mesmuk a nìfkrr pereng\n\
 fmawnit ftu pxawngip\n\
-txintsengä olo'eykteyä.\n\
+txintsengä Olo'eykteyä.\n\
 \n\
 \n\
 Mario pìmate fìtseng,\n\
@@ -1364,26 +1364,26 @@ courses to activate the\n\
 Cap Blocks."))
 
 DEFINE_DIALOG(DIALOG_114, 1, 5, 95, 200, _("\
-It makes me so mad! We\n\
-build your houses, your\n\
-castles. We pave your\n\
-roads, and still you\n\
-walk all over us.\n\
-Do you ever say thank\n\
-you? No! Well, you're not\n\
-going to wipe your feet\n\
-on me! I think I'll crush\n\
-you just for fun!\n\
-Do you have a problem\n\
-with that? Just try to\n\
-pound me, wimp! Ha!"))
+Steykängi oet! Ayoel\n\
+txula ayngeyä helkut\n\
+sì turtsengit. Ngop\n\
+ayngeyä ayfya'ot, ulte\n\
+mi aynga tìran ayoeka.\n\
+Plltxe aynga san irayo\n\
+sìk srak? Kehe! Tse, ke\n\
+keynven sìn oe nga!\n\
+New ngati srivu' talun\n\
+tì'o'! Srake tsaw\n\
+lu tìngäzìk ngaru?\n\
+Tsakrr fmi oeti fpivap,\n\
+ma meyptu! HRH!"))
 
 DEFINE_DIALOG(DIALOG_115, 1, 5, 95, 200, _("\
-No! Crushed again!\n\
-I'm just a stepping stone,\n\
-after all. I won't gravel,\n\
-er, grovel. Here, you win.\n\
-Take this with you!"))
+Kehe! Srolu' nìmun!\n\
+Latsu oe nì'aw tskxe-keng.\n\
+Ke new futa nìhawng krrnìkx,\n\
+kolan, krrnekx. Nga yora'.\n\
+Ngaru fì'u!"))
 
 DEFINE_DIALOG(DIALOG_116, 1, 5, 95, 200, _("\
 Peuuu....Peuuu?\n\
@@ -1711,41 +1711,41 @@ Left: Black Hole\n\
 Arrow: You are here"))
 
 DEFINE_DIALOG(DIALOG_141, 1, 5, 150, 200, _("\
-You've recovered one of\n\
-the stolen Power Stars!\n\
-Now you can open some of\n\
-the sealed doors in the\n\
-castle.\n\
-Try the Princess's room\n\
-on the second floor and\n\
-the room with the\n\
-painting of Whomp's\n\
-Fortress on Floor 1.\n\
-Bowser's troops are still\n\
-gaining power, so you\n\
-can't give up. Save us,\n\
-Mario! Keep searching for\n\
-Stars!"))
+Teykoläteiaw ngal\n\
+'awa Tanhìti afmawnong!\n\
+Set tsun piak sivi\n\
+'a'awa rawngur afyawnel\n\
+txintsengä.\n\
+May' Olo'eykteyä moti\n\
+a tok muvea yìti sì\n\
+moti a nga' relit\n\
+alu Wompä Txurtseng\n\
+ro yì a'awve.\n\
+Pawserä samsiyu mi\n\
+keranom tswalit, ha\n\
+rä'ä velek. Ayoeti\n\
+tarep ma Mario! var\n\
+fwivew Sanhìt!"))
 
 DEFINE_DIALOG(DIALOG_142, 1, 5, 150, 200, _("\
-You've recovered three\n\
-Power Stars! Now you can\n\
-open any door with a 3\n\
-on its star.\n\
+Teykoläteiaw ngal\n\
+Pxesanhìti! Set nga\n\
+rawngur a nga'\n\
+holpxayti alu 3\n\
+tsun piak sivi.\n\
 \n\
-You can come and go from\n\
-the open courses as you\n\
-please. The enemies ahead\n\
-are even meaner, so be\n\
-careful!"))
+Piaka fya'ori fko tsun\n\
+kivä ziva'u ketsrana\n\
+krro. Kutu sti nì'ul,\n\
+ha fori nari si!"))
 
 DEFINE_DIALOG(DIALOG_143, 1, 6, 150, 200, _("\
-You've recovered eight of\n\
-the Power Stars! Now you\n\
-can open the door with\n\
-the big Star! But Bowser\n\
-is just ahead...can you\n\
-hear the Princess calling?"))
+Teykoläteiaw ngal vola\n\
+Tanhì Atswalnga'! Set\n\
+tsun piak sivi rawngur\n\
+a tsar lu apxa Tanhì! Slä\n\
+Pawser sim...srake stawm\n\
+Olo'eykteti a syeraw?"))
 
 DEFINE_DIALOG(DIALOG_144, 1, 6, 150, 200, _("\
 You've recovered 30\n\

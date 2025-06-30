@@ -40,93 +40,33 @@
 #define WARP_TYPE_CHANGE_AREA 2
 #define WARP_TYPE_SAME_AREA 3
 
-// TODO: Make these ifdefs better
 const char *credits01[] = { "1UVANa EYKTAN", "SHIGERU MIYAMOTO" };
 const char *credits02[] = { "2MEYKTANAY", "YOSHIAKI KOIZUMI", "TAKASHI TEZUKA" };
 const char *credits03[] = { "2VEFYAYa MEKiMYU", "YASUNARI NISHIDA", "YOSHINORI TANIMOTO" };
 const char *credits04[] = { "3PXEKiMYU", "HAJIME YAJIMA", "DAIKI IWAMOTO", "TOSHIO IWAWAKI" };
 
-#if defined(VERSION_JP) || defined(VERSION_SH) || defined(VERSION_CN)
-
-const char *credits05[] = { "1CAMERA PROGRAMMER", "TAKUMI KAWAGOE" };
-const char *credits06[] = { "1MARIO FACE PROGRAMMER", "GILES GODDARD" };
-const char *credits07[] = { "2COURSE DIRECTORS", "YOICHI YAMADA", "YASUHISA YAMAMURA" };
-const char *credits08[] = { "2COURSE DESIGNERS", "KENTA USUI", "NAOKI MORI" };
-const char *credits09[] = { "3COURSE DESIGNERS", "YOSHIKI HARUHANA", "MAKOTO MIYANAGA", "KATSUHIKO KANNO" };
-const char *credits10[] = { "1SOUND COMPOSER", "KOJI KONDO" };
-
-#ifdef VERSION_JP
-const char *credits11[] = { "1SOUND EFFECTS", "YOJI INAGAKI" };
-const char *credits12[] = { "1SOUND PROGRAMMER", "HIDEAKI SHIMIZU" };
-const char *credits13[] = { "23D ANIMATORS", "YOSHIAKI KOIZUMI", "SATORU TAKIZAWA" };
-const char *credits14[] = { "1CG DESIGNER", "MASANAO ARIMOTO" };
-const char *credits15[] = { "3TECHNICAL SUPPORT", "TAKAO SAWANO", "HIROHITO YOSHIMOTO", "HIROTO YADA" };
-const char *credits16[] = { "1TECHNICAL SUPPORT", "SGI. 64PROJECT STAFF" };
-const char *credits17[] = { "2PROGRESS MANAGEMENT", "KIMIYOSHI FUKUI", "KEIZO KATO" };
-#else // VERSION_SH || VERSION_CN
-// Shindou and iQue combine sound effects and sound programmer in order to make room for Mario voice and Peach voice
-const char *credits11[] = { "4SOUND EFFECTS", "SOUND PROGRAMMER", "YOJI INAGAKI", "HIDEAKI SHIMIZU" };
-const char *credits12[] = { "23D ANIMATORS", "YOSHIAKI KOIZUMI", "SATORU TAKIZAWA" };
-const char *credits13[] = { "1CG DESIGNER", "MASANAO ARIMOTO" };
-const char *credits14[] = { "3TECHNICAL SUPPORT", "TAKAO SAWANO", "HIROHITO YOSHIMOTO", "HIROTO YADA" };
-const char *credits15[] = { "1TECHNICAL SUPPORT", "SGI. 64PROJECT STAFF" };
-const char *credits16[] = { "2PROGRESS MANAGEMENT", "KIMIYOSHI FUKUI", "KEIZO KATO" };
-#endif
-
-#else // VERSION_US || VERSION_EU
-
-// US and EU combine camera programmer and Mario face programmer...
 const char *credits05[] = { "4SYEPRELa KXiMYU", "MARIOa KEYa KXiMYU", "TAKUMI KAWAGOE", "GILES GODDARD" };
 const char *credits06[] = { "2FYA'Oa MEYKTAN", "YOICHI YAMADA", "YASUHISA YAMAMURA" };
 const char *credits07[] = { "2FYA'Oa MEONGOPYU", "KENTA USUI", "NAOKI MORI" };
 const char *credits08[] = { "3FYA'Oa PXEONGOPYU", "YOSHIKI HARUHANA", "MAKOTO MIYANAGA", "KATSUHIKO KANNO" };
 
-#ifdef VERSION_US
 const char *credits09[] = { "1PAMTSEONGOPYU", "KOJI KONDO" };
-// ...as well as sound effects and sound programmer in order to make room for screen text writer, Mario voice, and Peach voice
 const char *credits10[] = { "4AYFAM", "PAMa KXiMYU", "YOJI INAGAKI", "HIDEAKI SHIMIZU" };
+
 const char *credits11[] = { "23D MEREYKIKXYU", "YOSHIAKI KOIZUMI", "SATORU TAKIZAWA" };
 const char *credits12[] = { "1AYREL ASAWNUNG", "MASANAO ARIMOTO" };
+
 const char *credits13[] = { "3VEFYAYa SRUNG", "TAKAO SAWANO", "HIROHITO YOSHIMOTO", "HIROTO YADA" };
 const char *credits14[] = { "2VEFYAYa SRUNG", "", "AYLERTU TiKANGKEMVIa ALU SGI N64" };
 const char *credits15[] = { "2TiSUSALEWa TiVUSEWNG", "KIMIYOSHI FUKUI", "KEIZO KATO" };
+
 const char *credits16[] = { "5PAMRELSIYU LE'iNGLiSi", "TiRALPENG LE'iNGLiSi", "LESLIE SWAN", "MINA AKINO", "HIRO YAMADA" };
-#else // VERSION_EU
-// ...as well as sound composer, sound effects, and sound programmer, and...
-const char *credits09[] = { "7SOUND COMPOSER", "SOUND EFFECTS", "SOUND PROGRAMMER", "KOJI KONDO", "YOJI INAGAKI", "HIDEAKI SHIMIZU" };
-// ...3D animators and additional graphics in order to make room for screen text writer(s), Mario voice, and Peach voice
-const char *credits10[] = { "63-D ANIMATORS", "ADDITIONAL GRAPHICS", "YOSHIAKI KOIZUMI", "SATORU TAKIZAWA", "MASANAO ARIMOTO" };
-const char *credits11[] = { "3TECHNICAL SUPPORT", "TAKAO SAWANO", "HIROHITO YOSHIMOTO", "HIROTO YADA" };
-const char *credits12[] = { "1TECHNICAL SUPPORT", "SGI N64 PROJECT STAFF" };
-const char *credits13[] = { "2PROGRESS MANAGEMENT", "KIMIYOSHI FUKUI", "KEIZO KATO" };
-const char *credits14[] = { "5SCREEN TEXT WRITER", "ENGLISH TRANSLATION", "LESLIE SWAN", "MINA AKINO", "HIRO YAMADA" };
-const char *credits15[] = { "4SCREEN TEXT WRITER", "FRENCH TRANSLATION", "JULIEN BARDAKOFF", "KENJI HARAGUCHI" };
-const char *credits16[] = { "4SCREEN TEXT WRITER", "GERMAN TRANSLATION", "THOMAS GOERG", "THOMAS SPINDLER" };
-#endif
-
-#endif
-
-#ifndef VERSION_JP
 const char *credits17[] = { "4MARIOa MOKRI AYRR", "PITSYa MOKRI AYRR", "CHARLES MARTINET", "LESLIE SWAN" };
-#endif
 
-#if defined(VERSION_JP) || defined(VERSION_SH) || defined(VERSION_CN)
-// iQue uses this despite Jyoho Kaihatubu being Japanese
-const char *credits18[] = { "3SPECIAL THANKS TO", "JYOHO KAIHATUBU", "ALL NINTENDO", "MARIO CLUB STAFF" };
-#elif defined(VERSION_US)
 const char *credits18[] = { "3ZEYA IRAYO", "AYLERTUR A TA NINTENDO EAD", "FRALERTUR A TA NINTENDO", "AYLERTUR A TA MARIO CLUB" };
-#else // VERSION_EU
-const char *credits18[] = { "3SPECIAL THANKS TO", "EAD STAFF", "ALL NINTENDO PERSONNEL", "SUPER MARIO CLUB STAFF" };
-#endif
-
-#ifdef VERSION_CN
-// iQue combines producer and executive producer in order to make room for China production
-const char *credits19[] = { "4PRODUCER", "EXECUTIVE PRODUCER", "SHIGERU MIYAMOTO", "HIROSHI YAMAUCHI" };
-const char *credits20[] = { "1CHINA PRODUCTION", "IQUE ENGINEERING" };
-#else
 const char *credits19[] = { "4UVANa VEWNGYU", "TSYEYMa VEWNGYU", "SHIGERU MIYAMOTO", "HIROSHI YAMAUCHI" };
+
 const char *credits20[] = { "1SREY LENA'VI", "HTML_'RRTA" };
-#endif
 
 struct CreditsEntry sCreditsSequence[] = {
     { LEVEL_CASTLE_GROUNDS, 1, 1, -128, { 0, 8000, 0 }, NULL },

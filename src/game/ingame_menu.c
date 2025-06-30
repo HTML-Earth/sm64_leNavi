@@ -2952,13 +2952,8 @@ void play_star_fanfare_and_flash_hud(s32 arg, u8 starFlag) {
     }
 }
 
-#ifdef VERSION_EU
-    #define TXT_NAME_X1 centerX
-    #define TXT_NAME_X2 centerX - 1
-#else
     #define TXT_NAME_X1 71
     #define TXT_NAME_X2 TXT_NAME_X1 - 2
-#endif
 
 #if defined(VERSION_JP) || defined(VERSION_SH)
     #define CRS_NUM_X2 95
@@ -2991,7 +2986,6 @@ void render_course_complete_lvl_info_and_hud_str(void) {
 
     u8 strCourseNum[4];
 
-    s16 centerX;
     actNameTbl = segmented_to_virtual(seg2_act_name_table);
     courseNameTbl = segmented_to_virtual(seg2_course_name_table);
 
@@ -3026,9 +3020,6 @@ void render_course_complete_lvl_info_and_hud_str(void) {
         gSPDisplayList(gDisplayListHead++, dl_ia_text_begin);
 
         gDPSetEnvColor(gDisplayListHead++, 0, 0, 0, gMenuTextAlpha);
-#ifdef VERSION_EU
-        centerX = get_str_x_pos_from_center(153, name, 12.0f);
-#endif
         print_generic_string(TXT_NAME_X1, 130, name);
         print_generic_string(TXT_CLEAR_X1, 130, textClear);
 

@@ -1656,30 +1656,7 @@ const Gfx dl_menu_ia8_text_end[] = {
 
 UNUSED static const u64 menu_unused_1 = 0;
 
-#ifdef VERSION_EU
-
-// 0x0700BDA0 - 0x0700CDA0
-ALIGNED8 static const Texture texture_menu_course_upper[] = {
-#include "levels/menu/main_menu_seg7_eu.0BDA0.rgba16.inc.c"
-};
-
-// 0x0700CDA0 - 0x0700DDA0
-ALIGNED8 static const Texture texture_menu_niveau_upper[] = {
-#include "levels/menu/main_menu_seg7_eu.0CDA0.rgba16.inc.c"
-};
-
-// 0x0700DDA0 - 0x0700EDA0
-ALIGNED8 static const Texture texture_menu_kurs_upper[] = {
-#include "levels/menu/main_menu_seg7_eu.0DDA0.rgba16.inc.c"
-};
-
-// 0x0700EDA0 - 0x0700FDA0
-ALIGNED8 static const Texture texture_menu_course_lower[] = {
-#include "levels/menu/main_menu_seg7_eu.0EDA0.rgba16.inc.c"
-};
-
-#elif defined(VERSION_CN)
-
+#ifdef VERSION_CN
 // 0x070BCE0 - 0x070CCE0
 ALIGNED8 static const Texture texture_menu_course_upper[] = {
 #include "levels/menu/main_menu_seg7_cn.0BCE0.rgba16.inc.c"
@@ -1725,13 +1702,7 @@ const Gfx dl_menu_rgba16_wood_course[] = {
     gsDPSetCombineMode(G_CC_DECALRGBA, G_CC_DECALRGBA),
     gsSPTexture(0x8000, 0x8000, 0, G_TX_RENDERTILE, G_ON),
     gsDPSetRenderMode(G_RM_AA_TEX_EDGE, G_RM_AA_TEX_EDGE2),
-#ifdef VERSION_EU
-    gsSPEndDisplayList(),
-};
-const Gfx dl_menu_rgba16_wood_course_end[] = {
-#else
     gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, texture_menu_course_upper),
-#endif
     gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 0, 0, G_TX_LOADTILE, 0, G_TX_WRAP | G_TX_NOMIRROR, G_TX_NOMASK, G_TX_NOLOD, G_TX_WRAP | G_TX_NOMIRROR, G_TX_NOMASK, G_TX_NOLOD),
     gsDPLoadSync(),
     gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 64 * 32 - 1, CALC_DXT(64, G_IM_SIZ_16b_BYTES)),
@@ -1752,26 +1723,6 @@ const Gfx dl_menu_rgba16_wood_course_end[] = {
     gsDPSetCombineMode(G_CC_SHADE, G_CC_SHADE),
     gsSPEndDisplayList(),
 };
-
-#ifdef VERSION_EU
-// 0x0700FEF0 - 0x0700FF00
-const Gfx dl_menu_texture_course_upper[] = {
-    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, texture_menu_course_upper),
-    gsSPEndDisplayList(),
-};
-
-// 0x0700FF00 - 0x0700FF10
-const Gfx dl_menu_texture_niveau_upper[] = {
-    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, texture_menu_niveau_upper),
-    gsSPEndDisplayList(),
-};
-
-// 0x0700FF10 - 0x0700FF20
-const Gfx dl_menu_texture_kurs_upper[] = {
-    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, texture_menu_kurs_upper),
-    gsSPEndDisplayList(),
-};
-#endif
 
 // 0x0700F2F8 - 0x0700F328
 const Collision main_menu_seg7_collision[] = {

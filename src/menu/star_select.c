@@ -217,34 +217,13 @@ int dec_to_oct_3(int dec) {
 /**
  * Print the course number selected with the wood rgba16 course texture.
  */
-#ifdef VERSION_EU
-void print_course_number(s16 language) {
-#else
 void print_course_number(void) {
-#endif
     u8 courseNum[4];
 
     create_dl_translation_matrix(MENU_MTX_PUSH, 158.0f, 81.0f, 0.0f);
 
     // Full wood texture in JP & US, lower part of it on EU
     gSPDisplayList(gDisplayListHead++, dl_menu_rgba16_wood_course);
-
-#ifdef VERSION_EU
-    // Change upper part of the wood texture depending of the language defined
-    switch (language) {
-        case LANGUAGE_ENGLISH:
-            gSPDisplayList(gDisplayListHead++, dl_menu_texture_course_upper);
-            break;
-        case LANGUAGE_FRENCH:
-            gSPDisplayList(gDisplayListHead++, dl_menu_texture_niveau_upper);
-            break;
-        case LANGUAGE_GERMAN:
-            gSPDisplayList(gDisplayListHead++, dl_menu_texture_kurs_upper);
-            break;
-    }
-
-    gSPDisplayList(gDisplayListHead++, dl_menu_rgba16_wood_course_end);
-#endif
 
     gSPPopMatrix(gDisplayListHead++, G_MTX_MODELVIEW);
     gSPDisplayList(gDisplayListHead++, dl_rgba16_text_begin);
@@ -271,50 +250,18 @@ void print_course_number(void) {
  * Print act selector strings, some with special checks.
  */
 void print_act_selector_strings(void) {
-#ifdef VERSION_EU
-    unsigned char myScore[][10] = { {TEXT_MYSCORE}, {TEXT_MY_SCORE_FR}, {TEXT_MY_SCORE_DE} };
-#else
     unsigned char myScore[] = { TEXT_MYSCORE };
-#endif
-
     unsigned char starNumbers[] = { TEXT_ZERO };
 
-#ifdef VERSION_EU
-    u8 **levelNameTbl;
-    u8 *currLevelName;
-    u8 **actNameTbl;
-#else
     u8 **levelNameTbl = segmented_to_virtual(seg2_course_name_table);
     u8 *currLevelName = segmented_to_virtual(levelNameTbl[COURSE_NUM_TO_INDEX(gCurrCourseNum)]);
     u8 **actNameTbl = segmented_to_virtual(seg2_act_name_table);
-#endif
     u8 *selectedActName;
     s16 lvlNameX;
     s16 actNameX;
     s8 i;
-#ifdef VERSION_EU
-    s16 language = eu_get_language();
-#endif
 
     create_dl_ortho_matrix();
-
-#ifdef VERSION_EU
-    switch (language) {
-        case LANGUAGE_ENGLISH:
-            actNameTbl = segmented_to_virtual(act_name_table_eu_en);
-            levelNameTbl = segmented_to_virtual(course_name_table_eu_en);
-            break;
-        case LANGUAGE_FRENCH:
-            actNameTbl = segmented_to_virtual(act_name_table_eu_fr);
-            levelNameTbl = segmented_to_virtual(course_name_table_eu_fr);
-            break;
-        case LANGUAGE_GERMAN:
-            actNameTbl = segmented_to_virtual(act_name_table_eu_de);
-            levelNameTbl = segmented_to_virtual(course_name_table_eu_de);
-            break;
-    }
-    currLevelName = segmented_to_virtual(levelNameTbl[COURSE_NUM_TO_INDEX(gCurrCourseNum)]);
-#endif
 
     // Print the coin highscore.
     gSPDisplayList(gDisplayListHead++, dl_rgba16_text_begin);
@@ -327,9 +274,7 @@ void print_act_selector_strings(void) {
     // Print the "MY SCORE" text if the coin score is more than 0
     if (save_file_get_course_coin_score(gCurrSaveFileNum - 1, COURSE_NUM_TO_INDEX(gCurrCourseNum)) != 0) {
         // TODO: Macros for all these hardcoded positions would be nice
-#ifdef VERSION_EU
-        print_generic_string(95, 118, myScore[language]);
-#elif defined(VERSION_CN)
+#ifdef VERSION_CN
         print_generic_string(89, 118, myScore);
 #else
         print_generic_string(90, 118, myScore);
@@ -346,11 +291,7 @@ void print_act_selector_strings(void) {
 
     gSPDisplayList(gDisplayListHead++, dl_ia_text_end);
 
-#ifdef VERSION_EU
-    print_course_number(language);
-#else
     print_course_number();
-#endif
 
 #ifdef VERSION_CN
     gSPDisplayList(gDisplayListHead++, dl_ia_text_begin);
@@ -382,11 +323,7 @@ void print_act_selector_strings(void) {
     // Print the numbers above each star.
     for (i = 1; i <= sVisibleStars; i++) {
         starNumbers[0] = i;
-#ifdef VERSION_EU
-        print_menu_generic_string(128 - (sVisibleStars - 1) * 15 + i * 30, 38, starNumbers);
-#else
         print_menu_generic_string(122 - (sVisibleStars - 1) * 17 + i * 34, 38, starNumbers);
-#endif
     }
 
     gSPDisplayList(gDisplayListHead++, dl_menu_ia8_text_end);

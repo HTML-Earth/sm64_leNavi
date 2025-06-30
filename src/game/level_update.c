@@ -1234,23 +1234,6 @@ s32 lvl_init_or_update(s16 initOrUpdate, UNUSED s32 unused) {
 }
 
 s32 lvl_init_from_save_file(UNUSED s16 arg0, s32 levelNum) {
-#ifdef VERSION_EU
-    s16 language = eu_get_language();
-    switch (language) {
-        case LANGUAGE_ENGLISH:
-            load_segment_decompress(0x19, _translation_en_mio0SegmentRomStart,
-                                    _translation_en_mio0SegmentRomEnd);
-            break;
-        case LANGUAGE_FRENCH:
-            load_segment_decompress(0x19, _translation_fr_mio0SegmentRomStart,
-                                    _translation_fr_mio0SegmentRomEnd);
-            break;
-        case LANGUAGE_GERMAN:
-            load_segment_decompress(0x19, _translation_de_mio0SegmentRomStart,
-                                    _translation_de_mio0SegmentRomEnd);
-            break;
-    }
-#endif
     sWarpDest.type = WARP_TYPE_NOT_WARPING;
     sDelayedWarpOp = WARP_OP_NONE;
     gNeverEnteredCastle = !save_file_exists(gCurrSaveFileNum - 1);

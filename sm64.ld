@@ -1109,11 +1109,6 @@ SECTIONS
 
     /* load MIO0 and level data */
     MIO0_SEG(segment2, 0x02000000)
-#ifdef VERSION_EU
-    MIO0_EU_SEG(translation_en, 0x19000000)
-    MIO0_EU_SEG(translation_fr, 0x19000000)
-    MIO0_EU_SEG(translation_de, 0x19000000)
-#endif
 
     /* mario actor group */
     STANDARD_OBJECTS(group0,  0x04000000, 0x17000000)

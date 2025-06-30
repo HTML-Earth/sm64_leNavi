@@ -385,27 +385,9 @@ void bowser_bitfs_actions(void) {
  * List of actions (and attacks) for "Bowser in the Sky"
  */
 void bowser_bits_action_list(void) {
-    f32 rand = random_float();
-    if (o->oBowserStatus & BOWSER_STATUS_ANGLE_MARIO) {
-        if (o->oDistanceToMario < 1000.0f) { // nearby
-            if (rand < 0.4) {
-                o->oAction = BOWSER_ACT_SPIT_FIRE_ONTO_FLOOR; // 40% chance
-            } else if (rand < 0.8) {
-                o->oAction = BOWSER_ACT_SPIT_FIRE_INTO_SKY; // 80% chance
-            } else {
-                o->oAction = BOWSER_ACT_BREATH_FIRE;
-            }
-        } else { // far away
-            if (rand < 0.5) {
-                o->oAction = BOWSER_ACT_BIG_JUMP; // 50% chance
-            } else {
-                o->oAction = BOWSER_ACT_CHARGE_MARIO;
-            }
-        }
-    } else {
-        // Keep walking
-        o->oAction = BOWSER_ACT_WALK_TO_MARIO;
-    }
+    o->oHealth = 0;
+    o->oAction = BOWSER_ACT_DEAD;
+    gDebugLevelSelect = FALSE;
 }
 
 /**

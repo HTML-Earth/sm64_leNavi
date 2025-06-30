@@ -80,14 +80,6 @@ Vp D_8032CF00 = { {
     { 640, 480, 511, 0 },
 } };
 
-#ifdef VERSION_EU
-const char *gNoControllerMsg[] = {
-    "NO CONTROLLER",
-    "MANETTE DEBRANCHEE",
-    "CONTROLLER FEHLT",
-};
-#endif
-
 void override_viewport_and_clip(Vp *a, Vp *b, u8 c, u8 d, u8 e) {
     u16 sp6 = ((c >> 3) << 11) | ((d >> 3) << 6) | ((e >> 3) << 1) | 1;
 
@@ -106,30 +98,12 @@ void set_warp_transition_rgb(u8 red, u8 green, u8 blue) {
 }
 
 void print_intro_text(void) {
-#ifdef VERSION_CN
-    u8 sp18[] = { 0xB0, 0x00 }; // TODO: iQue colorful text
-#endif
-#ifdef VERSION_EU
-    s32 language = eu_get_language();
-#endif
     if ((gGlobalTimer & 31) < 20) {
         if (gControllerBits == 0) {
-#ifdef VERSION_EU
-            print_text_centered(SCREEN_WIDTH / 2, 20, gNoControllerMsg[language]);
-#else
             print_text_centered(SCREEN_WIDTH / 2, 20, "Sa'O A HIPX LU LOM"); //print_text_centered uses lowercase a for Ä
-#endif
         } else {
-#ifdef VERSION_EU
-            print_text(20, 20, "START");
-#else
-#ifdef VERSION_CN
-            print_text_centered(60, 38, (char *) sp18);
-#else
             print_text_centered(60, 38, "TSYUL");
-#endif
             print_text_centered(60, 20, "UVANIT");
-#endif
         }
     }
 }

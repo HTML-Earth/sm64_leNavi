@@ -1630,15 +1630,34 @@ void print_save_file_star_count(s8 fileIndex, s16 x, s16 y) {
     #define MARIOTEXT_X2 207
     #define MARIOTEXT_Y1 164
     #define MARIOTEXT_Y2 124
+#elif defined(VERSION_EU)
+    #define SELECT_FILE_X 83
+    #define SELECT_FILE_Y 35
+    #define SCORE_X 50
+    #define COPY_X 119
+    #define ERASE_X 176
+    #define SOUND_X 245
+    #define SOUNDMODE_X1 sSoundTextX
+    #define SAVEFILE_X1 97
+    #define SAVEFILE_X2 202
+    #define SAVEFILE_ALT_X1 93
+    #define SAVEFILE_ALT_X2 203
+    #define MARIOTEXT_X1 97
+    #define MARIOTEXT_X2 204
+    #define MARIOTEXT_Y1 65
+    #define MARIOTEXT_Y2 105
 #else
     #define SELECT_FILE_X 83
     #define SELECT_FILE_Y 35
     #define SCORE_X 40
     #define COPY_X 117
     #define ERASE_X 180
+    #define SOUND_X 254
     #define SOUNDMODE_X1 sSoundTextX
     #define SAVEFILE_X1 92
     #define SAVEFILE_X2 209
+    #define SAVEFILE_ALT_X1 90
+    #define SAVEFILE_ALT_X2 211
     #define MARIOTEXT_X1 92
     #define MARIOTEXT_X2 207
     #define MARIOTEXT_Y1 65
@@ -1674,7 +1693,7 @@ void print_main_menu_strings(void) {
     print_generic_string(COPY_X, 39, textCopy);
     print_generic_string(ERASE_X, 39, textErase);
 #ifndef VERSION_JP
-    sSoundTextX = get_str_x_pos_from_center(254, textSoundModes[sSoundMode], 10.0f);
+    sSoundTextX = get_str_x_pos_from_center(SOUND_X, textSoundModes[sSoundMode], 10.0f);
 #endif
     print_generic_string(SOUNDMODE_X1, 39, textSoundModes[sSoundMode]);
     gSPDisplayList(gDisplayListHead++, dl_ia_text_end);
@@ -1729,6 +1748,12 @@ void score_menu_display_message(s8 messageID) {
     #define ERASEFILE_X1 231
     #define SCORE_FILE_Y1 164
     #define SCORE_FILE_Y2 121
+#elif defined(VERSION_EU)
+    #define RETURN_X     53
+    #define COPYFILE_X1  128
+    #define ERASEFILE_X1 212
+    #define SCORE_FILE_Y1 62
+    #define SCORE_FILE_Y2 105
 #else
     #define RETURN_X     44
     #define COPYFILE_X1  128
@@ -1770,10 +1795,10 @@ void print_score_menu_strings(void) {
     // Print file star counts
     gSPDisplayList(gDisplayListHead++, dl_rgba16_text_begin);
     gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, sTextBaseAlpha);
-    print_save_file_star_count(SAVE_FILE_A, 90, 76);
-    print_save_file_star_count(SAVE_FILE_B, 211, 76);
-    print_save_file_star_count(SAVE_FILE_C, 90, 119);
-    print_save_file_star_count(SAVE_FILE_D, 211, 119);
+    print_save_file_star_count(SAVE_FILE_A, SAVEFILE_ALT_X1, 76);
+    print_save_file_star_count(SAVE_FILE_B, SAVEFILE_ALT_X2, 76);
+    print_save_file_star_count(SAVE_FILE_C, SAVEFILE_ALT_X1, 119);
+    print_save_file_star_count(SAVE_FILE_D, SAVEFILE_ALT_X2, 119);
     gSPDisplayList(gDisplayListHead++, dl_rgba16_text_end);
 
     // Print menu names
@@ -1787,10 +1812,10 @@ void print_score_menu_strings(void) {
     // Print file names
     gSPDisplayList(gDisplayListHead++, FILE_SELECT_TEXT_DL_BEGIN);
     gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, sTextBaseAlpha);
-    FILE_SELECT_PRINT_STRING(89, SCORE_FILE_Y1, textMarioA);
-    FILE_SELECT_PRINT_STRING(211, SCORE_FILE_Y1, textMarioB);
-    FILE_SELECT_PRINT_STRING(89, SCORE_FILE_Y2, textMarioC);
-    FILE_SELECT_PRINT_STRING(211, SCORE_FILE_Y2, textMarioD);
+    FILE_SELECT_PRINT_STRING(SAVEFILE_ALT_X1, SCORE_FILE_Y1, textMarioA);
+    FILE_SELECT_PRINT_STRING(SAVEFILE_ALT_X2, SCORE_FILE_Y1, textMarioB);
+    FILE_SELECT_PRINT_STRING(SAVEFILE_ALT_X1, SCORE_FILE_Y2, textMarioC);
+    FILE_SELECT_PRINT_STRING(SAVEFILE_ALT_X2, SCORE_FILE_Y2, textMarioD);
     gSPDisplayList(gDisplayListHead++, FILE_SELECT_TEXT_DL_END);
 }
 
@@ -1908,6 +1933,11 @@ void copy_menu_update_message(void) {
     #define ERASEFILE_X2 230
     #define COPY_FILE_Y1 164
     #define COPY_FILE_Y2 121
+#elif defined(VERSION_EU)
+    #define VIEWSCORE_X1 136
+    #define ERASEFILE_X2 210
+    #define COPY_FILE_Y1 62
+    #define COPY_FILE_Y2 105
 #else
     #define VIEWSCORE_X1 136
     #define ERASEFILE_X2 222
@@ -1927,10 +1957,10 @@ void print_copy_menu_strings(void) {
     // Print file star counts
     gSPDisplayList(gDisplayListHead++, dl_rgba16_text_begin);
     gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, sTextBaseAlpha);
-    print_save_file_star_count(SAVE_FILE_A, 90, 76);
-    print_save_file_star_count(SAVE_FILE_B, 211, 76);
-    print_save_file_star_count(SAVE_FILE_C, 90, 119);
-    print_save_file_star_count(SAVE_FILE_D, 211, 119);
+    print_save_file_star_count(SAVE_FILE_A, SAVEFILE_ALT_X1, 76);
+    print_save_file_star_count(SAVE_FILE_B, SAVEFILE_ALT_X2, 76);
+    print_save_file_star_count(SAVE_FILE_C, SAVEFILE_ALT_X1, 119);
+    print_save_file_star_count(SAVE_FILE_D, SAVEFILE_ALT_X2, 119);
     gSPDisplayList(gDisplayListHead++, dl_rgba16_text_end);
     
     // Print menu names
@@ -1944,10 +1974,10 @@ void print_copy_menu_strings(void) {
     // Print file names
     gSPDisplayList(gDisplayListHead++, FILE_SELECT_TEXT_DL_BEGIN);
     gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, sTextBaseAlpha);
-    FILE_SELECT_PRINT_STRING(89, COPY_FILE_Y1, textMarioA);
-    FILE_SELECT_PRINT_STRING(211, COPY_FILE_Y1, textMarioB);
-    FILE_SELECT_PRINT_STRING(89, COPY_FILE_Y2, textMarioC);
-    FILE_SELECT_PRINT_STRING(211, COPY_FILE_Y2, textMarioD);
+    FILE_SELECT_PRINT_STRING(SAVEFILE_ALT_X1, COPY_FILE_Y1, textMarioA);
+    FILE_SELECT_PRINT_STRING(SAVEFILE_ALT_X2, COPY_FILE_Y1, textMarioB);
+    FILE_SELECT_PRINT_STRING(SAVEFILE_ALT_X1, COPY_FILE_Y2, textMarioC);
+    FILE_SELECT_PRINT_STRING(SAVEFILE_ALT_X2, COPY_FILE_Y2, textMarioD);
     gSPDisplayList(gDisplayListHead++, FILE_SELECT_TEXT_DL_END);
 }
 
@@ -2182,6 +2212,11 @@ void erase_menu_update_message(void) {
     #define COPYFILE_X2 228
     #define ERASE_FILE_Y1 164
     #define ERASE_FILE_Y2 121
+#elif defined(VERSION_EU)
+    #define VIEWSCORE_X2 135
+    #define COPYFILE_X2 218
+    #define ERASE_FILE_Y1 62
+    #define ERASE_FILE_Y2 105
 #else
     #define VIEWSCORE_X2 135
     #define COPYFILE_X2 224
@@ -2202,10 +2237,10 @@ void print_erase_menu_strings(void) {
     // Print file star counts
     gSPDisplayList(gDisplayListHead++, dl_rgba16_text_begin);
     gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, sTextBaseAlpha);
-    print_save_file_star_count(SAVE_FILE_A, 90, 76);
-    print_save_file_star_count(SAVE_FILE_B, 211, 76);
-    print_save_file_star_count(SAVE_FILE_C, 90, 119);
-    print_save_file_star_count(SAVE_FILE_D, 211, 119);
+    print_save_file_star_count(SAVE_FILE_A, SAVEFILE_ALT_X1, 76);
+    print_save_file_star_count(SAVE_FILE_B, SAVEFILE_ALT_X2, 76);
+    print_save_file_star_count(SAVE_FILE_C, SAVEFILE_ALT_X1, 119);
+    print_save_file_star_count(SAVE_FILE_D, SAVEFILE_ALT_X2, 119);
     gSPDisplayList(gDisplayListHead++, dl_rgba16_text_end);
 
     // Print menu names
@@ -2219,10 +2254,10 @@ void print_erase_menu_strings(void) {
     // Print file names
     gSPDisplayList(gDisplayListHead++, FILE_SELECT_TEXT_DL_BEGIN);
     gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, sTextBaseAlpha);
-    FILE_SELECT_PRINT_STRING(89, ERASE_FILE_Y1, textMarioA);
-    FILE_SELECT_PRINT_STRING(211, ERASE_FILE_Y1, textMarioB);
-    FILE_SELECT_PRINT_STRING(89, ERASE_FILE_Y2, textMarioC);
-    FILE_SELECT_PRINT_STRING(211, ERASE_FILE_Y2, textMarioD);
+    FILE_SELECT_PRINT_STRING(SAVEFILE_ALT_X1, ERASE_FILE_Y1, textMarioA);
+    FILE_SELECT_PRINT_STRING(SAVEFILE_ALT_X2, ERASE_FILE_Y1, textMarioB);
+    FILE_SELECT_PRINT_STRING(SAVEFILE_ALT_X1, ERASE_FILE_Y2, textMarioC);
+    FILE_SELECT_PRINT_STRING(SAVEFILE_ALT_X2, ERASE_FILE_Y2, textMarioD);
     gSPDisplayList(gDisplayListHead++, FILE_SELECT_TEXT_DL_END);
 }
 
@@ -2235,6 +2270,14 @@ void print_erase_menu_strings(void) {
 #else
     #define SOUND_HUD_X 102
     #define SOUND_HUD_Y 35
+#endif
+
+#if defined(VERSION_EU)
+    #define SOUND_X_MULT 69
+    #define SOUND_X_ADD 91
+#else
+    #define SOUND_X_MULT 74
+    #define SOUND_X_ADD 87
 #endif
 
 /**
@@ -2268,10 +2311,10 @@ void print_sound_mode_menu_strings(void) {
         }
         #ifndef VERSION_JP
             // Mode names are centered correctly on US and Shindou
-            textX = get_str_x_pos_from_center(mode * 74 + 87, textSoundModes[mode], 10.0f);
+            textX = get_str_x_pos_from_center(mode * SOUND_X_MULT + SOUND_X_ADD, textSoundModes[mode], 10.0f);
             print_generic_string(textX, 87, textSoundModes[mode]);
         #else
-            print_generic_string(mode * 74 + 67, 87, textSoundModes[mode]);
+            print_generic_string(mode * SOUND_X_MULT + 67, 87, textSoundModes[mode]);
         #endif
     }
 

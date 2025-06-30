@@ -2952,8 +2952,8 @@ void play_star_fanfare_and_flash_hud(s32 arg, u8 starFlag) {
     }
 }
 
-    #define TXT_NAME_X1 71
-    #define TXT_NAME_X2 TXT_NAME_X1 - 2
+#define TXT_NAME_X1 71
+#define TXT_NAME_X2 TXT_NAME_X1 - 2
 
 #if defined(VERSION_JP) || defined(VERSION_SH)
     #define CRS_NUM_X2 95

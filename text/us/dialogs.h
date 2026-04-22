@@ -131,11 +131,11 @@ krra new nga wäsivul\n\
 nìngay."))
 
 DEFINE_DIALOG(DIALOG_007, 1, 5, 30, 200, _("\
-Hufff...fff...pufff...\n\
-Whoa! You...really...are...\n\
-fast! A human blur!\n\
-Here you go--you've won\n\
-it, fair and square!"))
+Lo...nu...sye...\n\
+Tewti! Lu...nga...win...\n\
+nìngay! Hufwe letokx!\n\
+Ngar fì'u--tsari\n\
+nga lu pxan, nìmuiä!"))
 
 DEFINE_DIALOG(DIALOG_008, 1, 4, 30, 200, _("\
 ZA'ÄFRÌPÌRI LARE\n\
@@ -573,31 +573,31 @@ Fìalori tsaw tam. 'Ampi\n\
 hayaaaaalovay!"))
 
 DEFINE_DIALOG(DIALOG_046, 1, 5, 30, 200, _("\
-You have to master three\n\
-important jumping\n\
-techniques.\n\
-First try the Triple Jump.\n\
+Letsrantena pxefya'ori\n\
+a spä zene tsulfä sivi\n\
+nga.\n\
+Nì'avwe Pxesìspusä.\n\
 \n\
-Run fast, then jump three\n\
-times, one, two, three.\n\
-If you time the jumps\n\
-right, you'll hop, skip,\n\
-then jump really high.\n\
-Next, go for distance\n\
-with the Long Jump. Run,\n\
-press [Z] to crouch then [A]\n\
-to jump really far.\n\
+Tul, tsakrr pxelo spä,\n\
+'aw, mune, pxey.\n\
+Txo spivä nìkmar,\n\
+tsakrr spä spä, ulte\n\
+spä nìkxayl nìtxan.\n\
+Nìhay, kan la'at\n\
+fa Ngima Tìspusä. Tul,\n\
+'ampi [Z]ti fte zivung\n\
+tsakrr [A]ti fte spivä nìngim.\n\
 \n\
-To do the Wall Kick, press\n\
-[A] to jump at a wall, then\n\
-jump again when you hit\n\
-the wall.\n\
+Fte Pxivek Kxemyot, 'ampi\n\
+[A]ti fte spivä ne yo,\n\
+tsakrr spä nìmun krra\n\
+tsat 'ampi.\n\
 \n\
-Got that? Triple Jump,\n\
-Long Jump, Wall Kick.\n\
-Practice, practice,\n\
-practice. You don't stand\n\
-a chance without them."))
+Tolel srak? Pxesìspusä,\n\
+Ngima Tìspusä, Pxek Kxemyot.\n\
+Tskxekeng, tskxekeng,\n\
+tskxekeng. Nayui txo\n\
+ke sivar sat."))
 
 DEFINE_DIALOG(DIALOG_047, 1, 2, 95, 200, _("\
 Kxì! Hìsyawl fpi\n\
@@ -894,36 +894,36 @@ while flying, you'll bounce\n\
 back."))
 
 DEFINE_DIALOG(DIALOG_070, 1, 5, 30, 200, _("\
-You can return to the\n\
-castle's main hall at any\n\
-time from the painting\n\
-worlds where the enemies\n\
-live.\n\
-Just stop, stand still,\n\
-press Start to pause the\n\
-game, then select\n\
-『Exit Course.』\n\
+Frakrr tsunslu fwa tätxaw\n\
+ne txina mo txintsengä\n\
+ftu ayrelä hifkey a\n\
+parwun aykutul.\n\
 \n\
-You don't have to collect\n\
-all Power Stars in one\n\
-course before going on to\n\
-the next.\n\
+Nìyey ftang, rä'ä rivikx,\n\
+'ampi [Start]ti fte\n\
+fpivak uvanit, tsakrr\n\
+『Hum Fya'oftu.』\n\
 \n\
-Return later, when you're\n\
-more experienced, to pick\n\
-up difficult ones.\n\
+Ke zene fraTanhìt\n\
+stivarsìm mì awa fya'o\n\
+srefwa kä ne pum ahay.\n\
 \n\
 \n\
-Whenever you find a Star,\n\
-a hint for finding the\n\
-next one will appear on\n\
-the course's start screen.\n\
+Tätxaw mawkrr, krra\n\
+lu ngaru lie nì'ul, fte\n\
+kivanom Sanhìt angäzìk.\n\
 \n\
-You can, however, collect\n\
-any of the remaining\n\
-Stars next. You don't\n\
-have to recover the one\n\
-described by the hint."))
+\n\
+Run ngal Tanhìt a krr,\n\
+srer srungtsyìp teyngä\n\
+pefya run pumit ahay\n\
+krra tsyul fya'ot.\n\
+\n\
+Ngian, tsun nga\n\
+kivanom ketsrana pumit\n\
+a 'ì'awn nìhay. Ke zene\n\
+stivarsìm pumit a\n\
+sla'tsu srungtsyìpìl."))
 
 DEFINE_DIALOG(DIALOG_071, 1, 3, 30, 200, _("\
 Danger Ahead!\n\
@@ -1314,29 +1314,29 @@ the Big Boo!\n\
 Ka ha ha ha..."))
 
 DEFINE_DIALOG(DIALOG_109, 1, 4, 95, 200, _("\
-Ooooo Nooooo!\n\
-Talk about out-of-body\n\
-experiences--my body\n\
-has melted away!\n\
-Have you run in to any\n\
-headhunters lately??\n\
-I could sure use a new\n\
-body!\n\
-Brrr! My face might\n\
-freeze like this!"))
+Kxeeeeeeeeew!\n\
+'Efu na uniltìranyu\n\
+luke uniltìrantokx--\n\
+slolu oey tokx payne!\n\
+Tsun oeru srung sivi\n\
+srak?\n\
+Oeru livu mipa tokx\n\
+nik nìtxan!\n\
+Kxam leyr slayu\n\
+oeyä key fìfya!"))
 
 DEFINE_DIALOG(DIALOG_110, 1, 5, 95, 200, _("\
-I need a good head on my\n\
-shoulders. Do you know of\n\
-anybody in need of a good\n\
-body? Please! I'll follow\n\
-you if you do!"))
+Kin oel sìltsana re'ot\n\
+oeyä metnawio. Srake smon\n\
+ngaru tuteo a kin tokxit?\n\
+Rutxe! Nasyong ngati\n\
+txo fyawivìntxu!"))
 
 DEFINE_DIALOG(DIALOG_111, 1, 4, 95, 200, _("\
-Perfect! What a great\n\
-new body! Here--this is a\n\
-present for you. It's sure\n\
-to warm you up."))
+Yo'! Txantsana tokx\n\
+amip! Ngaru fì'u--\n\
+lu stxeli. Am'aluke\n\
+ngati sang sleyku."))
 
 DEFINE_DIALOG(DIALOG_112, 1, 4, 30, 200, _("\
 Collect as many coins as\n\
@@ -1407,26 +1407,26 @@ fpxäkìm ìlä rel.\n\
 Makto zong."))
 
 DEFINE_DIALOG(DIALOG_117, 1, 1, 95, 200, _("\
-Who...walk...here?\n\
-Who...break...seal?\n\
-Wake..ancient..ones?\n\
-We no like light...\n\
-Rrrrummbbble...\n\
-We no like...intruders!\n\
-Now battle...\n\
-...hand...\n\
-...to...\n\
-...hand!"))
+Pesu...tìran...fìtseng?\n\
+Pesul...ska'a...lewit?\n\
+Tìtxen..si..mefizayur?\n\
+Ke sunu atan...\n\
+Kllrikx...\n\
+Ke sunu...fpxäkìmyu!\n\
+Ha wem...\n\
+...tsyokx...\n\
+...wä...\n\
+...syokx!"))
 
 DEFINE_DIALOG(DIALOG_118, 1, 6, 95, 200, _("\
-Grrrrumbbble!\n\
-What...happen?\n\
-We...crushed like pebble.\n\
-You so strong!\n\
-You rule ancient pyramid!\n\
-For today...\n\
-Now, take Star of Power.\n\
-We...sleep...darkness."))
+Kllrikx!\n\
+Pehem...len?\n\
+Moet...srolu' na tskxevi.\n\
+Nga txur fìtxan!\n\
+Ngal eyk txanlala tìtxulat!\n\
+Fìtrro...\n\
+Ha, munge Tswalnga'a Tanhìt.\n\
+Moe...hahaw...tìvawm."))
 
 DEFINE_DIALOG(DIALOG_119, 1, 6, 30, 200, _("\
 Grrr! I was a bit\n\
@@ -1607,21 +1607,21 @@ Olo'eyktel tsatsengti\n\
 tatsok!"))
 
 DEFINE_DIALOG(DIALOG_134, 1, 5, 30, 200, _("\
-The names of the Stars\n\
-are also hints for\n\
-finding them. They are\n\
-displayed at the beginning\n\
-of each course.\n\
-You can collect the Stars\n\
-in any order. You won't\n\
-find some Stars, enemies\n\
-or items unless you select\n\
-a specific Star.\n\
-After you collect some\n\
-Stars, you can try\n\
-another course.\n\
-We're all waiting for\n\
-your help!"))
+Tanhìyä tstxo kop\n\
+lu säsrung teyngä\n\
+pefya tsat run. Tsun tsat\n\
+ivinan krra tsyul fya'ot.\n\
+\n\
+Ke zene stivarsìm ìlä\n\
+holpxay. Ke srer\n\
+'a'awa Tanhì, kxutu\n\
+sì zum mungwrrtxo ftxivey\n\
+Tanhìti a ha'.\n\
+Mawfwa starsìm Tanhìt\n\
+a'a'aw, tsun mivay'\n\
+fya'ot alahe.\n\
+Ngeyä srungìri perey\n\
+ayoe nìwotx!"))
 
 DEFINE_DIALOG(DIALOG_135, 1, 5, 30, 200, _("\
 It was Bowser who stole\n\
@@ -1783,12 +1783,12 @@ Hurry along, now. The\n\
 third floor is just ahead."))
 
 DEFINE_DIALOG(DIALOG_146, 1, 6, 150, 200, _("\
-You've found 70 Power\n\
-Stars! The mystery of the\n\
-endless stairs is solved,\n\
-thanks to you--and is\n\
-Bowser ever upset! Now,\n\
-on to the final bout!"))
+Roleiun ngal 106a\n\
+tanhìt! Tìkezin soli\n\
+Txewlukea snayìyä\n\
+ingyentsimur nga--\n\
+ulte sti Pawser nìtxan!\n\
+Ha, ne syena säwem!"))
 
 DEFINE_DIALOG(DIALOG_147, 1, 5, 30, 200, _("\
 Are you using the Cap\n\
@@ -1880,13 +1880,13 @@ They make me feel...\n\
 back and visit anytime."))
 
 DEFINE_DIALOG(DIALOG_153, 1, 4, 30, 200, _("\
-Hey! Who's there?\n\
-What's climbing on me?\n\
-Is it an ice ant?\n\
-A snow flea?\n\
-Whatever it is, it's\n\
-bugging me! I think I'll\n\
-blow it away!"))
+Manga! Tupe lu?\n\
+Oeti tsyìl peul?\n\
+Leyra hì'angìl srak?\n\
+Lu apxa herwìva srak?\n\
+Ketsran, tsal oeti\n\
+srängätx! Lonusye oe\n\
+fte 'ivaku tsat!"))
 
 DEFINE_DIALOG(DIALOG_154, 1, 5, 30, 200, _("\
 Hold on to your hat! If\n\

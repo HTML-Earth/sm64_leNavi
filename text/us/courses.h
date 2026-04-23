@@ -31,8 +31,8 @@ COURSE_ACTS(COURSE_SSL, _("10 UKXOA ATXKXE NENIYÄ"),
        _("KLLKXEM SÌN ASIP ATSÌNG")       , _("TSWAYON FPI VOLA FNGAP ATUN")   , _("TÌTXULAYÄ INGYENTSIM"))
 
 COURSE_ACTS(COURSE_DDD, _("11 URANÄ UTURU"),
-       _("FÄKÄ SÌN URAN PAWSERÄ")         , _("TSYEYMÄ AYSÄHENA MÌ SWESYA")    , _("SPÄ SWEKFTU FPI FNGAP ATUN"),
-       _("WÄ FAYFYA")                     , _("SLOAPEKÄ STXELI")               , _("STARSÌM MEHAWRE'TI..."))
+       _("FÄKÄ SÌN URAN PAWSERÄ")         , _("TSYEYMÄ AYSÄHENA RO SELISI")    , _("SPÄ SWEKFTU FPI FNGAP ATUN"),
+       _("WÄ SWESYA")                     , _("SLOAPEKÄ STXELI")               , _("STARSÌM MEHAWRE'TI..."))
 
 COURSE_ACTS(COURSE_SL, _("12 HERWÌTUÄ TXANLOKXE"),
        _("APXA RE'O HERWÌTUÄ")            , _("WRRKÄ WURA ÄZANTUHU")           , _("NEMFA ZUM A TA TSKXEPAY"),

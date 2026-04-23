@@ -900,8 +900,8 @@ ftu ayrelä hifkey a\n\
 parwun aykutul.\n\
 \n\
 Nìyey ftang, rä'ä rivikx,\n\
-'ampi [Start]ti fte\n\
-fpivak uvanit, tsakrr\n\
+'ampi yot alu Start fte\n\
+fpeykivak uvanit, tsakrr\n\
 『Hum Fya'oftu.』\n\
 \n\
 Ke zene fraTanhìt\n\

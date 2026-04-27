@@ -1059,13 +1059,13 @@ DEFINE_DIALOG(DIALOG_080, 1, 1, 30, 200, _("\
 Eeeh hee hee hee!"))
 
 DEFINE_DIALOG(DIALOG_081, 1, 4, 30, 200, _("\
-The mystery is of Wet\n\
-or Dry.\n\
-And where does the\n\
-solution lie?\n\
-The city welcomes visitors\n\
-with the depth they bring\n\
-as they enter."))
+Ingyentsim alu\n\
+fu Mei fu Ukxo.\n\
+Alu teynga pefya\n\
+sweylu txo yawivo?\n\
+Payri fpxoläkìm\n\
+po tsafa a yìt vun\n\
+tsrayìl frrturu."))
 
 DEFINE_DIALOG(DIALOG_082, 1, 4, 30, 200, _("\
 Hold on to your hat! If\n\
@@ -1090,12 +1090,12 @@ Oh, here, take this. I've\n\
 been keeping it for you."))
 
 DEFINE_DIALOG(DIALOG_083, 1, 6, 30, 200, _("\
-There's something strange\n\
-about that clock. As you\n\
-jump inside, watch the\n\
-position of the big hand.\n\
-Oh, look what I found!\n\
-Here, Mario, catch!"))
+Tsatxawnulsrung a peng\n\
+krrti hek. Krra spä\n\
+tsawnemfa, tsiveri\n\
+likit apxa vultsyìpä.\n\
+E, rolun oel fì'ut!\n\
+Tsat stä'nì, ma Mario!"))
 
 DEFINE_DIALOG(DIALOG_084, 1, 3, 30, 200, _("\
 Yeeoww! Unhand me,\n\
@@ -1176,19 +1176,19 @@ My troops in the walls\n\
 need them! Bwa ha ha!"))
 
 DEFINE_DIALOG(DIALOG_093, 1, 5, 30, 200, _("\
-Mario! You again! Well\n\
-that's just fine--I've\n\
-been looking for something\n\
-to fry with my fire\n\
-breath!\n\
-Your Star Power is\n\
-useless against me!\n\
-Your friends are all\n\
-trapped within the\n\
-walls...\n\
-And you'll never see the\n\
-Princess again!\n\
-Bwa ha ha ha!"))
+Ma Mario! Nìmun! Tse\n\
+tsaw tam--Fmìrmew\n\
+oel 'uot fte tsat\n\
+nivekx fa oeyä\n\
+syeha apusalon!\n\
+Sanhìyä Tswal ngaru\n\
+lu. Pewn torukä!\n\
+Ngeyä ayeylan nìwotx\n\
+txurtsengä kemyomì\n\
+neiyip...\n\
+Kop kawkrr tsaye'a\n\
+ngal ---ti nìmun!\n\
+~ hangham nìkawng ~"))
 
 DEFINE_DIALOG(DIALOG_094, 1, 4, 30, 200, _("\
 Get a good run up the\n\
@@ -1459,19 +1459,19 @@ I'll be waiting!\n\
 Gwa ha ha ha!"))
 
 DEFINE_DIALOG(DIALOG_121, 1, 5, 30, 200, _("\
-Nooo! It can't be!\n\
-You've really beaten me,\n\
-Mario?!! I gave those\n\
-troops power, but now\n\
-it's fading away!\n\
-Arrgghh! I can see peace\n\
-returning to the world! I\n\
-can't stand it! Hmmm...\n\
-It's not over yet...\n\
+Keheee! Ke tsunslu!\n\
+Nìngay lätxayn oet\n\
+srak ma Mario?!! Tolìng\n\
+tsaysamsiyur tswalit,\n\
+slä set nerängän!\n\
+Kxew! Tse'a futa fpom\n\
+kifkeyne terätxaw! Ke\n\
+sunu kaw'it! Fpivìl...\n\
+Ke li ke lu hasey...\n\
 \n\
-C'mon troops! Let's watch\n\
-the ending together!\n\
-Bwa ha ha!"))
+Ma samsiyu! Tì'i'ati\n\
+nìn 'awsiteng ko!\n\
+~ hangham nìkawng ~"))
 
 DEFINE_DIALOG(DIALOG_122, 1, 4, 30, 200, _("\
 The Black Hole\n\
@@ -2014,31 +2014,31 @@ all. Now, I must be off.\n\
 Owww! Let me go!"))
 
 DEFINE_DIALOG(DIALOG_163, 1, 5, 30, 200, _("\
-Noooo! You've really\n\
-beaten me this time,\n\
-Mario! I can't stand\n\
-losing to you!\n\
+Keheee! Ngal oeti\n\
+lolätxayn nìngay\n\
+fìalo ma Mario! Lu\n\
+ketsuklewn fwa snaytx\n\
+wä nga!\n\
+Oey samsiyu...ke ley!\n\
+Fol rola'un Tswalnga'a\n\
+fraSanhìt srak! Peu?!\n\
+Fkeytok 170a pum srak???\n\
 \n\
-My troops...worthless!\n\
-They've turned over all\n\
-the Power Stars! What?!\n\
-There are 120 in all???\n\
-\n\
-Amazing! There were some\n\
-in the castle that I\n\
-missed??!!\n\
+Wou! Yoläkx pumot\n\
+a'a'aw oel mì turtseng\n\
+srak??!!\n\
 \n\
 \n\
-Now I see peace\n\
-returning to the world...\n\
-Oooo! I really hate that!\n\
-I can't watch--\n\
-I'm outta here!\n\
-Just you wait until next\n\
-time. Until then, keep\n\
-that Control Stick\n\
-smokin'!\n\
-Buwaa ha ha!"))
+Tse'a oel set futa\n\
+fpom terätxaw kifkeyne...\n\
+Au! Ve'kì tsat nìngay!\n\
+Ke new nivìn--\n\
+Hìsyum!\n\
+Hayalori nga pey ko.\n\
+Tsakrrvay, var\n\
+kivìm vultsyìpit\n\
+kuma srer kxener!\n\
+~ hangham nìkawng ~"))
 
 DEFINE_DIALOG(DIALOG_164, 1, 4, 30, 200, _("\
 Mario! What's up, pal?\n\
@@ -2055,17 +2055,17 @@ Ready...set...\n\
 //Go//// Don't Go"))
 
 DEFINE_DIALOG(DIALOG_165, 1, 5, 30, 200, _("\
-I take no responsibility\n\
-whatsoever for those who\n\
-get dizzy and pass out\n\
-from running around\n\
-this post."))
+Furia fko tul pxaw\n\
+fìswek, mìn fìtxan\n\
+kuma tsìk hahaw,\n\
+ke kllfro' oe\n\
+kaw'it."))
 
 DEFINE_DIALOG(DIALOG_166, 1, 4, 30, 200, _("\
-I'll be back soon.\n\
-I'm out training now,\n\
-so come back later.\n\
-//--Koopa the Quick"))
+Tìyätxaw oe ye'rìn.\n\
+Tskxekeng seri set,\n\
+ha tivätxäw mawkrr.\n\
+//--Lantelak Awin"))
 
 DEFINE_DIALOG(DIALOG_167, 1, 4, 30, 200, _("\
 Pitsyä txintsengro\n\

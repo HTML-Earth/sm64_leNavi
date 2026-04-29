@@ -697,16 +697,16 @@ Alaksi...\n\
 //Kä//// Rä'ä Kä"))
 
 DEFINE_DIALOG(DIALOG_056, 1, 6, 30, 200, _("\
-You brrrr-oke my record!\n\
-Unbelievable! I knew\n\
-that you were the coolest.\n\
-Now you've proven\n\
-that you're also the\n\
-fastest!\n\
-I can't award you a gold\n\
-medal, but here, take this\n\
-Star instead. You've\n\
-earned it!"))
+Oeyä nunyolti ngal\n\
+lolätxayn! ketsukspaw!\n\
+Olomum futa nga wou frato.\n\
+Set wolìngay futa\n\
+nga kop lu win frato!\n\
+\n\
+Ke tsun teswotivìng ngar\n\
+tsyeymit, ki ngaru\n\
+fìTanhì. Tsari lu\n\
+nga pxan!"))
 
 DEFINE_DIALOG(DIALOG_057, 1, 4, 30, 200, _("\
 Au! Oeyä 'ite!! Ngal\n\
@@ -1028,8 +1028,8 @@ the painting. Oh, by the\n\
 way, look what I found!"))
 
 DEFINE_DIALOG(DIALOG_077, 1, 2, 150, 200, _("\
-It is decreed that one\n\
-shall pound the pillars."))
+Txurplltxe fko san zenuye\n\
+meswekit kllkeykivä."))
 
 DEFINE_DIALOG(DIALOG_078, 1, 5, 30, 200, _("\
 Break open the Blue Coin\n\
@@ -1429,18 +1429,18 @@ Ha, munge Tswalnga'a Tanhìt.\n\
 Moe...hahaw...tìvawm."))
 
 DEFINE_DIALOG(DIALOG_119, 1, 6, 30, 200, _("\
-Grrr! I was a bit\n\
-careless. This is not as I\n\
-had planned...but I still\n\
-hold the power of the\n\
-Stars, and I still have\n\
-Peach.\n\
-Bwa ha ha! You'll get no\n\
-more Stars from me! I'm\n\
-not finished with you yet,\n\
-but I'll let you go for\n\
-now. You'll pay for this...\n\
-later!"))
+Oìsss! Eltu ke soli oe\n\
+nìtam. Ke solalew oey\n\
+tìkanìlä...slä mi lu\n\
+oeru tswal Sanhìyä,\n\
+kop lu Pitsyì mi\n\
+oer. ~ hangham ~\n\
+Ke teiel Sanhìt\n\
+nì'ul oeta! Ngari\n\
+oeyä sìkan ke lu\n\
+hasey ke li, slä\n\
+nga tsun kivä. Ngati\n\
+txaw... mawkrr!"))
 
 DEFINE_DIALOG(DIALOG_120, 1, 4, 30, 200, _("\
 Ooowaah! Can it be that\n\
@@ -1565,14 +1565,14 @@ just as you would when\n\
 flying an airplane."))
 
 DEFINE_DIALOG(DIALOG_132, 1, 4, 30, 200, _("\
-Whoa, Mario, pal, you\n\
-aren't trying to cheat,\n\
-are you? Shortcuts aren't\n\
-allowed.\n\
-Now, I know that you\n\
-know better. You're\n\
-disqualified! Next time,\n\
-play fair!"))
+Au, ma 'eylan Mario,\n\
+ke fmeri oeti flivel,\n\
+kefyak? Futa lahea\n\
+fya'ot sar ke tung.\n\
+Ha, omum oel futa\n\
+tsakem ke sayi nga.\n\
+Fìalo kangay ke lu!\n\
+Hayalo nìmuiä!"))
 
 DEFINE_DIALOG(DIALOG_133, 1, 6, 30, 200, _("\
 Zawprrte' fwa tse'a ngat!\n\
@@ -1711,7 +1711,7 @@ Left: Black Hole\n\
 Arrow: You are here"))
 
 DEFINE_DIALOG(DIALOG_141, 1, 5, 150, 200, _("\
-Teykoläteiaw ngal\n\
+Teykolätxeiaw ngal\n\
 'awa Tanhìti afmawnong!\n\
 Set tsun piak sivi\n\
 'a'awa rawngur afyawnel\n\
@@ -1728,7 +1728,7 @@ tarep ma Mario! var\n\
 fwivew Sanhìt!"))
 
 DEFINE_DIALOG(DIALOG_142, 1, 5, 150, 200, _("\
-Teykoläteiaw ngal\n\
+Teykolätxeiaw ngal\n\
 Pxesanhìti! Set nga\n\
 rawngur a nga'\n\
 holpxayti alu 3\n\
@@ -1740,31 +1740,31 @@ krro. Kutu sti nì'ul,\n\
 ha fori nari si!"))
 
 DEFINE_DIALOG(DIALOG_143, 1, 6, 150, 200, _("\
-Teykoläteiaw ngal vola\n\
-Tanhì Atswalnga'! Set\n\
+Teykolätxeiaw ngal vola\n\
+Tanhìt Atswalnga'! Set\n\
 tsun piak sivi rawngur\n\
 a tsar lu apxa Tanhì! Slä\n\
 Pawser sim...srake stawm\n\
 Olo'eykteti a syeraw?"))
 
 DEFINE_DIALOG(DIALOG_144, 1, 6, 150, 200, _("\
-You've recovered 30\n\
-Power Stars! Now you can\n\
-open the door with the\n\
-big Star! But before you\n\
-move on, how's it going\n\
-otherwise?\n\
-Did you pound the two\n\
-columns down? You didn't\n\
-lose your hat, did you?\n\
-If you did, you'll have to\n\
-stomp on the condor to\n\
-get it back!\n\
-They say that Bowser has\n\
-sneaked out of the sea\n\
-and into the underground.\n\
-Have you finally\n\
-cornered him?"))
+Teykolätxeiaw ngal 36a\n\
+Tanhìti! Set tsun piak\n\
+sivi rawngur a nga'\n\
+Tanhìt apxa! Slä sre\n\
+fwa salew, ngafkeyk\n\
+pefya?\n\
+Meswekit kllkeykolä\n\
+ngal srak? Srake\n\
+hawre'ti ngey holan?\n\
+Txotsafya, zene sìn\n\
+yayo spivä fte tsat\n\
+teykivätxaw!\n\
+Plltxe fko san Pawser\n\
+nìwan holum txampayftu\n\
+ne tseng a kllteäo.\n\
+Pori kxetse nì'i'a\n\
+lu ngar srak?"))
 
 DEFINE_DIALOG(DIALOG_145, 1, 6, 150, 200, _("\
 You've recovered 50\n\
@@ -2041,18 +2041,18 @@ kuma srer kxener!\n\
 ~ hangham nìkawng ~"))
 
 DEFINE_DIALOG(DIALOG_164, 1, 4, 30, 200, _("\
-Mario! What's up, pal?\n\
-I haven't been on the\n\
-slide lately, so I'm out\n\
-of shape.\n\
-Still, I'm always up for a\n\
-good race, especially\n\
-against an old sleddin'\n\
-buddy.\n\
-Whaddya say?\n\
-Ready...set...\n\
+Ma Mario! Pefmawn?\n\
+Nìfkrr ke fwoli ka\n\
+fya'o oe, ha ompu\n\
+slolu.\n\
+Ngian frakrr new\n\
+wäsivul, nìpxi wä\n\
+sìltsana 'eylan\n\
+a fwi.\n\
+Pefya nga fpìl?\n\
+Alaksi...\n\
 \n\
-//Go//// Don't Go"))
+//Kä//// Rä'ä Kä"))
 
 DEFINE_DIALOG(DIALOG_165, 1, 5, 30, 200, _("\
 Furia fko tul pxaw\n\

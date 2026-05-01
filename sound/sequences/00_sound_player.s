@@ -6285,7 +6285,7 @@ layer_end
 
 .sound_obj_bobomb_buddy_talk:
 chan_setbank 8
-chan_setinstr 12
+chan_setinstr 2 // replaced unused 02_mario_yah with original 0C_mario_here_we_go, to prevent translation from changing this sound
 chan_setvibratoextent 80
 chan_setvibratorate 5
 chan_setlayer 0, .layer_2684

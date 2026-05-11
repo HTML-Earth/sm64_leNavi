@@ -169,46 +169,46 @@ Alaksi srak?\n\
 //Kä//// Rä'ä Kä"))
 
 DEFINE_DIALOG(DIALOG_010, 1, 4, 30, 200, _("\
-You've stepped on the\n\
-Wing Cap Switch. Wearing\n\
-the Wing Cap, you can\n\
-soar through the sky.\n\
-Now Wing Caps will pop\n\
-out of all the red blocks\n\
-you find.\n\
+Koleynven nga sìn\n\
+Kouma Zum Hawre'ä\n\
+a Tswayon, fìhawre'fa\n\
+tsun 'ivulte tawsru.\n\
+Set za'u ayHawre' a\n\
+Tswayon ftu run ngal\n\
+a frasähena atun.\n\
 \n\
-Would you like to Save?\n\
+New swiveyn tìfkeytokit srak?\n\
 \n\
-//Yes////No"))
+//Srane////Kehe"))
 
 DEFINE_DIALOG(DIALOG_011, 1, 4, 30, 200, _("\
-You've just stepped on\n\
-the Metal Cap Switch!\n\
-The Metal Cap makes\n\
-Mario invincible.\n\
-Now Metal Caps will\n\
-pop out of all of the\n\
-green blocks you find.\n\
+Koleynven nga sìn\n\
+Kouma Zum Hawre'ä\n\
+Lefngap! Fa Hawre'\n\
+Lefngap Mario ketsukpung\n\
+slu. Set za'u ayHawre'\n\
+Lefngap ftu run ngal a\n\
+frasähena arìkean.\n\
 \n\
-Would you like to Save?\n\
+New swiveyn tìfkeytokit srak?\n\
 \n\
-//Yes////No"))
+//Srane////Kehe"))
 
 DEFINE_DIALOG(DIALOG_012, 1, 4, 30, 200, _("\
-You've just stepped on\n\
-the Vanish Cap Switch.\n\
-The Vanish Cap makes\n\
-Mario disappear.\n\
-Now Vanish Caps will pop\n\
-from all of the blue\n\
-blocks you find.\n\
+Koleynven nga sìn\n\
+Kouma Zum Hawre'ä\n\
+a 'Ìp. Fìhawre'fa\n\
+Mario ke srer nìwotx.\n\
+Set za'u ayHawre' a\n\
+'Ìp ftu run ngal a\n\
+frasähena ata'lengean.\n\
 \n\
-Would you like to Save?\n\
+New swiveyn tìfkeytokit srak?\n\
 \n\
-//Yes////No"))
+//Srane////Kehe"))
 
 DEFINE_DIALOG(DIALOG_013, 1, 5, 30, 200, _("\
-Stolarseiìm ngal 144a\n\
+Stolarseiyìm ngal 144a\n\
 fngapit! Mariol tswalit\n\
 tel nì'ul txintsengftu.\n\
 New swiveyn tìfkeytokit srak?\n\
@@ -788,14 +788,14 @@ The only problem:\n"
 YOU_CANT_SWIM_IN_IT))
 
 DEFINE_DIALOG(DIALOG_063, 1, 5, 30, 200, _("\
-The Vanish Cap is inside\n\
-the blue block. Mr. I.\n\
-will be surprised, since\n\
-you'll be invisible when\n\
-you wear it!\n\
-Even the Big Boo will be\n\
-fooled--and you can walk\n\
-through secret walls, too."))
+Hawre'ìl a 'Ìp tok\n\
+ta'lengeana sähenat.\n\
+Layoho Nariru, taluna\n\
+ketsuktse'a lu nga krra\n\
+tsat yemstokx!\n\
+Flel keng Apxa 'Asapit--\n\
+ulte tsun fpxäkìm sru\n\
+kemyo awawnan, kop."))
 
 DEFINE_DIALOG(DIALOG_064, 1, 5, 30, 200, _("\
 When you put on the Wing\n\
@@ -1166,14 +1166,14 @@ But the wind makes a\n\
 comfy ride."))
 
 DEFINE_DIALOG(DIALOG_092, 1, 5, 30, 200, _("\
-Pestering me again, are\n\
-you, Mario? Can't you see\n\
-that I'm having a merry\n\
-little time, making\n\
-mischief with my minions?\n\
-Now, return those Stars!\n\
-My troops in the walls\n\
-need them! Bwa ha ha!"))
+Oeti srätx nìmun srak,\n\
+ma Mario? Ke tsun\n\
+tsive'a futa lu oeru\n\
+fpom krra stiwi si\n\
+hu aylertu srak?\n\
+Ha, tivìng Sanhìti!\n\
+Kxemyoä samsiyul kin sat!\n\
+~ hangham nìkawng ~"))
 
 DEFINE_DIALOG(DIALOG_093, 1, 5, 30, 200, _("\
 Ma Mario! Nìmun! Tse\n\
@@ -1229,16 +1229,16 @@ zärìp! Lu säwem a\n\
 snaytu palon!"))
 
 DEFINE_DIALOG(DIALOG_098, 1, 2, 95, 200, _("\
-Come on in here...\n\
-...heh, heh, heh..."))
+Fpxäkìm ko...\n\
+...hì, hì, hì..."))
 
 // unused
 DEFINE_DIALOG(DIALOG_099, 1, 5, 95, 200, _("\
-Eh he he...\n\
-You're mine, now, hee hee!\n\
-I'll pass right through\n\
-this wall. Can you do\n\
-that? Heh, heh, heh!"))
+Ìhìhì...\n\
+Ngey kxetse oeru, hihi!\n\
+Lìng oe sru fìkxemyo.\n\
+Tsun tsakem sivi nga\n\
+srak? Hì, hì, hì!"))
 
 DEFINE_DIALOG(DIALOG_100, 1, 3, 95, 200, _("\
 Ukkiki...Wakkiki...kee kee!\n\
@@ -1299,19 +1299,19 @@ Furia tswayon alaksi!\n\
 Fäkä sìn tsamsä'o ko!"))
 
 DEFINE_DIALOG(DIALOG_107, 1, 3, 95, 200, _("\
-Ghosts...\n\
-...don't...\n\
-...DIE!\n\
-Heh, heh, heh!\n\
-Can you get out of here...\n\
-...alive?"))
+Tirea...\n\
+...ke...\n\
+...TERKUP!\n\
+Hì, hì, hì!\n\
+Srake nga tsun hivum ulte...\n\
+...emrey?"))
 
 DEFINE_DIALOG(DIALOG_108, 1, 2, 95, 200, _("\
-Boooooo-m! Here comes\n\
-the master of mischief,\n\
-the tower of terror,\n\
-the Big Boo!\n\
-Ka ha ha ha..."))
+Ìley! Zola'u\n\
+tsulfätu stiwiyä,\n\
+'asap asipä,\n\
+alu Apxa 'Asap!\n\
+Kahahaha..."))
 
 DEFINE_DIALOG(DIALOG_109, 1, 4, 95, 200, _("\
 Kxeeeeeeeeew!\n\
@@ -1356,12 +1356,12 @@ through the heart, the\n\
 more power you'll recover."))
 
 DEFINE_DIALOG(DIALOG_113, 1, 6, 30, 200, _("\
-There are special Caps in\n\
-the red, green and blue\n\
-blocks. Step on the\n\
-switches in the hidden\n\
-courses to activate the\n\
-Cap Blocks."))
+Tok zeya hawre'ìl\n\
+tuna, rìkeana sì\n\
+ta'lengeana sähenat.\n\
+Keynven sìn kouma zum\n\
+mì wawvana fya'o fte\n\
+sreykiver sähenat."))
 
 DEFINE_DIALOG(DIALOG_114, 1, 5, 95, 200, _("\
 Steykängi oet! Ayoel\n\
@@ -1443,20 +1443,20 @@ nga tsun kivä. Ngati\n\
 txaw... mawkrr!"))
 
 DEFINE_DIALOG(DIALOG_120, 1, 4, 30, 200, _("\
-Ooowaah! Can it be that\n\
-I've lost??? The power of\n\
-the Stars has failed me...\n\
-this time.\n\
-Consider this a draw.\n\
-Next time, I'll be in\n\
-perfect condition.\n\
+Aaauuu! Snolaytx oe\n\
+srak??? Tswal Sanhìyä\n\
+nolui... fìalo.\n\
+Ke yora' kawtu ke li.\n\
+Hayalo, oeri tìfyeytok\n\
+yayo'.\n\
 \n\
-Now, if you want to see\n\
-your precious Princess,\n\
-come to the top of the\n\
-tower.\n\
-I'll be waiting!\n\
-Gwa ha ha ha!"))
+\n\
+Ha, txo nivew tsive'a\n\
+Olo'eykteti atstunwi,\n\
+ultxa si oehu ro asipä.\n\
+fäpa.\n\
+Perey oe!\n\
+~ hangham nìkawng ~"))
 
 DEFINE_DIALOG(DIALOG_121, 1, 5, 30, 200, _("\
 Keheee! Ke tsunslu!\n\
@@ -1480,9 +1480,9 @@ Right: Work Elevator\n\
 Left: Underground Lake"))
 
 DEFINE_DIALOG(DIALOG_123, 1, 4, 30, 200, _("\
-Metal Cavern\n\
-Right: To Waterfall\n\
-Left: Metal Cap Switch"))
+Slär Lefngap\n\
+Skien: Ne Se'ayl\n\
+Ftär: Zum Hawre'ä Lefngap"))
 
 DEFINE_DIALOG(DIALOG_124, 1, 4, 30, 200, _("\
 Work Elevator\n\
@@ -1520,49 +1520,49 @@ lu kxanì fwa tsre'i\n\
 eyktanti ftumfa ko'on!"))
 
 DEFINE_DIALOG(DIALOG_129, 1, 5, 30, 200, _("\
-Welcome to the Vanish\n\
-Cap Switch Course! All of\n\
-the blue blocks you find\n\
-will become solid once you\n\
-step on the Cap Switch.\n\
-You'll disappear when you\n\
-put on the Vanish Cap, so\n\
-you'll be able to elude\n\
-enemies and walk through\n\
-many things. Try it out!"))
+Zola'u nìprrte' ne Fya'o\n\
+Hawre'ä a 'Ìp! Frasähena\n\
+ata'lengean slu tsuk'ampi\n\
+krra keynven nga sìn\n\
+Kouma Zum Hawre'ä.\n\
+Yemstokx tsat a krr,\n\
+'ìp nga, ha tsun kutut\n\
+flivel ulte pxaya 'usru\n\
+tivìran.\n\
+May' tsat!"))
 
 DEFINE_DIALOG(DIALOG_130, 1, 5, 30, 200, _("\
-Welcome to the Metal Cap\n\
-Switch Course! Once you\n\
-step on the Cap Switch,\n\
-the green blocks will\n\
-become solid.\n\
-When you turn your body\n\
-into metal with the Metal\n\
-Cap, you can walk\n\
-underwater! Try it!"))
+Zola'u nìprrte' ne Fya'o\n\
+Hawre'ä Lefngap! Krra\n\
+keynven sìn Kouma Zum\n\
+Hawre'ä, rìkeana sähena\n\
+tslu tsuk'ampi.\n\
+Krra slu tokx lefngap\n\
+fa Hawre' Lefngap,\n\
+tsun tivìran mì fay!\n\
+May' ko!"))
 
 DEFINE_DIALOG(DIALOG_131, 1, 5, 30, 200, _("\
-Welcome to the Wing Cap\n\
-Course! Step on the red\n\
-switch at the top of the\n\
-tower, in the center of\n\
-the rainbow ring.\n\
-When you trigger the\n\
-switch, all of the red\n\
-blocks you find will\n\
-become solid.\n\
-\n\
-Try out the Wing Cap! Do\n\
-the Triple Jump to take\n\
-off and press [Z] to land.\n\
+Zola'u nìprrte' ne Fya'o\n\
+Hawre'ä a Tswayon! Kouma\n\
+Zumsìn atun keynven ro\n\
+fäpa asipä, a tok katirä\n\
+yo'koä kxamtsengit.\n\
+Krra zumit 'ampi, slu\n\
+tuna frasähena a run\n\
+ngal tsuk'ampi.\n\
 \n\
 \n\
-Pull back on the Control\n\
-Stick to go up and push\n\
-forward to nose down,\n\
-just as you would when\n\
-flying an airplane."))
+May' Hawre'ti a Tsawyon!\n\
+Spä Pxelo fte yawivo\n\
+ulte 'ampi [Z]ti fte.\n\
+kllwivo.\n\
+\n\
+Zärìp ne'ìm Vultsyìpit\n\
+fte fäkivä ulte kärìp\n\
+fte mivin nekll,\n\
+nìtengfya na fwa\n\
+ikranit makto."))
 
 DEFINE_DIALOG(DIALOG_132, 1, 4, 30, 200, _("\
 Au, ma 'eylan Mario,\n\
@@ -1624,26 +1624,26 @@ Ngeyä srungìri perey\n\
 ayoe nìwotx!"))
 
 DEFINE_DIALOG(DIALOG_135, 1, 5, 30, 200, _("\
-It was Bowser who stole\n\
-the Stars. I saw him with\n\
-my own eyes!\n\
+Fmolong Sanhìti Pawserìl.\n\
+Tsole'a pot oeyä\n\
+menarifa!\n\
 \n\
 \n\
-He's hidden six Stars in\n\
-each course, but you\n\
-won't find all of them in\n\
-some courses until you\n\
-press the Cap Switches.\n\
-The Stars you've found\n\
-will show on each course's\n\
-starting screen.\n\
+Frafya'omì wolan pol\n\
+pukapa Tanhìt, slä ke\n\
+run ngal wotxit srefwa\n\
+'ampi Kouma Zumit\n\
+Hawre'ä.\n\
+Srer Sanhì a rolun ngal\n\
+krra tsyul fya'ot.\n\
 \n\
 \n\
-If you want to see some\n\
-of the enemies you've\n\
-already defeated, select\n\
-the Stars you recovered\n\
-from them."))
+\n\
+Txo nivew tsive'a\n\
+kxutut a li lolätxayn\n\
+ngal, ftxey Tanhìt a\n\
+tolel ngal pota.\n\
+"))
 
 DEFINE_DIALOG(DIALOG_136, 1, 6, 30, 200, _("\
 Wow! You've already\n\
@@ -1767,20 +1767,20 @@ Pori kxetse nì'i'a\n\
 lu ngar srak?"))
 
 DEFINE_DIALOG(DIALOG_145, 1, 6, 150, 200, _("\
-You've recovered 50\n\
-Power Stars! Now you can\n\
-open the Star Door on the\n\
-third floor. Bowser's\n\
-there, you know.\n\
+Teykolätxeiaw ngal 62a\n\
+Tanhìti! Set tsun piak\n\
+sivi rawngur a tok\n\
+yìti apxeyve. Pawserìl\n\
+tsatsengti, ko.\n\
 \n\
-Oh! You've found all of\n\
-the Cap Switches, haven't\n\
-you? Red, green and blue?\n\
-The Caps you get from the\n\
-colored blocks are really\n\
-helpful.\n\
-Hurry along, now. The\n\
-third floor is just ahead."))
+E! Rolun frazumit a\n\
+sreyker hawre'ti, kefyak?\n\
+Lu ta'lengean, rìkean sì\n\
+tun. Hawre' a za'u ftu\n\
+'opinsawnunga sähena\n\
+srung si nìtxan.\n\
+Win säpivi. Pxeyvea\n\
+yì lok."))
 
 DEFINE_DIALOG(DIALOG_146, 1, 6, 150, 200, _("\
 Roleiun ngal 106a\n\
@@ -1791,26 +1791,26 @@ ulte sti Pawser nìtxan!\n\
 Ha, ne syena säwem!"))
 
 DEFINE_DIALOG(DIALOG_147, 1, 5, 30, 200, _("\
-Are you using the Cap\n\
-Blocks? You really should,\n\
-you know.\n\
+Sar Hawre'ä Sähenat srak?\n\
+Sweylu txo tsakem sivi,\n\
+ko.\n\
 \n\
 \n\
-To make them solid so you\n\
-can break them, you have\n\
-to press the colored Cap\n\
-Switches in the castle's\n\
-hidden courses.\n\
-You'll find the hidden\n\
-courses only after\n\
-regaining some of the\n\
-Power Stars.\n\
+Fte sreykiver tsat kuma\n\
+tsun skiva'a, zene\n\
+'ivampi 'opinsawnunga\n\
+Zumit Akoum mì pxefya'o\n\
+awawnan txintsengä.\n\
+Nì'aw tsun rivun\n\
+tsapxefya'ot mawfwa\n\
+kolanom 'a'awa\n\
+Tanhìti.\n\
 \n\
-The Cap Blocks are a big\n\
-help! Red for the Wing\n\
-Cap, green for the Metal\n\
-Cap, blue for the Vanish\n\
-Cap."))
+Hawre'ä Sähena srung si\n\
+nìtxan! Tun fte tswivayon,\n\
+rìkean fte slivu lefngap,\n\
+ta'lengean fte 'ivìp.\n\
+"))
 
 DEFINE_DIALOG(DIALOG_148, 1, 6, 30, 200, _("\
 Snowman Mountain ahead.\n\
@@ -1840,44 +1840,44 @@ If you slide really\n\
 fast, you'll win the Star!"))
 
 DEFINE_DIALOG(DIALOG_150, 1, 5, 30, 200, _("\
-Waaaa! You've flooded my\n\
-house! Wh-why?? Look at\n\
-this mess! What am I\n\
-going to do now?\n\
+Au! Lamaytxal tok oey\n\
+kelkut! P-pelun?? Nìn\n\
+fìtìzinit! Pehem si\n\
+oe set?\n\
 \n\
-The ceiling's ruined, the\n\
-floor is soaked...what to\n\
-do, what to do? Huff...\n\
-huff...it makes me so...\n\
-MAD!!!\n\
-Everything's been going\n\
-wrong ever since I got\n\
-this Star...It's so shiny,\n\
-but it makes me feel...\n\
-strange..."))
+Fäpyo lu fwel, kllte\n\
+lu mei...pehem,\n\
+pehem? Kxew...\n\
+wiya...oe fìtxan...\n\
+STI!!!\n\
+Fra'u mì la'ang takrra\n\
+kolanom oel fìTanhìt\n\
+...Nrr fìtxan, slä\n\
+oeti 'eykefu...\n\
+hiyìk..."))
 
 DEFINE_DIALOG(DIALOG_151, 1, 4, 30, 200, _("\
-I can't take this\n\
-anymore! First you get\n\
-me all wet, then you\n\
-stomp on me!\n\
-Now I'm really, really,\n\
-REALLY mad!\n\
-Waaaaaaaaaaaaaaaaa!!!"))
+Ke tsun wivalew nulkrr!\n\
+Nì'awve sleyku oet mei,\n\
+tsakrr oesìn keynven!\n\
+\n\
+Set oe nìngay, nìngay,\n\
+NÌNGAY sti!\n\
+Oìsssssssssssss!!!"))
 
 DEFINE_DIALOG(DIALOG_152, 1, 3, 30, 200, _("\
-Owwch! Uncle! Uncle!\n\
-Okay, I " GIVE_UP ". Take this\n\
-Star!\n\
-Whew! I feel better now.\n\
-I don't really need it\n\
-anymore, anyway--\n\
-I can see the stars\n\
-through my ceiling at\n\
-night.\n\
-They make me feel...\n\
-...peaceful. Please, come\n\
-back and visit anytime."))
+'Ak! Ftang! Ftang!\n\
+Tam, Velek oe. Ngaru\n\
+fìTanhì!\n\
+Tewti! Lu oeru fpom\n\
+nì'ul set. Ke kin\n\
+tsat nulkrr, ko--\n\
+Tsun tsive'a sanhìti\n\
+kxamlä fäpyo krrka\n\
+txon.\n\
+Tsaw oeti 'eykefu...\n\
+...mawey. Rutxe, krro\n\
+aketsran tätxaw frrfen."))
 
 DEFINE_DIALOG(DIALOG_153, 1, 4, 30, 200, _("\
 Manga! Tupe lu?\n\
@@ -2080,11 +2080,11 @@ sävllti, fu 'uot niviä.\n\
 ngal fyerep tsrive'i."))
 
 DEFINE_DIALOG(DIALOG_168, 1, 5, 30, 200, _("\
-Hey! Knock it off! That's\n\
-the second time you've\n\
-nailed me. Now you're\n\
-asking for it, linguine\n\
-breath!"))
+Manga! Rä'ä! Lu muvea\n\
+alo a oeti tolakuk.\n\
+Ha nolui nga, ma\n\
+yomyu spxamä akung!\n\
+"))
 
 DEFINE_DIALOG(DIALOG_169, 1, 4, 30, 200, _("\
 Keep out!\n\

@@ -437,26 +437,26 @@ a nìfkrr pìrmeng lìmu.\n\
 "))
 
 DEFINE_DIALOG(DIALOG_035, 1, 5, 30, 200, _("\
-There are four camera, or\n\
-『[C],』 Buttons. Press [C]▲\n\
-to look around using the\n\
-Control Stick.\n\
+Lu tsìnga syeprelä yotysìp\n\
+alu 『[C],』. 'Ampi [C]▲ti\n\
+fte nivìn pxawngipit fa\n\
+Vultsyìp.\n\
 \n\
-You'll usually see Mario\n\
-through Lakitu's camera.\n\
-It is the camera\n\
-recommended for normal\n\
-play.\n\
-You can change angles by\n\
-pressing [C]▶. If you press\n\
-[R], the view switches to\n\
-Mario's camera, which\n\
-is directly behind him.\n\
-Press [R] again to return\n\
-to Lakitu's camera. Press\n\
-[C]▼ to see Mario from\n\
-afar, using either\n\
-Lakitu's or Mario's view."))
+Nìtrrtrr tse'a fkol Mariot\n\
+ftu Lakituä syeprel.\n\
+Ka wotx lu sar tsat\n\
+krra uvan si a syeprel\n\
+letrrtrr.\n\
+Tsun syeprelit kivìm fa\n\
+[C]▶. Txo 'ivampi\n\
+[R]ti, sar syeprelti\n\
+Marioä, a tok zäpxìt\n\
+peyä. 'Ampi [R]ti\n\
+nìmun fte tivätxaw ne\n\
+Lakituä syeprel. 'Ampi\n\
+[C]▼ti fte Mariori\n\
+livìm, fa Lakituä\n\
+fu Marioä syeprel."))
 
 DEFINE_DIALOG(DIALOG_036, 1, 5, 30, 200, _("\
 OBSERVATION PLATFORM\n\
@@ -798,16 +798,16 @@ ulte tsun fpxäkìm sru\n\
 kemyo awawnan, kop."))
 
 DEFINE_DIALOG(DIALOG_064, 1, 5, 30, 200, _("\
-When you put on the Wing\n\
-Cap that comes from a\n\
-red block, do the Triple\n\
-Jump to soar high into\n\
-the sky.\n\
-Use the Control Stick to\n\
-guide Mario. Pull back to\n\
-to fly up, press forward\n\
-to nose down, and press [Z]\n\
-to land."))
+Krra yemstokx za'u ftu\n\
+tuna sähena a Hawre'ti\n\
+a Tswayon, Pxelo Spä\n\
+fte tswivayon nìkxayl\n\
+mì saw.\n\
+Sar Vultsyìpit fte\n\
+hivipx Mariot. Zärìp\n\
+fte fäkivä, kärìp fte\n\
+kllkivä, ulte 'ampi\n\
+[Z]ti fte kllwivo."))
 
 DEFINE_DIALOG(DIALOG_065, 1, 6, 30, 200, _("\
 Sänumvi a Slele!\n\
@@ -886,12 +886,12 @@ Mario--just try to keep\n\
 calm!"))
 
 DEFINE_DIALOG(DIALOG_069, 1, 6, 30, 200, _("\
-Sometimes you'll bump into\n\
-invisible walls at the\n\
-edges of the painting\n\
-worlds. If you hit a wall\n\
-while flying, you'll bounce\n\
-back."))
+Krro ketsuktse'a kxemyot\n\
+a tok txewit kifkeyä\n\
+relä ngal takuk.\n\
+Txo tivakuk kxemyot\n\
+tengkrr tswerayon, nga\n\
+puwup ne'ìm."))
 
 DEFINE_DIALOG(DIALOG_070, 1, 5, 30, 200, _("\
 Frakrr tsunslu fwa tätxaw\n\
@@ -960,21 +960,21 @@ I'll never tell!\n\
 //--The Cap'n"))
 
 DEFINE_DIALOG(DIALOG_074, 1, 5, 30, 200, _("\
-You can grab on to the\n\
-edge of a cliff or ledge\n\
-with your fingertips and\n\
-hang down from it.\n\
+Tsun niviä txewit\n\
+'awkxä fu yìyä fa\n\
+ayzekwä ulte ta\n\
+tsaw kivur.\n\
 \n\
-To drop from the edge,\n\
-either press the Control\n\
-Stick in the direction of\n\
-Mario's back or press the\n\
-[Z] Button.\n\
-To get up onto the ledge,\n\
-either press Up on the\n\
-Control Stick or press [A]\n\
-as soon as you grab the\n\
-ledge to climb up quickly."))
+Fte zivup txewftu,\n\
+Marioä txalìri ne'ìm\n\
+'ärìp Vultsyìpit fu\n\
+nìyey 'ampi [Z]ti.\n\
+\n\
+Fte txewit tsyivìl,\n\
+kärìp Vultsyìpit fu\n\
+'ampi [A]ti pximaw\n\
+fwa txewit noliä\n\
+fte tsyivìl nìwin."))
 
 DEFINE_DIALOG(DIALOG_075, 1, 5, 30, 200, _("\
 Mario!! My castle is in\n\
@@ -1274,11 +1274,11 @@ Then at the peak\n\
 shall shine the light..."))
 
 DEFINE_DIALOG(DIALOG_104, 1, 5, 30, 200, _("\
-The shadowy star in front\n\
-of you is a 『Star\n\
-Marker.』 When you collect\n\
-all 8 Red Coins, the Star\n\
-will appear here."))
+Fìuk tanhìyä a ngaeo\n\
+lu 『Tanhìyä Lik.』\n\
+Krra starsìm Tuna\n\
+Fngapit a10, srer\n\
+fìtseng Tanhì."))
 
 DEFINE_DIALOG(DIALOG_105, 1, 3, 95, 200, _("\
 Furia tswayon alaksi!\n\
@@ -1339,21 +1339,21 @@ lu stxeli. Am'aluke\n\
 ngati sang sleyku."))
 
 DEFINE_DIALOG(DIALOG_112, 1, 4, 30, 200, _("\
-Collect as many coins as\n\
-possible! They'll refill\n\
-your Power Meter.\n\
+Starsìm txampxìti\n\
+fngapä! Sal speng\n\
+Sävllti Tìreyä.\n\
 \n\
-You can check to see how\n\
-many coins you've\n\
-collected in each of the\n\
-15 enemy worlds.\n\
-You can also recover\n\
-power by touching the\n\
-Spinning Heart.\n\
+Tsun stiveftxaw\n\
+holpxayti fngapä a\n\
+stolarsìm ngal mì\n\
+frakifkey a17.\n\
+Kop fte spiveng\n\
+tìtxurit tsun 'ivampi\n\
+Txe'lanit Amusìn.\n\
 \n\
-The faster you run\n\
-through the heart, the\n\
-more power you'll recover."))
+Txo tivul nìwin nì'ul\n\
+kxamlä txe'lan, speng\n\
+tìtxurit nì'ul."))
 
 DEFINE_DIALOG(DIALOG_113, 1, 6, 30, 200, _("\
 Tok zeya hawre'ìl\n\
@@ -1560,7 +1560,7 @@ kllwivo.\n\
 \n\
 Zärìp ne'ìm Vultsyìpit\n\
 fte fäkivä ulte kärìp\n\
-fte mivin nekll,\n\
+fte mivìn nekll,\n\
 nìtengfya na fwa\n\
 ikranit makto."))
 

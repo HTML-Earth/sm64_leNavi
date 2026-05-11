@@ -29,12 +29,12 @@ Kxang-ang 'Eylan. ('Ampi\n\
 Am'aluke po ngaru srung\n\
 sayi, nìteng peyä ayeylan\n\
 a tok lahea sengit.\n\
-Fte ivinan sävllit, ftang,\n\
-nìn tsat ulte 'ampi [B]ti.\n\
-'Ampi [A]ti fu [B]ti fte nì'ul\n\
-ivinan. Lahea sutehu nga\n\
-tsun pivängkxo fa fwa nìn\n\
-poti ulte [B]ti 'ampi."))
+Fte ivinan pamrelit,\n\
+ftang, nìn tsat ulte 'ampi\n\
+[B]ti. 'Ampi [A]ti fu [B]ti fte\n\
+nì'ul ivinan. Lahea sutehu\n\
+nga tsun pivängkxo fa fwa\n\
+nìn poti ulte [B]ti 'ampi."))
 
 DEFINE_DIALOG(DIALOG_001, 1, 4, 95, 200, _("\
 Nari si! Txo nga livante\n\
@@ -239,8 +239,8 @@ Makto ketsrana tsengne\n\
 ulte kutut takuk!"))
 
 DEFINE_DIALOG(DIALOG_017, 1, 4, 30, 200, _("\
-Lu oe Apxa Kxang-ang, alu\n\
-eyktan aysäpxorä,\n\
+Lu oe Apxa Kxang-ang\n\
+alu eyktan aysäpxorä,\n\
 oel futa kxangangang\n\
 kxìm ka kifkey nìwotx!\n\
 Nga kom tsyivìl ramit\n\
@@ -252,8 +252,8 @@ Oeyä aysamsiyuti ngal\n\
 ke hivifwo nga oeftu...\n\
 \n\
 ...ulte kawkrr oeyä Tanhìti\n\
-Atswalnga' ngal ke kämunge.\n\
-Wäsuyul ko,\n\
+Atswalnga' ngal ke\n\
+kämunge. Wäsuyul ko,\n\
 ma Mario!\n\
 Txo nivew Tanhìti a\n\
 lu oer, zivene siva\n\
@@ -278,7 +278,7 @@ DEFINE_DIALOG(DIALOG_020, 1, 6, 95, 150, _("\
 Ma Mario ayawne:\n\
 Rutxe ne txintseng\n\
 za'u. Ngafpi 'olem\n\
-oel kalina tsyosyuti.\n\
+oel keykit.\n\
 \n\
 Ta olo'eykte alu"))
 
@@ -391,12 +391,12 @@ DEFINE_DIALOG(DIALOG_033, 1, 6, 30, 200, _("\
 Kaltxì! Polähem nga\n\
 ro tintseng Olo'eykteyä\n\
 fa sreyker a rong.\n\
-Fwa sar sä'ot a hipx lu\n\
+Fwa sar Sä'ot a Hipx lu\n\
 fyin fìtxan. 'Ampi [A]ti fte\n\
 spivä ulte [B]ti fte 'iveko.\n\
 Kop 'ampi [B]ti fte ivinan\n\
-sävllit. Sar vultsyìpit a\n\
-tok kxamtsengti sä'oä\n\
+pamrelit. Sar Vultsyìpit a\n\
+tok kxamtsengti Sä'oä\n\
 fte Marioti reykivikx.\n\
 Tam, txintsengti ngal\n\
 livok ko."))
@@ -428,8 +428,8 @@ ftang ulte 'ampi [C]▲ti.\n\
 \n\
 'Ampi [A]ti fte vivar\n\
 uvan sivi. Leykatem fya'ot\n\
-syeprelä fa [R]. Aysävllìl\n\
-a tok fya'ot ngeyä layeyn\n\
+syeprelä fa [R]. Famrelìl\n\
+a rayun ngal layeyn\n\
 faysänumeti.\n\
 \n\
 Hayalovay, Lakitu Mesmuk\n\
@@ -444,19 +444,19 @@ Vultsyìp.\n\
 \n\
 Nìtrrtrr tse'a fkol Mariot\n\
 ftu Lakituä syeprel.\n\
-Ka wotx lu sar tsat\n\
-krra uvan si a syeprel\n\
+Ka wotx lu sar tsat krra\n\
+uvan si a syeprel\n\
 letrrtrr.\n\
 Tsun syeprelit kivìm fa\n\
 [C]▶. Txo 'ivampi\n\
 [R]ti, sar syeprelti\n\
-Marioä, a tok zäpxìt\n\
-peyä. 'Ampi [R]ti\n\
-nìmun fte tivätxaw ne\n\
-Lakituä syeprel. 'Ampi\n\
-[C]▼ti fte Mariori\n\
-livìm, fa Lakituä\n\
-fu Marioä syeprel."))
+Marioä, a tok zapxìt\n\
+peyä.\n\
+'Ampi [R]ti nìmun fte\n\
+tivätxaw ne Lakituä\n\
+syeprel. 'Ampi [C]▼ti\n\
+fte Mariori livìm, fa\n\
+Lakituä fu Marioä syeprel."))
 
 DEFINE_DIALOG(DIALOG_036, 1, 5, 30, 200, _("\
 OBSERVATION PLATFORM\n\
@@ -489,7 +489,7 @@ säperi rawng nìk'ong.\n\
 DEFINE_DIALOG(DIALOG_039, 1, 4, 30, 200, _("\
 Zenke fivrrfen\n\
 kawtu a fì'ut fngo'\n\
-Apxa Kxang-angìl\n\
+Apxa Kxang-angìl.\n\
 \n\
 Kawkrr ke rasya'uyun oeyä\n\
 Sanhìti, taluna seyä\n\
@@ -498,13 +498,13 @@ txintsengä.\n\
 Lamu stxeli a ta Pawser\n\
 alu Eyktan Aylantelakä,\n\
 ulte wolan sat nìltsan\n\
-my hifkey oeyä.\n\
+mì hifkey oeyä.\n\
 Seyä klltsengìri kea\n\
 sätsìsyì zenke hivum\n\
 kxaftu oeyä. Tse, tängam,\n\
 kxawm 'awa srungtsyìp:\n\
 Lek aystxoti Sanhìyä\n\
-krra sngä'fi fya'o.\n\
+krra tsyul fya'ot.\n\
 \n\
 //--Apxa Kxang-ang"))
 
@@ -581,12 +581,12 @@ Nì'avwe Pxesìspusä.\n\
 Tul, tsakrr pxelo spä,\n\
 'aw, mune, pxey.\n\
 Txo spivä nìkmar,\n\
-tsakrr spä spä, ulte\n\
+tsakrr spä spä, kuma\n\
 spä nìkxayl nìtxan.\n\
-Nìhay, kan la'at\n\
-fa Ngima Tìspusä. Tul,\n\
-'ampi [Z]ti fte zivung\n\
-tsakrr [A]ti fte spivä nìngim.\n\
+Nìhay, kan la'at fa\n\
+Ngima Tìspusä. Tul, 'ampi\n\
+[Z]ti fte zivung tsakrr\n\
+[A]ti fte spivä nìngim.\n\
 \n\
 Fte Pxivek Kxemyot, 'ampi\n\
 [A]ti fte spivä ne yo,\n\
@@ -594,10 +594,10 @@ tsakrr spä nìmun krra\n\
 tsat 'ampi.\n\
 \n\
 Tolel srak? Pxesìspusä,\n\
-Ngima Tìspusä, Pxek Kxemyot.\n\
-Tskxekeng, tskxekeng,\n\
-tskxekeng. Nayui txo\n\
-ke sivar sat."))
+Ngima Tìspusä, Pxek\n\
+Kxemyot. Tskxekeng,\n\
+tskxekeng, tskxekeng.\n\
+Nayui txo ke sivar sat."))
 
 DEFINE_DIALOG(DIALOG_047, 1, 2, 95, 200, _("\
 Kxì! Hìsyawl fpi\n\
@@ -624,8 +624,8 @@ Practice makes perfect!"))
 
 DEFINE_DIALOG(DIALOG_050, 1, 4, 30, 200, _("\
 Var 'ivampi [Z]ti fte zivung\n\
-sì fwivi ka fyenga yo.\n\
-Fu 'ampi [Z]ti tengkrr terok\n\
+sì fwivi ka fyenga yo. Fu\n\
+'ampi [Z]ti tengkrr terok\n\
 yati fte klltet fpivap!\n\
 Txo ftivang sì zivung sì\n\
 spivä tsakrr nga mìn\n\
@@ -644,7 +644,7 @@ uvanìl neykiä tsat ngafa.\n\
 \n\
 \n\
 Fte mivìn pxaw zum, 'ärìp\n\
-vultsyìpit nìskien fu\n\
+Vultsyìpit nìskien fu\n\
 nìftär.\n\
 Krra tok fäpat, 'ärìp nefä\n\
 fte kllkxivem fa mesyokx!\n\
@@ -818,12 +818,12 @@ aeyawr, slele nìwin nga.\n\
 \n\
 Var 'ivampi [A]ti fte rivikx\n\
 mehinam nìk'ong sì nìler.\n\
-Kärìp vultsyìpit nefä\n\
+Kärìp Vultsyìpit nefä\n\
 fte tivawng, ulte tsat\n\
 zärìp fte livok fäpat.\n\
 \n\
 Fte spivä ftumfa pay,\n\
-zärìp vultsyìpit nekll,\n\
+zärìp Vultsyìpit nekll,\n\
 tsakrr [A]ti 'ampi.\n\
 Leiu ftue, kefyak?\n\
 \n\
@@ -894,16 +894,16 @@ tengkrr tswerayon, nga\n\
 puwup ne'ìm."))
 
 DEFINE_DIALOG(DIALOG_070, 1, 5, 30, 200, _("\
-Frakrr tsunslu fwa tätxaw\n\
-ne txina mo txintsengä\n\
-ftu ayrelä hifkey a\n\
-parwun aykutul.\n\
+Frakrr tsunslu fwa\n\
+tätxaw ne txina mo\n\
+txintsengä ftu ayrelä\n\
+hifkey a parwun aykutul.\n\
 \n\
 Nìyey ftang, rä'ä rivikx,\n\
-'ampi yot alu Start fte\n\
-fpeykivak uvanit, tsakrr\n\
+'ampi yotsyìpit alu\n\
+START fte fpeykivak\n\
+uvanit, tsakrr\n\
 『Hum Fya'oftu.』\n\
-\n\
 Ke zene fraTanhìt\n\
 stivarsìm mì awa fya'o\n\
 srefwa kä ne pum ahay.\n\
@@ -1197,7 +1197,7 @@ the Long Jump? Run, press\n\
 [Z], then jump!"))
 
 DEFINE_DIALOG(DIALOG_095, 1, 4, 30, 200, _("\
-Fte ivinan sävllit,\n\
+Fte ivinan pamrelit,\n\
 kllkxem tsaeo ulte 'ampi\n\
 [B]ti, tsakem sìmi nga.\n\
 \n\
@@ -1207,7 +1207,7 @@ ioang, kllkxem eo\n\
 tsapo.\n\
 Rutxe teykivätxaw\n\
 Sanhìt a fmolong\n\
-Pawser mì fìfya'o."))
+Pawserìl mì fìfya'o."))
 
 DEFINE_DIALOG(DIALOG_096, 1, 4, 30, 200, _("\
 The path is narrow here.\n\
@@ -1360,7 +1360,7 @@ Tok zeya hawre'ìl\n\
 tuna, rìkeana sì\n\
 ta'lengeana sähenat.\n\
 Keynven sìn kouma zum\n\
-mì wawvana fya'o fte\n\
+mì wawnana fya'o fte\n\
 sreykiver sähenat."))
 
 DEFINE_DIALOG(DIALOG_114, 1, 5, 95, 200, _("\
@@ -1394,15 +1394,15 @@ eyktanit????\n\
 Latsu nga win nìtam\n\
 fte oeti klltxeykivay, slä\n\
 zene win säpivi fte\n\
-tsrive'i Pawserit\n\
-peyä kxetsefa.\n\
+tsrive'i Pawserit peyä\n\
+kxetsefa.\n\
 Fpìl oel futa tsun oeyä\n\
-samsiyu nivume ngeyä hemfa!\n\
-Ngaru Fìtanhì, oeyä\n\
-pänuìlä, ma Mario.\n\
+samsiyu nivume ngeyä\n\
+hemfa! Ngaru fìTanhì,\n\
+oeyä pänuìlä, ma Mario.\n\
 \n\
 Fte oeti tsive'a nìmun,\n\
-ftxey Fìtanhì krra\n\
+ftxey fìTanhìti krra\n\
 fpxäkìm ìlä rel.\n\
 Makto zong."))
 
@@ -1770,7 +1770,7 @@ DEFINE_DIALOG(DIALOG_145, 1, 6, 150, 200, _("\
 Teykolätxeiaw ngal 62a\n\
 Tanhìti! Set tsun piak\n\
 sivi rawngur a tok\n\
-yìti apxeyve. Pawserìl\n\
+yìti atsìve. Pawserìl\n\
 tsatsengti, ko.\n\
 \n\
 E! Rolun frazumit a\n\
@@ -1779,8 +1779,8 @@ Lu ta'lengean, rìkean sì\n\
 tun. Hawre' a za'u ftu\n\
 'opinsawnunga sähena\n\
 srung si nìtxan.\n\
-Win säpivi. Pxeyvea\n\
-yì lok."))
+Win säpivi. Tsìvea\n\
+yì lerok."))
 
 DEFINE_DIALOG(DIALOG_146, 1, 6, 150, 200, _("\
 Roleiun ngal 106a\n\
@@ -2075,7 +2075,7 @@ pähem txo kivä nìyeyfya.\n\
 'Ampi [A]ti fte spivä, [Z]ti\n\
 fte zivung, ulte [B]ti fte\n\
 pxivek pxunfa, ivinan\n\
-sävllti, fu 'uot niviä.\n\
+pamrelti, fu 'uot niviä.\n\
 'Ampi [B]ti nìmun fte 'uot a\n\
 ngal fyerep tsrive'i."))
 

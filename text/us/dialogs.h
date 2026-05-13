@@ -171,13 +171,14 @@ Alaksi srak?\n\
 DEFINE_DIALOG(DIALOG_010, 1, 4, 30, 200, _("\
 Koleynven nga sìn\n\
 Kouma Zum Hawre'ä\n\
-a Tswayon, fìhawre'fa\n\
+a Tswayon. Fìhawre'fa\n\
 tsun 'ivulte tawsru.\n\
 Set za'u ayHawre' a\n\
 Tswayon ftu run ngal\n\
 a frasähena atun.\n\
 \n\
-New swiveyn tìfkeytokit srak?\n\
+New swiveyn tìfkeytokit\n\
+srak?\n\
 \n\
 //Srane////Kehe"))
 
@@ -190,7 +191,8 @@ slu. Set za'u ayHawre'\n\
 Lefngap ftu run ngal a\n\
 frasähena arìkean.\n\
 \n\
-New swiveyn tìfkeytokit srak?\n\
+New swiveyn tìfkeytokit\n\
+srak?\n\
 \n\
 //Srane////Kehe"))
 
@@ -203,7 +205,8 @@ Set za'u ayHawre' a\n\
 'Ìp ftu run ngal a\n\
 frasähena ata'lengean.\n\
 \n\
-New swiveyn tìfkeytokit srak?\n\
+New swiveyn tìfkeytokit\n\
+srak?\n\
 \n\
 //Srane////Kehe"))
 
@@ -211,7 +214,7 @@ DEFINE_DIALOG(DIALOG_013, 1, 5, 30, 200, _("\
 Stolarseiyìm ngal 144a\n\
 fngapit! Mariol tswalit\n\
 tel nì'ul txintsengftu.\n\
-New swiveyn tìfkeytokit srak?\n\
+New swiveyn srak?\n\
 //Srane////Kehe"))
 
 DEFINE_DIALOG(DIALOG_014, 1, 4, 30, 200, _("\
@@ -510,7 +513,7 @@ krra tsyul fya'ot.\n\
 
 DEFINE_DIALOG(DIALOG_040, 1, 3, 30, 200, _("\
 Lare!\n\
-Wewa Tsup Awew\n\
+Wura Tsup Awur\n\
 Äo Fìtseng!"))
 
 DEFINE_DIALOG(DIALOG_041, 1, 3, 30, 200, _("\
@@ -699,14 +702,14 @@ Alaksi...\n\
 DEFINE_DIALOG(DIALOG_056, 1, 6, 30, 200, _("\
 Oeyä nunyolti ngal\n\
 lolätxayn! ketsukspaw!\n\
-Olomum futa nga wou frato.\n\
-Set wolìngay futa\n\
+Olomum futa nga wou\n\
+frato. Set wolìngay futa\n\
 nga kop lu win frato!\n\
 \n\
-Ke tsun teswotivìng ngar\n\
-tsyeymit, ki ngaru\n\
-fìTanhì. Tsari lu\n\
-nga pxan!"))
+Ke tsun teswotivìng\n\
+ngar tsyeymit, ki ngaru\n\
+fìTanhì nì'aw.\n\
+Tsari lu nga pxan!"))
 
 DEFINE_DIALOG(DIALOG_057, 1, 4, 30, 200, _("\
 Au! Oeyä 'ite!! Ngal\n\
@@ -794,7 +797,7 @@ Layoho Nariru, taluna\n\
 ketsuktse'a lu nga krra\n\
 tsat yemstokx!\n\
 Flel keng Apxa 'Asapit--\n\
-ulte tsun fpxäkìm sru\n\
+ulte tsun fpxiväkìm sru\n\
 kemyo awawnan, kop."))
 
 DEFINE_DIALOG(DIALOG_064, 1, 5, 30, 200, _("\
@@ -867,7 +870,7 @@ fate is in your hands."))
 DEFINE_DIALOG(DIALOG_067, 1, 5, 30, 200, _("\
 Yewla, ma Mario!\n\
 Olo'eykte Pitsyìl ke\n\
-tok fìtseng... HRH!\n\
+tok fìtsengti... HRH!\n\
 Kxìmyu nga--tsun oey\n\
 kxetset fmivi niviä!\n\
 Kawkrr tsivun nga\n\
@@ -1155,8 +1158,8 @@ DEFINE_DIALOG(DIALOG_090, 1, 6, 30, 200, _("\
 ~ hangham nìkawng ~\n\
 Zìmup nga nìyey nemfa\n\
 oey säsyep, nìfya'o\n\
-a oel kolan! pllhrr,\n\
-ngar ma『'eylan』,\n\
+a oel kolan! pllhrr\n\
+ngar, ma『'eylan』,\n\
 nari si!"))
 
 DEFINE_DIALOG(DIALOG_091, 2, 2, 30, 200, _("\
@@ -1302,8 +1305,8 @@ DEFINE_DIALOG(DIALOG_107, 1, 3, 95, 200, _("\
 Tirea...\n\
 ...ke...\n\
 ...TERKUP!\n\
-Hì, hì, hì!\n\
-Srake nga tsun hivum ulte...\n\
+Hì, hì, hì! Srake nga\n\
+tsun hivum ulte...\n\
 ...emrey?"))
 
 DEFINE_DIALOG(DIALOG_108, 1, 2, 95, 200, _("\
@@ -1433,14 +1436,14 @@ Oìsss! Eltu ke soli oe\n\
 nìtam. Ke solalew oey\n\
 tìkanìlä...slä mi lu\n\
 oeru tswal Sanhìyä,\n\
-kop lu Pitsyì mi\n\
-oer. ~ hangham ~\n\
-Ke teiel Sanhìt\n\
-nì'ul oeta! Ngari\n\
-oeyä sìkan ke lu\n\
-hasey ke li, slä\n\
-nga tsun kivä. Ngati\n\
-txaw... mawkrr!"))
+kop lu Pitsyì mi oer.\n\
+~ hangham nìkawng ~\n\
+Ke teiel Sanhìt nì'ul\n\
+oeta! Ngari oeyä sìkan\n\
+ke lu hasey ke li,\n\
+slä nga tsun kivä.\n\
+Ngati txaw...\n\
+mawkrr!"))
 
 DEFINE_DIALOG(DIALOG_120, 1, 4, 30, 200, _("\
 Aaauuu! Snolaytx oe\n\
@@ -1482,7 +1485,7 @@ Left: Underground Lake"))
 DEFINE_DIALOG(DIALOG_123, 1, 4, 30, 200, _("\
 Slär Lefngap\n\
 Skien: Ne Se'ayl\n\
-Ftär: Zum Hawre'ä Lefngap"))
+Ftär: Kouma Zum Hawre'ä"))
 
 DEFINE_DIALOG(DIALOG_124, 1, 4, 30, 200, _("\
 Work Elevator\n\
@@ -1545,7 +1548,7 @@ May' ko!"))
 DEFINE_DIALOG(DIALOG_131, 1, 5, 30, 200, _("\
 Zola'u nìprrte' ne Fya'o\n\
 Hawre'ä a Tswayon! Kouma\n\
-Zumsìn atun keynven ro\n\
+Zumsìn atun kiveynven ro\n\
 fäpa asipä, a tok katirä\n\
 yo'koä kxamtsengit.\n\
 Krra zumit 'ampi, slu\n\
@@ -1555,7 +1558,7 @@ ngal tsuk'ampi.\n\
 \n\
 May' Hawre'ti a Tsawyon!\n\
 Spä Pxelo fte yawivo\n\
-ulte 'ampi [Z]ti fte.\n\
+ulte 'ampi [Z]ti fte\n\
 kllwivo.\n\
 \n\
 Zärìp ne'ìm Vultsyìpit\n\
@@ -2043,12 +2046,12 @@ kuma srer kxener!\n\
 DEFINE_DIALOG(DIALOG_164, 1, 4, 30, 200, _("\
 Ma Mario! Pefmawn?\n\
 Nìfkrr ke fwoli ka\n\
-fya'o oe, ha ompu\n\
-slolu.\n\
+fya'o oe, ha ompu slolu.\n\
+\n\
 Ngian frakrr new\n\
 wäsivul, nìpxi wä\n\
-sìltsana 'eylan\n\
-a fwi.\n\
+sìltsana 'eylan a fwi.\n\
+\n\
 Pefya nga fpìl?\n\
 Alaksi...\n\
 \n\

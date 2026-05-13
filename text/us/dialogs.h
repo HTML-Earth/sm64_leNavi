@@ -77,10 +77,10 @@ frakrr txo nivew nga!"))
 
 DEFINE_DIALOG(DIALOG_003, 1, 5, 95, 200, _("\
 Irayo, ma Mario! Apxa\n\
-Kxang-ang set lu txepìva\n\
-nì'aw! Slä sngìmä'i\n\
-nì'aw txintsengä\n\
-tsam.\n\
+Kxang-ang set lu txeva\n\
+nì'aw! Slä sngìmä'i tsam\n\
+txintsengä ulte verar.\n\
+\n\
 Lahea kutur lu\n\
 Tswalnga'a Sanhì alahe.\n\
 Txo teykivätxaw ngal\n\
@@ -115,7 +115,7 @@ oe tsafya kaw'it.\n\
 New wäsivul ne fäpa\n\
 rama a tolok Apxa\n\
 Kxang-angìl srak?\n\
-Krra pllxte oe san\n\
+Krra plltxe oe san\n\
 kä sìk, oeng tul ko!\n\
 \n\
 Alaksi....\n\
@@ -337,16 +337,16 @@ tanhìti.\n\
 ~ hangham nìkawng ~"))
 
 DEFINE_DIALOG(DIALOG_030, 1, 6, 30, 200, _("\
-Kaltxì! Lakitu Mesmuk,\n\
+Kaltxì! Lakitu Mesmuk\n\
 meräkxu fte piveng\n\
-Mariofkeykit\n\
-lefkrr. Fya'ori a lok\n\
-kxutut nìfnu po nìyume.\n\
+Mariofkeykit lefkrr.\n\
+Fya'ori a lok kxutut\n\
+nìfnu po nìyume.\n\
+\n\
 Lu ingyentsyìp alu fko\n\
 zene tivìran nìk'ong\n\
-nìtxan fte tivìran\n\
+nìtxan fte tsakem sivi\n\
 nìfnu.\n\
-\n\
 \n\
 \n\
 Fya'ori a hipx syeprelti,\n\
@@ -509,36 +509,36 @@ krra tsyul fya'ot.\n\
 //--Apxa Kxang-ang"))
 
 DEFINE_DIALOG(DIALOG_040, 1, 3, 30, 200, _("\
-Warning!\n\
-Cold, Cold Crevasse\n\
-Below!"))
+Lare!\n\
+Wewa Tsup Awew\n\
+Äo Fìtseng!"))
 
 DEFINE_DIALOG(DIALOG_041, 1, 3, 30, 200, _("\
 Yora' oe! Snaytx nga!\n\
 ~ herangam ~\n\
 \n\
-Fìkem len txo fko fmi\n\
+Fìkem len txo fko fmivi\n\
 siva wä Lantelak Awin.\n\
 \n\
 Etrìpa syayvi hayalo!"))
 
 DEFINE_DIALOG(DIALOG_042, 1, 4, 30, 200, _("\
-Caution! Narrow Bridge!\n\
-Cross slowly!\n\
+Lare! Snepa Semkä!\n\
+Emkivä nìk'ong!\n\
 \n\
 \n\
-You can jump to the edge\n\
-of the cliff and hang on,\n\
-and you can climb off the\n\
-edge if you move slowly.\n\
-When you want to let go,\n\
-either press [Z] or press\n\
-the Control Stick in the\n\
-direction of Mario's back.\n\
-To climb up, press Up on\n\
-the Control Stick. To\n\
-scurry up quickly, press\n\
-the [A] Button."))
+Tsun spivä ne txew\n\
+'awkxä ulte kivur, kop\n\
+tsun tsyivìl txo rivikx\n\
+nìk'ong.\n\
+Krra new livonu,\n\
+'ampi [Z]ti fu 'ärìp\n\
+Vultsyìpit ìlä Marioä\n\
+txalä salewfya.\n\
+Fte tsyivìl, kärìp\n\
+Vultsyìpit. Fte tsyivìl\n\
+nìwin, 'ampi [A]ti.\n\
+"))
 
 DEFINE_DIALOG(DIALOG_043, 1, 5, 30, 200, _("\
 If you jump and hold the\n\
@@ -549,28 +549,28 @@ a flying bird!"))
 
 DEFINE_DIALOG(DIALOG_044, 1, 5, 95, 200, _("\
 Pesuuu luuu? Tuuupe\n\
-tìtxen soli oer? Tsawke\n\
-lrrtok si mi--sweylu txo\n\
-hivahängaw oe!\n\
-\n\
-Tse, txo lu oe txen,\n\
+tìtxen soli oeruuu?\n\
+Tsawke lrrtok si mi--\n\
+sweyluuu txo oe\n\
+hivahängaw!\n\
+Tse, txo txen oe luuu,\n\
 tsun tswivayon nìyol\n\
-oehu ko.\n\
-Var 'ivampi [A]ti fte\n\
-fyivep oet. Ftang fte\n\
-livonu. Ketsran tsengne\n\
-nga new kivä, munge ngat,\n\
+oehuuu ko. Var 'ivampi\n\
+[A]ti fte fyivep oet.\n\
+Ftang fte livonuuu.\n\
+Ketsran tsengne nga new\n\
+kivä, oel munge ngat,\n\
 txo oey mesyal livewn.\n\
-Oeri ukur tìng nari\n\
+Tìng nari oeyä uuukur\n\
 ulte fyep."))
 
 DEFINE_DIALOG(DIALOG_045, 1, 6, 95, 200, _("\
-Sau! 'Efu oe ngeyn\n\
-fìtxan. Sweylu txo\n\
-yivom nga nìnän, ma Mario!\n\
-Fìalori tsaw tam. 'Ampi\n\
-[A]ti fte livonu. Tam,\n\
-hayaaaaalovay!"))
+Sauuu! 'Efu oe ngeyn\n\
+fìtxan. Sweyluuu txo\n\
+yivom nga nìnän, ma\n\
+Mario! Fìalori tsaw tam.\n\
+'Ampi [A]ti fte livonuuu.\n\
+Tam, hayaaaaalovay!"))
 
 DEFINE_DIALOG(DIALOG_046, 1, 5, 30, 200, _("\
 Letsrantena pxefya'ori\n\
@@ -666,14 +666,14 @@ You can catch lots of\n\
 air with both jumps."))
 
 DEFINE_DIALOG(DIALOG_053, 1, 5, 30, 200, _("\
-Sometimes, if you pass\n\
-through a coin ring or\n\
-find a secret point in a\n\
-course, a red number will\n\
-appear.\n\
-If you trigger five red\n\
-numbers, a secret Star\n\
-will show up."))
+Krro, txo kivä\n\
+kxamlä yo'ko fngapä\n\
+fu run wawnana likit\n\
+mì fya'o, srer tuna\n\
+holpxay.\n\
+Txo sreykiver tuna\n\
+holpxayti a5, srer\n\
+wawnana Tanhì."))
 
 DEFINE_DIALOG(DIALOG_054, 1, 5, 30, 200, _("\
 Welcome to the snow\n\
@@ -689,9 +689,9 @@ Ngari fkan na tute\n\
 a tsun fwivi nìwin.\n\
 Fnan oel frato futa\n\
 fwi, ha tsun ngati\n\
-inan kezemplltxe ko.\n\
-Tse, srake nga new\n\
-wäsivul?\n\
+ivinan kezemplltxe ko.\n\
+Tse...\n\
+Nga new wäsivul srak?\n\
 Alaksi...\n\
 \n\
 //Kä//// Rä'ä Kä"))
@@ -716,7 +716,7 @@ mì sìrey.\n\
 (Plltxe fko san poru\n\
 lu sney sa'nokä 'eng...)\n\
 Ke zerängok teyngta\n\
-yolem pot peseng.\n\
+oel pot yolem peseng.\n\
 Fpivìl...Namew oe\n\
 kivanom payoangit\n\
 sì tskxepayti, ulte...\n\
@@ -729,8 +729,8 @@ tamok pesengti? Tsun\n\
 ngaru irayo sivi pefya,\n\
 ma Mario? E, lu oer\n\
 fì...tanhì. Ngaru fì'u\n\
-fa oeyä tì'ilukea\n\
-irayo."))
+fa oeyä tì'ilukea irayo.\n\
+"))
 
 DEFINE_DIALOG(DIALOG_059, 1, 4, 30, 200, _("\
 Ke längu tsapo 'ite oey!\n\
@@ -1032,15 +1032,15 @@ Txurplltxe fko san zenuye\n\
 meswekit kllkeykivä."))
 
 DEFINE_DIALOG(DIALOG_078, 1, 5, 30, 200, _("\
-Break open the Blue Coin\n\
-Block by Pounding the\n\
-Ground with the [Z] Button.\n\
-One Blue Coin is worth\n\
-five Yellow Coins.\n\
-But you have to hurry!\n\
-The coins will disappear\n\
-if you're not quick to\n\
-collect them! Too bad."))
+Fte srivu' Eana Fngapä\n\
+Sähenat, fpap klltet fa [Z].\n\
+Eana Fngap a'aw ley\n\
+fìtxan na Rima Fngap a5.\n\
+\n\
+Slä zene win säpivi!\n\
+Fngap 'ayìp txo nga\n\
+ke stivarsìm tsat\n\
+nìkmar! Yewla."))
 
 DEFINE_DIALOG(DIALOG_079, 1, 4, 30, 200, _("\
 Owwwuu! Let me go!\n\
@@ -1210,16 +1210,16 @@ Sanhìt a fmolong\n\
 Pawserìl mì fìfya'o."))
 
 DEFINE_DIALOG(DIALOG_096, 1, 4, 30, 200, _("\
-The path is narrow here.\n\
-Easy does it! No one is\n\
-allowed on top of the\n\
-mountain!\n\
-And if you know what's\n\
-good for you, you won't\n\
-wake anyone who's\n\
-sleeping!\n\
-Move slowly,\n\
-tread lightly."))
+Fìtseng fya'o lu snep.\n\
+Nari si! Ke tung fkol\n\
+futa tok ramit!\n\
+\n\
+Kop sweylu txo ke\n\
+tìtxen sivi kawturu\n\
+a herahaw!\n\
+\n\
+Rikx nìk'ong,\n\
+keynven nìmeyp."))
 
 DEFINE_DIALOG(DIALOG_097, 1, 5, 30, 200, _("\
 Rä'ä livu velekyu!\n\
@@ -1282,14 +1282,14 @@ fìtseng Tanhì."))
 
 DEFINE_DIALOG(DIALOG_105, 1, 3, 95, 200, _("\
 Furia tswayon alaksi!\n\
-Fäkä sìn tsamsä'o ko!\n\
+Spä nemfa tsamsä'o ko!\n\
 \n\
 Nga tsun livok Tanhìt\n\
 a tok lusìnga sponot fa\n\
 fwa sivar 4a tsamsä'ot.\n\
 Sar vultsyìpit fte kivan,\n\
-tsakrr 'ampi [A]ti fte tivem.\n\
-\n\
+tsakrr 'ampi [A]ti\n\
+fte tivem.\n\
 Sìlronsema fya'o a kllwo\n\
 lu fwa niä utralit fu\n\
 swekit."))
@@ -1373,17 +1373,17 @@ Plltxe aynga san irayo\n\
 sìk srak? Kehe! Tse, ke\n\
 keynven sìn oe nga!\n\
 New ngati srivu' talun\n\
-tì'o'! Srake tsaw\n\
-lu tìngäzìk ngaru?\n\
-Tsakrr fmi oeti fpivap,\n\
-ma meyptu! HRH!"))
+tì'o'!\n\
+Srake tsaw lu tìngäzìk\n\
+ngaru? Tsakrr fmi oeti\n\
+fpivap, ma meyptu!"))
 
 DEFINE_DIALOG(DIALOG_115, 1, 5, 95, 200, _("\
 Kehe! Srolu' nìmun!\n\
 Latsu oe nì'aw tskxe-keng.\n\
-Ke new futa nìhawng krrnìkx,\n\
-kolan, krrnekx. Nga yora'.\n\
-Ngaru fì'u!"))
+Ke new futa nìhawng\n\
+krrnìkx, kolan, krrnekx.\n\
+Nga yora'. Ngaru fì'u!"))
 
 DEFINE_DIALOG(DIALOG_116, 1, 5, 95, 200, _("\
 Peuuu....Peuuu?\n\
@@ -1609,19 +1609,19 @@ tatsok!"))
 DEFINE_DIALOG(DIALOG_134, 1, 5, 30, 200, _("\
 Tanhìyä tstxo kop\n\
 lu säsrung teyngä\n\
-pefya tsat run. Tsun tsat\n\
-ivinan krra tsyul fya'ot.\n\
-\n\
+pefya tsat run.\n\
+Tsun tsat ivinan\n\
+krra tsyul fya'ot.\n\
 Ke zene stivarsìm ìlä\n\
-holpxay. Ke srer\n\
-'a'awa Tanhì, kxutu\n\
-sì zum mungwrrtxo ftxivey\n\
+holpxay. Ke srer 'a'awa\n\
+Tanhì, kxutu sì zum\n\
+mungwrrtxo ftxivey\n\
 Tanhìti a ha'.\n\
 Mawfwa starsìm Tanhìt\n\
 a'a'aw, tsun mivay'\n\
-fya'ot alahe.\n\
-Ngeyä srungìri perey\n\
-ayoe nìwotx!"))
+fya'ot alahe. Ngeyä\n\
+srungìri perey ayoe\n\
+nìwotx!"))
 
 DEFINE_DIALOG(DIALOG_135, 1, 5, 30, 200, _("\
 Fmolong Sanhìti Pawserìl.\n\
@@ -1733,11 +1733,11 @@ Pxesanhìti! Set nga\n\
 rawngur a nga'\n\
 holpxayti alu 3\n\
 tsun piak sivi.\n\
-\n\
 Piaka fya'ori fko tsun\n\
 kivä ziva'u ketsrana\n\
-krro. Kutu sti nì'ul,\n\
-ha fori nari si!"))
+krro. Kutu steri nì'ul,\n\
+ha fori nari si!\n\
+"))
 
 DEFINE_DIALOG(DIALOG_143, 1, 6, 150, 200, _("\
 Teykolätxeiaw ngal vola\n\
@@ -1791,20 +1791,20 @@ ulte sti Pawser nìtxan!\n\
 Ha, ne syena säwem!"))
 
 DEFINE_DIALOG(DIALOG_147, 1, 5, 30, 200, _("\
-Sar Hawre'ä Sähenat srak?\n\
-Sweylu txo tsakem sivi,\n\
-ko.\n\
+Sar Hawre'ä Sähenat\n\
+srak? Sweylu txo tsakem\n\
+sivi, ko.\n\
 \n\
 \n\
-Fte sreykiver tsat kuma\n\
-tsun skiva'a, zene\n\
+Fte sreykiver kuma\n\
+tsun skiva'a tsat, zene\n\
 'ivampi 'opinsawnunga\n\
-Zumit Akoum mì pxefya'o\n\
+Zumit Akoum mì pefya'o\n\
 awawnan txintsengä.\n\
 Nì'aw tsun rivun\n\
 tsapxefya'ot mawfwa\n\
-kolanom 'a'awa\n\
-Tanhìti.\n\
+kolanom 'a'awa Tanhìti.\n\
+\n\
 \n\
 Hawre'ä Sähena srung si\n\
 nìtxan! Tun fte tswivayon,\n\

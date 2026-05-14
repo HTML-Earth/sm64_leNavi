@@ -311,33 +311,33 @@ txintsengä."))
 
 DEFINE_DIALOG(DIALOG_025, 1, 4, 95, 200, _("\
 Fìrawngur tsun piak sivi\n\
-3a tanhì.\n\
+3a Tanhì.\n\
 Kin ngal pumit a[%] nì'ul.\n\
 "))
 
 DEFINE_DIALOG(DIALOG_026, 1, 4, 95, 200, _("\
 Fìrawngur tsun piak sivi\n\
-10a tanhì.\n\
+10a Tanhì.\n\
 Kin ngal pumit a[%] nì'ul.\n\
 "))
 
 DEFINE_DIALOG(DIALOG_027, 1, 4, 95, 200, _("\
 Fìrawngur tsun piak sivi\n\
-36a tanhì.\n\
+36a Tanhì.\n\
 Kin ngal pumit a[%] nì'ul.\n\
 "))
 
 DEFINE_DIALOG(DIALOG_028, 1, 4, 95, 200, _("\
 Fìrawngur tsun piak sivi\n\
-62a tanhì.\n\
+62a Tanhì.\n\
 Kin ngal pumit a[%] nì'ul.\n\
 "))
 
 DEFINE_DIALOG(DIALOG_029, 1, 5, 95, 200, _("\
 Fte piak sivi rawngur\n\
-snayìyä『atì'iluke』,\n\
-ngal kin 106a\n\
-tanhìti.\n\
+snayìyä 『atì'iluke』,\n\
+ngal kin 106a Tanhìti.\n\
+\n\
 ~ hangham nìkawng ~"))
 
 DEFINE_DIALOG(DIALOG_030, 1, 6, 30, 200, _("\
@@ -2010,7 +2010,7 @@ Lu oer txi, ko!\n\
 Ke tsoleri srak?\n\
 \n\
 'Ìn oe nìhawng ha\n\
-Sahìri ke tsun wätive.\n\
+Sanhìri ke tsun wätive.\n\
 Ngaru fì'u. Ke nolew\n\
 tsat wivan...\n\
 Nìyey lu oer txi fìtxan.\n\
@@ -2063,8 +2063,8 @@ DEFINE_DIALOG(DIALOG_165, 1, 5, 30, 200, _("\
 Furia fko tul pxaw\n\
 fìswek, mìn fìtxan\n\
 kuma tsìk hahaw,\n\
-ke kllfro' oe\n\
-kaw'it."))
+ke kllfro' oe kaw'it.\n\
+"))
 
 DEFINE_DIALOG(DIALOG_166, 1, 4, 30, 200, _("\
 Tìyätxaw oe ye'rìn.\n\

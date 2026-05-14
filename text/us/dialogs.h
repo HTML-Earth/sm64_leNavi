@@ -220,9 +220,10 @@ New swiveyn srak?\n\
 DEFINE_DIALOG(DIALOG_014, 1, 4, 30, 200, _("\
 Wou! Tanhì Atswalnga'!\n\
 Mariol tel tìtstewti\n\
-nì'ul ftu tswal\n\
-txintsengä.\n\
-New swiveyn tìfkeytokit srak?\n\
+nì'ul ta txintsengä\n\
+tswal.\n\
+New swiveyn tìfkeytokit\n\
+srak?\n\
 \n\
 //Sran!////Ke Li"))
 
@@ -1101,18 +1102,18 @@ E, rolun oel fì'ut!\n\
 Tsat stä'nì, ma Mario!"))
 
 DEFINE_DIALOG(DIALOG_084, 1, 3, 30, 200, _("\
-Yeeoww! Unhand me,\n\
-brute! I'm late, so late,\n\
-I must make haste!\n\
-This shiny thing? Mine!\n\
-It's mine. Finders,\n\
-keepers, losers...\n\
-Late, late, late...\n\
-Ouch! Take it then! A\n\
-gift from Bowser, it was.\n\
-Now let me be! I have a\n\
-date! I cannot be late\n\
-for tea!"))
+Au! Oeti lonu, ma\n\
+äzantu! Lehawngkrr\n\
+fìtxan oe lu!\n\
+Fìzum anusrr? Oey!\n\
+Lu pum oey. Rolun\n\
+oel nìkmar, ngal...\n\
+Hawngkrr, hawngkrr...\n\
+'Ak! Längu ngar! Lolu\n\
+stxeli a ta Pawser, ko.\n\
+Ha fpomit oey sweyn!\n\
+Lìyu oeru ultxa a tsari\n\
+zenke ziva'u hawngkrr!"))
 
 DEFINE_DIALOG(DIALOG_085, 1, 5, 30, 200, _("\
 You don't stand a ghost\n\
@@ -1163,10 +1164,10 @@ ngar, ma『'eylan』,\n\
 nari si!"))
 
 DEFINE_DIALOG(DIALOG_091, 2, 2, 30, 200, _("\
-Danger!\n\
-Strong Gusts!\n\
-But the wind makes a\n\
-comfy ride."))
+Hrrap!\n\
+Txura Hufwe!\n\
+Slä tsun tsat\n\
+mivakto nìhoan."))
 
 DEFINE_DIALOG(DIALOG_092, 1, 5, 30, 200, _("\
 Oeti srätx nìmun srak,\n\
@@ -1226,9 +1227,9 @@ keynven nìmeyp."))
 
 DEFINE_DIALOG(DIALOG_097, 1, 5, 30, 200, _("\
 Rä'ä livu velekyu!\n\
-Txo fko fmi ngati\n\
-zivärìp, nì'eyng\n\
-zärìp! Lu säwem a\n\
+Txo fko fmivi ngati\n\
+kivärìp, nì'eyng\n\
+kärìp! Lu säwem a\n\
 snaytu palon!"))
 
 DEFINE_DIALOG(DIALOG_098, 1, 2, 95, 200, _("\
@@ -1299,7 +1300,7 @@ swekit."))
 
 DEFINE_DIALOG(DIALOG_106, 1, 2, 95, 200, _("\
 Furia tswayon alaksi!\n\
-Fäkä sìn tsamsä'o ko!"))
+Spä nemfa tsamsä'o ko!"))
 
 DEFINE_DIALOG(DIALOG_107, 1, 3, 95, 200, _("\
 Tirea...\n\
@@ -1425,10 +1426,11 @@ DEFINE_DIALOG(DIALOG_118, 1, 6, 95, 200, _("\
 Kllrikx!\n\
 Pehem...len?\n\
 Moet...srolu' na tskxevi.\n\
-Nga txur fìtxan!\n\
-Ngal eyk txanlala tìtxulat!\n\
+Nga txur fìtxan! Ngal\n\
+eyk txanlala tìtxulat!\n\
 Fìtrro...\n\
-Ha, munge Tswalnga'a Tanhìt.\n\
+Ha, munge\n\
+Tswalnga'a Tanhìt.\n\
 Moe...hahaw...tìvawm."))
 
 DEFINE_DIALOG(DIALOG_119, 1, 6, 30, 200, _("\
@@ -1450,13 +1452,13 @@ Aaauuu! Snolaytx oe\n\
 srak??? Tswal Sanhìyä\n\
 nolui... fìalo.\n\
 Ke yora' kawtu ke li.\n\
-Hayalo, oeri tìfyeytok\n\
+Hayalo, oeri tìfkeytok\n\
 yayo'.\n\
 \n\
 \n\
 Ha, txo nivew tsive'a\n\
 Olo'eykteti atstunwi,\n\
-ultxa si oehu ro asipä.\n\
+ultxa si oehu ro asipä\n\
 fäpa.\n\
 Perey oe!\n\
 ~ hangham nìkawng ~"))
@@ -2003,18 +2005,18 @@ Ta ayngopyu uvanä alu\n\
 Fyolea Mario Zam"))
 
 DEFINE_DIALOG(DIALOG_162, 1, 4, 30, 200, _("\
-No, no, no! Not you\n\
-again! I'm in a great\n\
-hurry, can't you see?\n\
+Kehe! Nga nìmun srak?\n\
+Lu oer txi, ko!\n\
+Ke tsoleri srak?\n\
 \n\
-I've no time to squabble\n\
-over Stars. Here, have it.\n\
-I never meant to hide it\n\
-from you...\n\
-It's just that I'm in such\n\
-a rush. That's it, that's\n\
-all. Now, I must be off.\n\
-Owww! Let me go!"))
+'Ìn oe nìhawng ha\n\
+Sahìri ke tsun wätive.\n\
+Ngaru fì'u. Ke nolew\n\
+tsat wivan...\n\
+Nìyey lu oer txi fìtxan.\n\
+Tsaw lu wotx.\n\
+Ha, zene oe hivum.\n\
+'Ak! Oeti lonu!"))
 
 DEFINE_DIALOG(DIALOG_163, 1, 5, 30, 200, _("\
 Keheee! Ngal oeti\n\

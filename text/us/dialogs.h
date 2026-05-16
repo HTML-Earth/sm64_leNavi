@@ -463,20 +463,20 @@ fte Mariori livìm, fa\n\
 Lakituä fu Marioä syeprel."))
 
 DEFINE_DIALOG(DIALOG_036, 1, 5, 30, 200, _("\
-OBSERVATION PLATFORM\n\
-Press [C]▲ to take a look\n\
-around. Don't miss\n\
-anything!\n\
+TSENG A TÌNG NARI\n\
+'Ampi [C]▲ti fte nivìn.\n\
+Tsun tsive'a fra'ut!\n\
 \n\
-Press [R] to switch to\n\
-Mario's camera. It\n\
-always follows Mario.\n\
-Press [R] again to switch\n\
-to Lakitu's camera.\n\
-Pause the game and\n\
-switch the mode to 『fix』\n\
-the camera in place while\n\
-holding [R]. Give it a try!"))
+\n\
+[R]ti 'ampi fte sivar\n\
+Marioä syeprelit. Tsal\n\
+frakrr nong Mariot.\n\
+'Ampi [R]ti nìmun fte\n\
+sivar syeprelit Lakituä.\n\
+Krra fpak uvan, sleyku\n\
+syeprelit 『ketsukhipx』,\n\
+tsakrr var 'ivampi\n\
+[R]ti. Tsati may'!"))
 
 DEFINE_DIALOG(DIALOG_037, 1, 2, 30, 200, _("\
 Yora' oe! Snaytx nga!\n\
@@ -680,11 +680,11 @@ holpxayti a5, srer\n\
 wawnana Tanhì."))
 
 DEFINE_DIALOG(DIALOG_054, 1, 5, 30, 200, _("\
-Welcome to the snow\n\
-slide! Hop on! To speed\n\
-up, press forward on the\n\
-Control Stick. To slow\n\
-down, pull back."))
+Zola'u nìprrte' ne\n\
+herwìyä fya'o a fwi!\n\
+Fwi ko! Kärìp Vultsyìpit\n\
+fte win slivu. Zärìp\n\
+fte kì'ong slivu."))
 
 DEFINE_DIALOG(DIALOG_055, 1, 4, 30, 200, _("\
 Kxì, ma 'eylan Mario,\n\
@@ -880,14 +880,14 @@ sko meyptu kawkrr\n\
 oeti heykum! Kawkrr!"))
 
 DEFINE_DIALOG(DIALOG_068, 1, 5, 30, 200, _("\
-It's Lethal Lava Land!\n\
-If you catch fire or fall\n\
-into a pool of flames,\n\
-you'll be hopping mad, but\n\
-don't lose your cool.\n\
-You can still control\n\
-Mario--just try to keep\n\
-calm!"))
+Lu Vrrtepä Txep a Syep!\n\
+Txo 'ivampi txepit fu\n\
+zup nemfa txekxumpay,\n\
+spayä nìlekye'ung, slä\n\
+rä'ä velek.\n\
+Mi tsun Mariot hivipx\n\
+--zene tsakem sivi\n\
+nìmwey!"))
 
 DEFINE_DIALOG(DIALOG_069, 1, 6, 30, 200, _("\
 Krro ketsuktse'a kxemyot\n\
@@ -1128,10 +1128,10 @@ makes some bad guys roll\n\
 their eyes."))
 
 DEFINE_DIALOG(DIALOG_087, 1, 4, 30, 200, _("\
-Santa Claus isn't the only\n\
-one who can go down a\n\
-chimney! Come on in!\n\
-/--Cabin Proprietor"))
+Rong akxusem lu rawng\n\
+a frapo tsun sivar!\n\
+Zìyeva'u nìprrte'!\n\
+/--Kelkuä Vewngyu"))
 
 DEFINE_DIALOG(DIALOG_088, 1, 5, 30, 200, _("\
 Work Elevator\n\
@@ -1832,17 +1832,17 @@ automatically.\n\
 //--The Snowman"))
 
 DEFINE_DIALOG(DIALOG_149, 1, 3, 30, 200, _("\
-Welcome to\n\
-Princess Toadstool's\n\
-secret slide!\n\
-There's a Star hidden\n\
-here that Bowser couldn't\n\
-find.\n\
-When you slide, press\n\
-forward to speed up,\n\
-pull back to slow down.\n\
-If you slide really\n\
-fast, you'll win the Star!"))
+Zola'u nìprrte' ne\n\
+Pitsyä wawnana\n\
+fya'o a fwi!\n\
+Ke rolun Pawserìl a\n\
+Tanhìl awawnan tok\n\
+fìtsengti.\n\
+Krra fwi, kärìp\n\
+Vultsyìpit fte slivu\n\
+win, zärìp fte slivu\n\
+kì'ong. Txo fwivi nìwin\n\
+nìtxan, tel Tanhìti!"))
 
 DEFINE_DIALOG(DIALOG_150, 1, 5, 30, 200, _("\
 Au! Lamaytxal tok oey\n\

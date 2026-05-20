@@ -473,7 +473,7 @@ Marioä syeprelit. Tsal\n\
 frakrr nong Mariot.\n\
 'Ampi [R]ti nìmun fte\n\
 sivar syeprelit Lakituä.\n\
-Krra fpak uvan, sleyku\n\
+Krra fpak uvan, sleykivu\n\
 syeprelit 『ketsukhipx』,\n\
 tsakrr var 'ivampi\n\
 [R]ti. Tsati may'!"))
@@ -773,10 +773,10 @@ the edge of the water to\n\
 jump out."))
 
 DEFINE_DIALOG(DIALOG_061, 1, 4, 30, 200, _("\
-BRRR! Frostbite Danger!\n\
-Do not swim here.\n\
-I'm serious.\n\
-/--The Penguin"))
+AU! Tìwew lehrrap!\n\
+Fìtseng slele rä'ä.\n\
+Perlltxe nìngay.\n\
+/--Yayo"))
 
 DEFINE_DIALOG(DIALOG_062, 1, 3, 30, 200, _("\
 Hidden inside the green\n\
@@ -947,21 +947,21 @@ have to find it on this\n\
 mountain."))
 
 DEFINE_DIALOG(DIALOG_073, 1, 4, 95, 200, _("\
-Aarrgh! Ahoy, matey. I\n\
-have sunken treasure,\n\
-here, I do.\n\
+Tse! Gì, ma 'eylanay.\n\
+Oeru lu wusaba\n\
+cheym fìtseng ko.\n\
 \n\
-But to pluck the plunder,\n\
-you must open the\n\
-Treasure Chests in the\n\
-right order.\n\
-What order is that,\n\
-ye say?\n\
+Hufwa fte kivanom,\n\
+zene nga piak sivi\n\
+Cheymä Aysähenaru\n\
+ìlä vefya eyawr.\n\
+Pevefya sìk pìyevawm\n\
+nga.\n\
 \n\
 \n\
-I'll never tell!\n\
+Kawkrr ke pasheng tsat!\n\
 \n\
-//--The Cap'n"))
+//--Eyktan"))
 
 DEFINE_DIALOG(DIALOG_074, 1, 5, 30, 200, _("\
 Tsun niviä txewit\n\
@@ -1818,18 +1818,18 @@ ta'lengean fte 'ivìp.\n\
 "))
 
 DEFINE_DIALOG(DIALOG_148, 1, 6, 30, 200, _("\
-Snowman Mountain ahead.\n\
-Keep out! And don't try\n\
-the Triple Jump over the\n\
-ice block shooter.\n\
+Herwìtuä Ram sim.\n\
+Rä'ä fpxäkìm! Ulte\n\
+rä'ä may' spivä pxelo\n\
+io tem tskxepayti a\n\
+txawnulsrung.\n\
 \n\
-\n\
-If you fall into the\n\
-freezing pond, your power\n\
-decreases quickly, and\n\
-you won't recover\n\
-automatically.\n\
-//--The Snowman"))
+Txo zivup nemfa 'ora\n\
+aleyr, nän ngeyä\n\
+tìtxur nìwin, ulte\n\
+ke speng tsat\n\
+vaykrr tok reymit.\n\
+//--Herwìtu"))
 
 DEFINE_DIALOG(DIALOG_149, 1, 3, 30, 200, _("\
 Zola'u nìprrte' ne\n\
@@ -1838,10 +1838,10 @@ fya'o a fwi!\n\
 Ke rolun Pawserìl a\n\
 Tanhìl awawnan tok\n\
 fìtsengti.\n\
-Krra fwi, kärìp\n\
-Vultsyìpit fte slivu\n\
-win, zärìp fte slivu\n\
-kì'ong. Txo fwivi nìwin\n\
+Krra fwi, Vultsyìpit\n\
+kärìp fte slivu win,\n\
+zärìp fte slivu kì'ong.\n\
+Txo fwivi nìwin\n\
 nìtxan, tel Tanhìti!"))
 
 DEFINE_DIALOG(DIALOG_150, 1, 5, 30, 200, _("\
@@ -2092,10 +2092,10 @@ yomyu spxamä akung!\n\
 "))
 
 DEFINE_DIALOG(DIALOG_169, 1, 4, 30, 200, _("\
-Keep out!\n\
-That means you!\n\
-Arrgghh!\n\
+Rä'ä fpxäkìm!\n\
+Nìteng nga!\n\
+Oìsss!\n\
 \n\
-Anyone entering this cave\n\
-without permission will\n\
-meet certain disaster."))
+Txo fpxiväkìm nemfa slär\n\
+nìkelkin, nängal\n\
+nga nìfpxamo."))

@@ -1272,10 +1272,10 @@ away. Instead, sneak up\n\
 behind them and punch."))
 
 DEFINE_DIALOG(DIALOG_103, 1, 4, 95, 200, _("\
-Upon four towers\n\
-one must alight...\n\
-Then at the peak\n\
-shall shine the light..."))
+Sìn asip atsìng\n\
+zenuye kllkxivem...\n\
+Tsakrr ro onä fäpa\n\
+nuyrr atan ta'em..."))
 
 DEFINE_DIALOG(DIALOG_104, 1, 5, 30, 200, _("\
 Fìuk tanhìyä a ngaeo\n\
@@ -1935,18 +1935,18 @@ watch the position of\n\
 the big hand!"))
 
 DEFINE_DIALOG(DIALOG_157, 1, 5, 30, 200, _("\
-Watch out! Don't let\n\
-yourself be swallowed by\n\
-quicksand.\n\
+Nari si! Rä'ä tung\n\
+futa ngati nenil\n\
+kxukx.\n\
 \n\
 \n\
-If you sink into the sand,\n\
-you won't be able to\n\
-jump, and if your head\n\
-goes under, you'll be\n\
-smothered.\n\
-The dark areas are\n\
-bottomless pits."))
+Txo nenimì wivapx,\n\
+fwa spä ke tsunslu,\n\
+txo re'ol tivok tsat,\n\
+spakat.\n\
+\n\
+Vawma ngip lu\n\
+ropx a kllpaluke."))
 
 DEFINE_DIALOG(DIALOG_158, 1, 6, 30, 200, _("\
 1. If you jump repeatedly\n\

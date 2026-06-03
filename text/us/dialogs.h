@@ -743,34 +743,34 @@ kaw'it! Sngum seratsi\n\
 peyä sa'sem!"))
 
 DEFINE_DIALOG(DIALOG_060, 1, 4, 30, 200, _("\
-ATTENTION!\n\
-Read Before Diving In!\n\
+LARE!\n\
+Inan srefwa tawng!\n\
 \n\
 \n\
-If you stay under the\n\
-water for too long, you'll\n\
-run out of oxygen.\n\
+Txo 'ivì'awn äo pay\n\
+txankrr nìhawng,\n\
+tsakrr han syehati.\n\
 \n\
-Return to the surface for\n\
-air or find an air bubble\n\
-or coins to breathe while\n\
-underwater.\n\
-Press [A] to swim. Hold [A]\n\
-to swim slow and steady.\n\
-Tap [A] with smooth timing\n\
-to gain speed.\n\
-Press Up on the\n\
-Control Stick and press [A]\n\
-to dive.\n\
+Tätxaw ne payä yo fte\n\
+kivanom yat fu run\n\
+txatxit sì fngapit fte\n\
+syeha sivi payäo.\n\
+'Ampi [A]ti fte slivele.\n\
+Var 'ivampi fte slivele\n\
+nìler. 'Ampi nìkmar\n\
+nìleyn fte slivu win.\n\
+Kärìp Vultsyìpit ulte\n\
+'ampi [A]ti fte\n\
+tivawng.\n\
 \n\
-Press Down on the Control\n\
-Stick and press [A] to\n\
-return to the surface.\n\
+Zärìp Vultsyìpit ulte\n\
+'ampi [A]ti fte\n\
+fäziva'u.\n\
 \n\
-Hold Down and press [A]\n\
-while on the surface near\n\
-the edge of the water to\n\
-jump out."))
+Zärìp ulte 'ampit [A]ti\n\
+tengkrr yoti terok ulte\n\
+paytxew serim fte spivä\n\
+ftumfa pay."))
 
 DEFINE_DIALOG(DIALOG_061, 1, 4, 30, 200, _("\
 AU! Tìwew lehrrap!\n\
@@ -843,30 +843,30 @@ Ke tsunslu mì fay fwa\n\
 piak si rawngur."))
 
 DEFINE_DIALOG(DIALOG_066, 1, 5, 30, 200, _("\
-Mario, it's Peach!\n\
-Please be careful! Bowser\n\
-is so wicked! He will try\n\
-to burn you with his\n\
-horrible flame breath.\n\
-Run around behind and\n\
-grab him by the tail with\n\
-the [B] Button. Once you\n\
-grab hold, swing him\n\
-around in great circles.\n\
-Rotate the Control Stick\n\
-to go faster and faster.\n\
-The faster you swing him,\n\
-the farther he'll fly.\n\
-\n\
-Use the [C] Buttons to look\n\
-around, Mario. You have\n\
-to throw Bowser into one\n\
-of the bombs in the four\n\
-corners.\n\
-Aim well, then press [B]\n\
-again to launch Bowser.\n\
-Good luck, Mario! Our\n\
-fate is in your hands."))
+Ma Mario, lu Pitsyì!\n\
+Rutxe nari si! Pawser\n\
+lu kawng fìtxan! Fmayi\n\
+ngati nivekx fa peyä\n\
+fpxamoa syeha apusalon.\n\
+Tivul pxopaw ulte niä\n\
+pey kxetset fa [B].\n\
+Krra fyerep, tsun\n\
+poti meykivìn. kìm\n\
+vultsyìpit fte mivìn\n\
+nìwin nì'ul'ul.\n\
+'Ul mìn nìwin, 'ul\n\
+tsweykayayon pot.\n\
+Sar [C]ti fte tivìng\n\
+nari pxawngipur, ma Mario.\n\
+Zene tsrive'i poti nemfa\n\
+pxor a tsamsä'o. Tok\n\
+tsìnga pumìl txewit.\n\
+Kivan nìltsan, tsakrr\n\
+[B]ti 'ampi nìmun fte\n\
+poti tsweykayon.\n\
+Etrìpa syayvi, ma Mario!\n\
+Syayri ayoeyä nga\n\
+kllfro'."))
 
 DEFINE_DIALOG(DIALOG_067, 1, 5, 30, 200, _("\
 Yewla, ma Mario!\n\
@@ -1013,23 +1013,23 @@ awful prison!\n\
 Please!"))
 
 DEFINE_DIALOG(DIALOG_076, 1, 6, 30, 200, _("\
-Thanks to the power of\n\
-the Stars, life is\n\
-returning to the castle.\n\
-Please, Mario, you have\n\
-to give Bowser the boot!\n\
+Sanhìyä Tswaltalun\n\
+terätxaw tìrey ne\n\
+txintseng.\n\
+Rutxe, ma Mario, zene\n\
+Pawserit kivurakx!\n\
 \n\
-Here, let me tell you a\n\
-little something about the\n\
-castle. In the room with\n\
-the mirrors, look carefully\n\
-for anything that's not\n\
-reflected in the mirror.\n\
-And when you go to the\n\
-water town, you can flood\n\
-it with a high jump into\n\
-the painting. Oh, by the\n\
-way, look what I found!"))
+Tse, ngar fìsrungtsyìp\n\
+a teri txintseng.\n\
+Mì mo a nga' rì'ìrit,\n\
+fwew 'uot a ke tok\n\
+rì'ìrit.\n\
+\n\
+Ulte krra kä ne payä\n\
+tsray, tsun fäkeykivä\n\
+payä yìti fa fwa spä\n\
+nìkxayl nemfa rel. E,\n\
+nìvingkap, rolun fì'ut!"))
 
 DEFINE_DIALOG(DIALOG_077, 1, 2, 150, 200, _("\
 Txurplltxe fko san zenuye\n\
@@ -1047,20 +1047,20 @@ ke stivarsìm tsat\n\
 nìkmar! Yewla."))
 
 DEFINE_DIALOG(DIALOG_079, 1, 4, 30, 200, _("\
-Owwwuu! Let me go!\n\
-Uukee-kee! I was only\n\
-teasing! Can't you take\n\
-a joke?\n\
-I'll tell you what, let's\n\
-trade. If you let me go,\n\
-I'll give you something\n\
-really good.\n\
-So, how about it?\n\
+Auuuu! Oet lonu!\n\
+Uukii-ii! Stiwi nì'aw!\n\
+Srake ke tslam\n\
+sä'iput?\n\
+Lu oeru stxenu ngar,\n\
+ko. Yoa fwa oeti lonu,\n\
+tìng oel ngaru 'uot\n\
+asìltsan nìtxan.\n\
+Ha, mll'an srak?\n\
 \n\
-//Free him/ Hold on"))
+//Lonu pot/ Var fyivep"))
 
 DEFINE_DIALOG(DIALOG_080, 1, 1, 30, 200, _("\
-Eeeh hee hee hee!"))
+Iii hii hii hii!"))
 
 DEFINE_DIALOG(DIALOG_081, 1, 4, 30, 200, _("\
 Ingyentsim alu\n\
@@ -1072,26 +1072,26 @@ po tsafa a yìt vun\n\
 tsrayìl frrturu."))
 
 DEFINE_DIALOG(DIALOG_082, 1, 4, 30, 200, _("\
-Hold on to your hat! If\n\
-you lose it, you'll be\n\
-injured easily.\n\
+Sweyn hawre'ti ngey!\n\
+Txo tsat hivan, fkol\n\
+ngati pung nìftue.\n\
 \n\
-If you do lose your Cap,\n\
-you'll have to find it in\n\
-the course where you\n\
-lost it.\n\
-Oh, boy, it's not looking\n\
-good for Peach. She's\n\
-still trapped somewhere\n\
-inside the walls.\n\
-Please, Mario, you have\n\
-to help her! Did you know\n\
-that there are enemy\n\
-worlds inside the walls?\n\
-Yup. It's true. Bowser's\n\
-troops are there, too.\n\
-Oh, here, take this. I've\n\
-been keeping it for you."))
+Txo hawre'ti hivan,\n\
+zene tsat rivun mì\n\
+fya'o a holan tsat.\n\
+\n\
+Kxew, Pitsyìfkeyk\n\
+latsu fe'. Mi terok\n\
+pol kemyot sko\n\
+spe'etu.\n\
+Rutxe, ma Mario, zene\n\
+por srung sivi! Omum\n\
+futa kemyot tok kutuä\n\
+hifkeyìl srak?\n\
+Sran. Ngay lu. Pawserä\n\
+samsiyul tok kop.\n\
+E, ngaru fì'u. Harmawnu\n\
+oel tsat fpi nga."))
 
 DEFINE_DIALOG(DIALOG_083, 1, 6, 30, 200, _("\
 Tsatxawnulsrung a peng\n\
@@ -1245,20 +1245,20 @@ Tsun tsakem sivi nga\n\
 srak? Hì, hì, hì!"))
 
 DEFINE_DIALOG(DIALOG_100, 1, 3, 95, 200, _("\
-Ukkiki...Wakkiki...kee kee!\n\
-Ha! I snagged it!\n\
-It's mine! Heeheeheeee!"))
+Ukiki...Wakiki...kii kii!\n\
+Fmolong oel!\n\
+Lu pum oeyä! Hihihiii!"))
 
 DEFINE_DIALOG(DIALOG_101, 1, 3, 95, 200, _("\
-Ackk! Let...go...\n\
-You're...choking...me...\n\
-Cough...I've been framed!\n\
-This Cap? Oh, all right,\n\
-take it. It's a cool Cap,\n\
-but I'll give it back.\n\
-I think it looks better on\n\
-me than it does on you,\n\
-though! Eeeee! Kee keee!"))
+'Ak! Lo...nu...\n\
+Snerew...pewnti...oey...\n\
+He'a...Lu oe layl!\n\
+Fìhawre' srak? Tse, tam,\n\
+ngaru. Lu hawre' akosman,\n\
+slä teykätxaw oel.\n\
+Hufwa fkan lor nì'ul krra\n\
+tok oeti tup ngati!\n\
+Iiiii! Kii kiii!"))
 
 DEFINE_DIALOG(DIALOG_102, 1, 5, 30, 200, _("\
 Pssst! The Boos are super\n\

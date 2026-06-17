@@ -779,17 +779,17 @@ Perlltxe nìngay.\n\
 /--Yayo"))
 
 DEFINE_DIALOG(DIALOG_062, 1, 3, 30, 200, _("\
-Hidden inside the green\n\
-block is the amazing\n\
-Metal Cap.\n\
-Wearing it, you won't\n\
-catch fire or be hurt\n\
-by enemy attacks.\n\
-You don't even have to\n\
-breathe while wearing it.\n\
+Mìfa rìkeana sähena\n\
+tsun rivun wou a\n\
+Hawre'ti Lefngap.\n\
+Krra tsat yeremstokx,\n\
+ke tsun pivalon ulte\n\
+kutul ke tsun ngat pivung.\n\
+Keng ke zene syeha sivi\n\
+krra yemstokx.\n\
 \n\
-The only problem:\n"
-YOU_CANT_SWIM_IN_IT))
+Ngian lu 'awa tìngäzìk:\n\
+Ke tsun slivele."))
 
 DEFINE_DIALOG(DIALOG_063, 1, 5, 30, 200, _("\
 Hawre'ìl a 'Ìp tok\n\
@@ -930,21 +930,21 @@ stivarsìm pumit a\n\
 sla'tsu srungtsyìpìl."))
 
 DEFINE_DIALOG(DIALOG_071, 1, 3, 30, 200, _("\
-Danger Ahead!\n\
-Beware of the strange\n\
-cloud! Don't inhale!\n\
-If you feel faint, run for\n\
-higher ground and fresh\n\
-air!\n\
-Circle: Shelter\n\
-Arrow: Entrance-Exit"))
+Hrrap!\n\
+Hek a pìwopxìri\n\
+lare! Rä'ä mungsye!\n\
+Txo 'ivefu hiyìk,\n\
+fäkä ulte lok\n\
+laroa yati!\n\
+Yo'ko: Zongtseng\n\
+Swizaw: Fpxäkìm-Hum"))
 
 DEFINE_DIALOG(DIALOG_072, 1, 5, 30, 200, _("\
-High winds ahead!\n\
-Pull your Cap down tight.\n\
-If it blows off, you'll\n\
-have to find it on this\n\
-mountain."))
+Kxayla hufwe!\n\
+Hawre'ti fyep nìklonu.\n\
+Txo huwfel 'ivaku,\n\
+zene nga tsat rivun ro\n\
+fìram nìmun."))
 
 DEFINE_DIALOG(DIALOG_073, 1, 4, 95, 200, _("\
 Tse! Gì, ma 'eylanay.\n\

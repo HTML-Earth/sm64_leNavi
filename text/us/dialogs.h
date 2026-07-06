@@ -545,11 +545,11 @@ nìwin, 'ampi [A]ti.\n\
 "))
 
 DEFINE_DIALOG(DIALOG_043, 1, 5, 30, 200, _("\
-If you jump and hold the\n\
-[A] Button, you can hang on\n\
-to some objects overhead.\n\
-It's the same as grabbing\n\
-a flying bird!"))
+Txo spivä ulte var 'ivampi\n\
+[A]ti, tsun kivur ta\n\
+ayzumo a io re'o.\n\
+Tengfya niä yayot\n\
+atswusayon!"))
 
 DEFINE_DIALOG(DIALOG_044, 1, 5, 95, 200, _("\
 Pesuuu luuu? Tuuupe\n\
@@ -658,16 +658,16 @@ zumftu nìfyolup.\n\
 "))
 
 DEFINE_DIALOG(DIALOG_052, 1, 5, 30, 200, _("\
-Stop and press [Z] to\n\
-crouch, then press [A]\n\
-to do a high, Backward\n\
-Somersault!\n\
+Ftang ulte 'ampi [Z]ti\n\
+fte zivung, tsakrr [A]ti\n\
+fte spivä Mivìn Ne'ìm\n\
+nìkxayl!\n\
 \n\
-To perform a Side\n\
-Somersault, run, do a\n\
-sharp U-turn and jump.\n\
-You can catch lots of\n\
-air with both jumps."))
+Fte Mivìn Pa'one,\n\
+tul, tsakrr nìwin\n\
+leykatem salewfyat ne'ìm\n\
+ulte spä. Tsun nìwotx\n\
+tsamesìspusä spivule!"))
 
 DEFINE_DIALOG(DIALOG_053, 1, 5, 30, 200, _("\
 Krro, txo kivä\n\
@@ -1651,35 +1651,35 @@ tolel ngal pota.\n\
 "))
 
 DEFINE_DIALOG(DIALOG_136, 1, 6, 30, 200, _("\
-Wow! You've already\n\
-recovered that many\n\
-Stars? Way to go, Mario!\n\
-I'll bet you'll have us out\n\
-of here in no time!\n\
+Wou! Li teykolätxaw\n\
+ngal Sanhìti fìtxan\n\
+srak? Seysonìltsan, ma\n\
+Mario! Skxakep ngal\n\
+ayoeti tarep sre fwa\n\
+sngap zize'!\n\
+Ngian zene livare.\n\
+Pawser peyä pongusì\n\
+lu kawng fìtxan!\n\
+Ngar fìsrungtsyìp: Fte\n\
+späpiveng maw tìpusung,\n\
+starsìm fngapit.\n\
+Rima Fngapìl speng 'awa\n\
+hapxìt Sävllä Tìreyä,\n\
+Tuna Fngapìl mehapxìt,\n\
+ulte Eana Fngapìl\n\
+mrra pumit.\n\
 \n\
-Be careful, though.\n\
-Bowser and his band\n\
-wrote the book on 『bad.』\n\
-Take my advice: When you\n\
-need to recover from\n\
-injuries, collect coins.\n\
-Yellow Coins refill one\n\
-piece of the Power Meter,\n\
-Red Coins refill two\n\
-pieces, and Blue Coins\n\
-refill five.\n\
-\n\
-To make Blue Coins\n\
-appear, pound on Blue\n\
-Coin Blocks.\n\
+Fte Eana Fngapit\n\
+sreykiver, fpap\n\
+Eana Fngapä Tskxeti.\n\
 \n\
 \n\
 \n\
-Also, if you fall from\n\
-high places, you'll\n\
-minimize damage if you\n\
-Pound the Ground as you\n\
-land."))
+Nìsung, krra zup ftu\n\
+kxayla tseng, tìsraw\n\
+ke si txo Fpivap\n\
+Klltet srefwa\n\
+kllpä."))
 
 DEFINE_DIALOG(DIALOG_137, 1, 6, 30, 200, _("\
 Thanks, Mario! The castle\n\
